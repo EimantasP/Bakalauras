@@ -1,0 +1,103 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0UCSK7Z014
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_30_length_5156_cov_14.3929_ID_59
+
+Length=5156
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP006615.1|  Arcobacter butzleri 7h1h, complete genome          56.5    0.004
+dbj|AP012047.1|  Arcobacter butzleri ED-1 DNA, complete genome     56.5    0.004
+gb|CP000361.1|  Arcobacter butzleri RM4018, complete genome        56.5    0.004
+
+ALIGNMENTS
+>gb|CP006615.1| Arcobacter butzleri 7h1h, complete genome
+Length=2253233
+
+ Score = 56.5 bits (30),  Expect = 0.004
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  3527    TTCTTGTATCTCTTTTTCATCTTCAACATATAAAATAGA  3565
+               |||| |||  |||||||||||||||||||||||||||||
+Sbjct  550364  TTCTCGTAAGTCTTTTTCATCTTCAACATATAAAATAGA  550402
+
+
+>dbj|AP012047.1| Arcobacter butzleri ED-1 DNA, complete genome
+Length=2256675
+
+ Score = 56.5 bits (30),  Expect = 0.004
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  3527    TTCTTGTATCTCTTTTTCATCTTCAACATATAAAATAGA  3565
+               |||| |||  |||||||||||||||||||||||||||||
+Sbjct  543437  TTCTCGTAAGTCTTTTTCATCTTCAACATATAAAATAGA  543475
+
+
+>gb|CP000361.1| Arcobacter butzleri RM4018, complete genome
+Length=2341251
+
+ Score = 56.5 bits (30),  Expect = 0.004
+ Identities = 36/39 (92%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  3527    TTCTTGTATCTCTTTTTCATCTTCAACATATAAAATAGA  3565
+               |||| |||  |||||||||||||||||||||||||||||
+Sbjct  550388  TTCTCGTAAGTCTTTTTCATCTTCAACATATAAAATAGA  550426
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 5156
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 5120
+Effective length of database: 87691245382
+Effective search space: 448979176355840
+Effective search space used: 448979176355840
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+

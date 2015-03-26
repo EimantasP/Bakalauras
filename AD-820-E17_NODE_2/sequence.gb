@@ -1,0 +1,100 @@
+LOCUS       NR_121920               2922 bp    rRNA    linear   BCT 03-FEB-2015
+DEFINITION  Sulfurimonas gotlandica strain GD1 23S ribosomal RNA gene, complete
+            sequence.
+ACCESSION   NR_121920
+VERSION     NR_121920.1  GI:662020033
+DBLINK      Project: 188943
+            BioProject: PRJNA188943
+KEYWORDS    RefSeq.
+SOURCE      Sulfurimonas gotlandica
+  ORGANISM  Sulfurimonas gotlandica
+            Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+            Helicobacteraceae; Sulfurimonas.
+REFERENCE   1  (bases 1 to 2922)
+  AUTHORS   Grote,J., Schott,T., Bruckner,C.G., Glockner,F.O., Jost,G.,
+            Teeling,H., Labrenz,M. and Jurgens,K.
+  TITLE     Genome and physiology of a model Epsilonproteobacterium responsible
+            for sulfide detoxification in marine oxygen depletion zones
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 109 (2), 506-510 (2012)
+   PUBMED   22203982
+REFERENCE   2  (bases 1 to 2922)
+  CONSRTM   NCBI RefSeq Targeted Loci Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2014) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2922)
+  AUTHORS   Grote,J., Schott,T., Bruckner,C., Gloeckner,F.-O., Jost,G.,
+            Teeling,H., Labrenz,M. and Juergens,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUL-2011) Section Biological Oceanography,
+            IOW-Leibniz Institute for Baltic Sea Research, Seestrasse 15,
+            Rostock-Warnemuende 18119, Germany
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to AFRZ01000001:801329-804250.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2922
+                     /organism="Sulfurimonas gotlandica"
+                     /mol_type="rRNA"
+                     /strain="GD1"
+                     /isolation_source="sulfidic area of central Baltic Sea
+                     station 271 at 215 m water depth"
+                     /culture_collection="DSM:19862"
+                     /db_xref="taxon:1176482"
+                     /lat_lon="57.19 N 20.03 E"
+                     /collection_date="May-2005"
+                     /collected_by="Matthias Labrenz"
+     rRNA            1..2922
+                     /product="23S ribosomal RNA"
+ORIGIN      
+        1 aaaaaagata ttaagggcca taggtggatg ccttggctag tagaggcgat gaaagacgta
+       61 tcaggctgcg ataagcctcg gggagctgcc aaagagcttt gatccgggga tttctgaatg
+      121 gggcaaccca gcatggtgcg aatcatgtta ccctttcgag ggggcgaact cagggaagtg
+      181 aaacatctca gtacctgaag gaaaagaaat caaacgagat tcccaaagta gcggcgagcg
+      241 aaatgggatt agggctgtta gtgataatat atttgttagg tgaacacttt ggaaagagtg
+      301 agcatagagg gtgatactcc tgtaaccgaa aacatttata tggtactaga ttaacgaacg
+      361 agtaggtcgg gacacgtgtt atcttgactg aatatggggg gaccaccctc caaccctaaa
+      421 tactactact agaccgatag cgaacaagta ccgtgaggga aaggtgaaaa ggaccgcggt
+      481 gagcggagtg aaatagaacc tgaaacctat ggcttacaat cattcggagc actattgtcg
+      541 taagacaagt gtgacggact gccttttgca taatgagcct gcgagttgtg gtatctggca
+      601 aggttaatcg aacgagaagc cgtagcgaaa gcgagtctta atagggcgaa ttagtcagat
+      661 gctgcagacc cgaaactaag tgatctatcc atgagcaggt tgaagctggt gtaagagcca
+      721 gtggaggacc gaacgggtaa aggttgaaaa cttttccgat gacttgtgga taggggtgaa
+      781 aggccaatca aacttagtga tagctggttc tctccgaaat atatttaggt atagcctcga
+      841 gcattagcat gaaggggtag agcactgaca gggctagggc tgcttaccgc ggtaccaaac
+      901 cctatcaaac tccgaatact tcatgtgtaa cctcgggagt caggcggtgg gtgataaaat
+      961 ccatcgtcga gaggggaaca acccagacta gcagctaagg tcccaaagtc ttgtctaagt
+     1021 ggaaaaggat gtggagttgc tgtgacaacc aggaggttgg cttagaagca gccatccttt
+     1081 aaagaaagcg taacagctca ctggtctagc gattctgcgc cgaaaatata acggggctaa
+     1141 gacaagcacc gaagctctag atttgagatt tatctcaagt ggtaggagag cgttccattc
+     1201 agcgttgaag gtacaccggt aaggagtgct ggagcggatg gaagtgagca tgcaggcatg
+     1261 agtagcgaga aaagggatga gaattccctt cgccgtaaac ccaaggtttc ctacgcgatg
+     1321 ctcgtcatcg tagggttagt cgggacctaa gtcgagtccg aaaggggtag acgatggcaa
+     1381 atcggttaat attccgatac cgacggttgt tcgtttgagt gatgggggga cgcatagagt
+     1441 taatcgagct cgctgatgga atagcgggtc gaaggacgta ggtcgagaag taggcaaatc
+     1501 cgcttctcat gagaccgaga tcttacaggc cgagcaatat cttcggatag cgcttggaat
+     1561 cgatgatact gtcgtgccga gaaaagcctc taaacgagaa caaccgttgc ccgtaccgta
+     1621 aaccaacaca ggtgggtgag atgagtattc taaggcgcgt ggatgaaccc tggttaagga
+     1681 actctgcaaa ctagcaccgt atcttcggta taaggtgtgc cctgtttgtt aggagattta
+     1741 ctctccaaag cgaataaggg tcgcagcaaa gtgtccctcc cgactgttta ccaaaaacac
+     1801 agcactctgc taactcgtaa gaggatgtat agggtgtgac gcctgcccgg tgcttgaatg
+     1861 ttaaatggat tgcttagctt tgcgaaggca tgaaatgaag cacaagtaaa cggcggccgt
+     1921 aactataacg gtcctaaggt agcgaaattc cttgtcggtt aaataccgac ctgcatgaat
+     1981 ggcgtaacga gatgggagct gtctcaacca gggatccagt gaaattgtag tggaggtgaa
+     2041 aattcctcct acccgcggaa agacggaaag accccgtgca cctttactat agcttgacac
+     2101 tgctattggg atattcatgt gcaggatagg tgggagccat tgattctacg acgccagttg
+     2161 tagatgaggc atccttgaga taccaccctt gaatattctg atagctaact ccgtacgatt
+     2221 atctcgtgcg aggacaatgt ctggtgggta gtttgactgg ggcggtcgcc tcctaaaaag
+     2281 taacggaggc ttacaaagtt cggctcaggt gggttggaaa tccaccgtag agtataatgg
+     2341 cacaagccgg actgactgta agacatacaa gtcgagcaga gtcgaaagac ggtcatagtg
+     2401 atccggtggt tctgtgtgga agggccatcg ctcaaaggat aaaaggtacg ccggggataa
+     2461 caggctgatc tcccccaaga gctcacatcg acggggaggt ttggcacctc gatgtcggct
+     2521 catcgcatcc tggggctgga gcaggtccca agggtatggc tgttcgccat ttaaagcggt
+     2581 acgcgagctg ggttcagaac gtcgtgagac agttcggtcc ctatcttccg tgggcgtagg
+     2641 aacgttgaag agagctgacc ctagtacgag aggaccgggt tggacatgcc actggtgcac
+     2701 cagttgttct gccaagagca tcgctgggta gctacgcatg gatgagataa ccgctgaaag
+     2761 catctaagcg ggaagccaac tttaagatga acgttccctg aagtacgctt gaagactaca
+     2821 agcttgatag gctgggtgtg tacgcagagt aatctgttta gctgaccagt actaatagta
+     2881 cgtttgtctt ttttttagtt cactaccttg tttagtgtat ta
+//
+

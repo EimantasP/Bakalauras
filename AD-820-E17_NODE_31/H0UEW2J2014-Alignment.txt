@@ -1,0 +1,332 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0UEW2J2014
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_31_length_5134_cov_131.912_ID_61
+
+Length=5134
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP000153.1|  Sulfurimonas denitrificans DSM 1251, complete ...  534     5e-147
+gb|CP002205.1|  Sulfurimonas autotrophica DSM 16294, complete ...  424     1e-113
+gb|CP003920.1|  Uncultured Sulfuricurvum sp. RIFRC-1, complete...  255     4e-63 
+gb|CP002355.1|  Sulfuricurvum kujiense DSM 16994, complete genome  233     2e-56 
+gb|CP003390.2|  Methylophaga nitratireducenticrescens strain J...  148     7e-31 
+
+ALIGNMENTS
+>gb|CP000153.1| Sulfurimonas denitrificans DSM 1251, complete genome
+Length=2201561
+
+ Score = 534 bits (289),  Expect = 5e-147
+ Identities = 909/1210 (75%), Gaps = 35/1210 (3%)
+ Strand=Plus/Minus
+
+Query  3144    AAAAATTATATTGCCCTTTTGAACTCAGGATAAGCTTCCACACCACATTCATTTACGTCC  3203
+               ||||| ||||| || ||| | ||||| ||||| || || |||||||| ||||| |  |||
+Sbjct  655849  AAAAACTATATAGCTCTTCTAAACTCTGGATATGCCTCAACACCACACTCATTAATATCC  655790
+
+Query  3204    ATGCCCTCAACTTGCGCATCATCAGAAGCTCTGAATTTAACAAACTTATTAATGATA--T  3261
+               || |||  || ||| || |||| |   ||||| || || |  || || |||||||||  |
+Sbjct  655789  ATACCCATAAGTTGTGCTTCATTATCTGCTCTAAACTTGAAGAATTTGTTAATGATAAAT  655730
+
+Query  3262    AAATAGCAATATAAGAGCTTAGAAATGCAAA-A-ACTGCAATTACCAGAACACCTTTAAG  3319
+               ||| | || |||||||| |   |||| |||| | ||  | || |  | ||||||||| | 
+Sbjct  655729  AAA-A-CAGTATAAGAGATGCTAAATACAAACATAC--CTATCAAAAAAACACCTTTTAA  655674
+
+Query  3320    TTGGGACATAAATGAAATCTCATCTACAAATATACCAACTGCCAAAGTTCCCCAGATGCC  3379
+                || | |||||| || || |  | || ||| || |||||||| | ||||||||| || ||
+Sbjct  655673  CTGCGCCATAAAAGAGATATTTTGTATAAAAATTCCAACTGCGAGAGTTCCCCATATACC  655614
+
+Query  3380    ATTTATAAGGTGAACCGACAAGGCACCAACAGGATCGTCTAACTTAAACTTGTCAAAAAT  3439
+               |||||| | |||||| || |  || ||||| || || ||||| || ||||| ||||||| 
+Sbjct  655613  ATTTATTAAGTGAACAGATAGCGCTCCAACTGGGTCATCTAATTTTAACTTATCAAAAAG  655554
+
+Query  3440    TGGTACAGCGAAAACAACTAAAGCTCCGCC-AATAGCACCGATTAGGATTGGG-GTGTAA  3497
+                |||||||| || ||||||||||| || || | |||| || | || || |||| ||||| 
+Sbjct  655553  AGGTACAGCAAATACAACTAAAGCACCTCCGATTAGC-CC-AATAAGAATGGGTGTGTAC  655496
+
+Query  3498    ATATCATATAAATCAGGTCCGGCAGTGATTGCTACGAGTCCGCCTAAAGCACCATTTATA  3557
+               || ||||| ||||||| | | || || | ||| || || || ||||  ||||| |||| |
+Sbjct  655495  ATGTCATACAAATCAGCTGCCGCCGTAACTGCAACAAGCCCTCCTAGTGCACCGTTTAAA  655436
+
+Query  3558    ATCATTGTAATATCAAATAATTTGTATCGTATGTACATTAACACAGCCGCGATGATTGCT  3617
+               ||||||||||||||||| | ||| ||||  || ||||| |  ||  | ||||| || || 
+Sbjct  655435  ATCATTGTAATATCAAAAAGTTTATATCTAATATACATAATAACTCCAGCGATTATCGCA  655376
+
+Query  3618    CCTGCTAAG-CCGGCGGTATTTGTGTTCATAATAGTCTTGGCAACTGCATTTGCATTTTC  3676
+               || ||  || || || |||||||| ||||||||||| || |||||   ||| ||| | ||
+Sbjct  655375  CC-GCAGAGTCCCGCCGTATTTGTATTCATAATAGTTTTTGCAACAAGATTAGCACTCTC  655317
+
+Query  3677    TACGCTCGAGATAGAACCGACACTTCCGCCATTAAAACCAAACCAGCCAATCCAAAGTAA  3736
+                || || |||||||| || ||||||||||||||||||||||||||||| |||||||| ||
+Sbjct  655316  AACACTTGAGATAGAGCCAACACTTCCGCCATTAAAACCAAACCAGCCTATCCAAAGCAA  655257
+
+Query  3737    AAATGCACCAAGGACAACCAATGGAATGTTTGAAGCAGGAATAACTCTGATTCCATCCTT  3796
+               ||| || ||||| ||||| |  ||||| |||||||| || |||||| | | ||   ||| 
+Sbjct  655256  AAAAGCTCCAAGAACAACTAGCGGAATATTTGAAGCTGGGATAACTTTTACTCTGCCCTC  655197
+
+Query  3797    TACATAACGGCCT-TTAC-GAG-AACCTATAATAAGTATTGCCGCTAAAAGTGCCCATCC  3853
+               |  ||| || ||| ||   |||  | |||||| |||   |||||||||||| ||||| ||
+Sbjct  655196  TTGATATCGCCCTCTTCTTGAGCCAACTATAAAAAG---TGCCGCTAAAAGCGCCCAGCC  655140
+
+Query  3854    ACCTGTTGAATGGATAACTGTCGAACCTGCTAAATCGTACATATTTAAGTCCAAAAATGT  3913
+                |||||||| || || || || || || || ||||| |||||  | ||||| ||||||||
+Sbjct  655139  GCCTGTTGAGTGTATTACAGTAGATCCAGCCAAATCATACATGCTCAAGTCTAAAAATGT  655080
+
+Query  3914    G-CCGGAAATCATGTCAGCTCCCCAGCTAACATTTACTACGGCTGGATAAATTAAAGCAG  3972
+                 ||   || ||| ||||| |||||||||| ||| || ||   ||||||||| | ||   
+Sbjct  655079  ATCCCTTAA-CATATCAGCACCCCAGCTAATATTAACAACCATTGGATAAATCACAGACC  655021
+
+Query  3973    CCATAACAATAGCAAAAATAG--AAAGAGGAAAGATTCTAACCCGCTCACTTACGCCGCC  4030
+               |||| | ||||| ||||||||  |||| |||  ||||||||| | |||||| || || ||
+Sbjct  655020  CCATGATAATAGTAAAAATAGCTAAAG-GGAT-GATTCTAACTCTCTCACTCACACCACC  654963
+
+Query  4031    GCTTATAATATTTACGGTTTTACCGACAAATGCCATTTGGAATAA-A-AATGCAGCCCAT  4088
+                ||||  || || |   | || || ||||||||||| || || |  | |||  |||||| 
+Sbjct  654962  ACTTACGATGTTAATACTCTTGCCAACAAATGCCATCTGAAACATTACAAT--AGCCCAA  654905
+
+Query  4089    ATACT-CATGTTGGAATTATCCCAGCTTCCAAATGCCAGTTTATAGCCAATAAGTAAAAA  4147
+               ||||| | |||| ||| ||||  | |||||||| ||||  ||||| ||||  || |||||
+Sbjct  654904  ATACTACTTGTT-GAACTATCAAAACTTCCAAAAGCCACCTTATAACCAAAGAGCAAAAA  654846
+
+Query  4148    TGCCAATGAAGCAACAGCATAAATCATAATGTTTATAGTTAAAACG-CTAGAGACATTTT  4206
+               ||| || ||||| || ||||||||||| |  ||| | || |||||| || || ||||| |
+Sbjct  654845  TGCTAAAGAAGCTACTGCATAAATCATTACATTTGTTGTCAAAACGGCT-GAAACATTCT  654787
+
+Query  4207    TTGTACGGACAAGACCAGCTTCAAGCATGGCAAAACCAGGAACCATAAATATGATTAACA  4266
+               |||| |  || | |||||| |||||||| |||||||| ||||||||||| || || |   
+Sbjct  654786  TTGTTCTAACCAAACCAGCCTCAAGCATTGCAAAACCTGGAACCATAAAGATAATGAGTG  654727
+
+Query  4267    CCATTGAAAATAGTGCAAAGAAAGTGTCGATGATGTATTTAAAATCAGCTTCTATCATTG  4326
+                ||| | ||| |||| |||||||||||| ||||||||||||||||| | ||||| |||  
+Sbjct  654726  TCATAGCAAAGAGTGTAAAGAAAGTGTCTATGATGTATTTAAAATCTGTTTCTAGCATA-  654668
+
+Query  4327    TAGAATCCTT  4336
+               || |||||||
+Sbjct  654667  TAAAATCCTT  654658
+
+
+>gb|CP002205.1| Sulfurimonas autotrophica DSM 16294, complete genome
+Length=2153198
+
+ Score = 424 bits (229),  Expect = 1e-113
+ Identities = 764/1023 (75%), Gaps = 33/1023 (3%)
+ Strand=Plus/Minus
+
+Query  1332     TAGATATATAGGAAAAACAGGTTTAAGAGTCAGCCCGATATGCATGGGAACGATGACTTT  1391
+                |||||| || || ||||  ||||| ||||| || || |||||  | ||||| ||||||||
+Sbjct  1336102  TAGATACATCGGTAAAAGTGGTTTGAGAGTAAGTCCTATATGTCTTGGAACTATGACTTT  1336043
+
+Query  1392     CGGCACTCAG---TGTGATGAAAAAGAAGCTTTTAAAATCATGGATAAAGCATATGACGG  1448
+                 || || |||      ||||||||||  ||||||||||||||||||||||| ||||| | 
+Sbjct  1336042  TGGTACGCAGACACCCGATGAAAAAGTGGCTTTTAAAATCATGGATAAAGCCTATGATGC  1335983
+
+Query  1449     GGGTGTAAATTTTTATGACACGGCTGAACTTTACCCAGTTCCGCCAAGTGCAGACAAGGT  1508
+                 || || ||||||| ||| ||||| |||||||| || || || |||  |||| | ||  |
+Sbjct  1335982  AGGCGTGAATTTTTTTGATACGGCAGAACTTTATCCTGTACCCCCATCTGCA-A-AA-CT  1335926
+
+Query  1509     TG--GGATT-ACTGAAGAAATAGTCGGTAAATGGCTCAAGACGAAAAATCGTGATAGTAT  1565
+                ||  || || || || || ||||| ||    ||||| || || |||   || ||||||||
+Sbjct  1335925  TGCAGGTTTGACAGAGGAGATAGTAGGACGTTGGCTTAAAACTAAACCACGCGATAGTAT  1335866
+
+Query  1566     TATCTTAGCTACGAAAGTAGCAGGTGCCGCTAATGGCTGGTTTGTTCCTCCTATTCGTCA  1625
+                ||| || ||| | ||||| |||||||| || || || |||||||| || |||||||||||
+Sbjct  1335865  TATATTGGCTTCAAAAGTTGCAGGTGCGGCAAACGGTTGGTTTGTGCCGCCTATTCGTCA  1335806
+
+Query  1626     TGG-CTTAACGGCTATAGACAGTTTTCATATTGAAAAAGCAATTGAAGGAAGTTTGAAAA  1684
+                ||| ||| || |||||||| |||||||||||||||   || || |||||   ||||||| 
+Sbjct  1335805  TGGGCTT-ACAGCTATAGATAGTTTTCATATTGAACGCGCTATAGAAGGTTCTTTGAAAC  1335747
+
+Query  1685     AACTTGGTACTGATTATATAGACCTTTACCAGATGCACTGGCCGGATTCTGTTGTACCGA  1744
+                   |    || || || |||||  | || || ||||||||||| ||| ||||||| || |
+Sbjct  1335746  GTTTACAGACAGACTACATAGATTTGTATCAAATGCACTGGCCTGATACTGTTGTGCCCA  1335687
+
+Query  1745     TAGAAGAGAGTTTAAAGGCGTTTGACAGACTCGTTCAAAGTGGAAAAGTACGCTATATCG  1804
+                | |||||||||||||| || || |||||| | || ||||| || ||||| || || || |
+Sbjct  1335686  TTGAAGAGAGTTTAAAAGCATTCGACAGATTGGTGCAAAGCGGTAAAGTCCGTTACATAG  1335627
+
+Query  1805     GCACTTCCAATGACACCGCTTATGGAACTACAAAAGCACTTATGAGTTCAGAGCA--TAA  1862
+                | || || || || || || || || ||| |||||||| | ||||    || | |  |||
+Sbjct  1335626  GAACATCAAACGATACGGCATACGGGACTTCAAAAGCATTAATGA--CAAGCGAATTTAA  1335569
+
+Query  1863     AAGTTATGCAAGATTCGAGTCTATCCAAAATAATTTCTCACTTTTAAATAGAAGATTCTT  1922
+                | | ||||||||||| |||||||| |||||||||||||||||||||||||||||||| ||
+Sbjct  1335568  AGGATATGCAAGATTTGAGTCTATTCAAAATAATTTCTCACTTTTAAATAGAAGATTTTT  1335509
+
+Query  1923     AGATGAACTCTCTACTGTAGCTAGGAAAGAACAGATATCTCTGCTTCCTTATTCGCCA-T  1981
+                 ||||||||||||||| ||  |   ||||| ||  | || || || || ||||| ||  |
+Sbjct  1335508  GGATGAACTCTCTACTTTATGTGAAAAAGAGCATGTTTCACTACTACCGTATTCACCTCT  1335449
+
+Query  1982     TGGCAGGGGGAGTTTTAAGCGGAAAATATAATCAG--G-CAACTAGCTCAAGCGGTCGTT  2038
+                ||| ||| || || ||||| ||||||||||||||   | ||| | || || | ||  | |
+Sbjct  1335448  TGG-AGGTGGTGTGTTAAGTGGAAAATATAATCAACCGACAAAT-GCGCA-G-GGCAGAT  1335393
+
+Query  2039     TTAGTGACTACATAAACTCACACAATAAACGACTAAGAGTC--ATGGCAGACAGATTTAT  2096
+                |||||| ||| || ||  ||    ||  | ||| | | |||  |||||  | |||||| |
+Sbjct  1335392  TTAGTGCCTATATGAATGCAAGTGATTCAAGAC-A-GCGTCTGATGGCGCAAAGATTTGT  1335335
+
+Query  2097     GAACGATAAAACATTGGCTTCTACTCAAAAGTATTTAAAAATAGCACAAGAAT-ATGATT  2155
+                 || ||||||||| | |||||||| ||||||||| | |||||||| || ||   | ||||
+Sbjct  1335334  CAATGATAAAACACTTGCTTCTACGCAAAAGTATCTTAAAATAGCGCATGATGCAGGATT  1335275
+
+Query  2156     TGCATCCGGTCACTATGGCCATTGCGTGGTCAAAACAGTTTGATTTTGTAGCTTCTACCA  2215
+                 | | || || || ||||| |  || |||||||| ||||||   ||||| || ||||| |
+Sbjct  1335274  GG-ACCCCGTAACAATGGCTACAGCATGGTCAAAGCAGTTTTCGTTTGTTGCCTCTACAA  1335216
+
+Query  2216     TTGTTGGAGCAACATCAGCAGAACAGTTGGACGCAAGTCTGGCGGCAATGGATTTAGTGC  2275
+                || | || ||||||  | |  | ||| | || ||||||||||| |||||||| || |  |
+Sbjct  1335215  TTATAGGCGCAACAGAACCCCACCAGCTCGATGCAAGTCTGGCCGCAATGGACTTGGAAC  1335156
+
+Query  2276     T-TAATGAGGAAGTGTTG-AGTGCATGTGATAAAGTGCATCAAGAAATTTTATATCCAAT  2333
+                | | | || ||||| ||  || ||||| || ||||| ||||||||||||||||| || ||
+Sbjct  1335155  TCTCA-GAAGAAGTTTTACAG-GCATGCGACAAAGTACATCAAGAAATTTTATACCCTAT  1335098
+
+Query  2334     GGG  2336
+                |||
+Sbjct  1335097  GGG  1335095
+
+
+>gb|CP003920.1| Uncultured Sulfuricurvum sp. RIFRC-1, complete genome
+Length=2358861
+
+ Score = 255 bits (138),  Expect = 4e-63
+ Identities = 274/341 (80%), Gaps = 4/341 (1%)
+ Strand=Plus/Plus
+
+Query  4486     TTATATCGCTTCGCTGTCAGTTTCACCTGTACGGATACGGATGATTTTATCT-ACATTGC  4544
+                ||| || || ||| | || || ||||| ||||||||||||| ||||||  || | || ||
+Sbjct  1964685  TTAAATGGCCTCGATATCTGTCTCACCCGTACGGATACGGACGATTTT-GCTAATATCGC  1964743
+
+Query  4545     TAACAAATATTTTACCATCACCGATCTTGCCGGTGCGGGCTGCTTCAACAATGACACTTG  4604
+                |||| || |||||||| ||||||||||||||||| || || ||||| ||||  |   |||
+Sbjct  1964744  TAACGAAGATTTTACCGTCACCGATCTTGCCGGTACGTGCCGCTTCCACAA-CAGTGTTG  1964802
+
+Query  4605     -TTACTTGATCAACACTCTCATCAGCTACTACCATTTCCATTTTAATCTTTGGTAAAAAA  4663
+                   |||||||| ||  |  ||||| | || ||||| ||||||||||| || || | ||||
+Sbjct  1964803  ACCACTTGATCTACCATTGCATCATCAACAACCATCTCCATTTTAATTTTCGGAAGAAAA  1964862
+
+Query  4664     TCCACAACATACTCAGCACCACGGTAAAGTTCGCTATGTCCTTTTTGACGACCATAACCC  4723
+                || |||||||| || ||||| || ||||| ||||| || |||||||| || || ||||| 
+Sbjct  1964863  TCAACAACATATTCCGCACCGCGATAAAGCTCGCTGTGCCCTTTTTGTCGTCCGTAACCT  1964922
+
+Query  4724     TTTACTTCACTTACAGTCATACCTGTGATTCCGATGTCTGCCAATGCATCTTTTACATCT  4783
+                |||||||| || || |||||||| || || ||||| || || |  |||||||||||||||
+Sbjct  1964923  TTTACTTCGCTCACCGTCATACCCGTAATACCGATTTCGGCAAGAGCATCTTTTACATCT  1964982
+
+Query  4784     TCAAGTTTAAATGGTTTAATAACCGCTTCTAtttttttCAT  4824
+                ||||||||||||||||| ||||||||||| |||||||||||
+Sbjct  1964983  TCAAGTTTAAATGGTTTGATAACCGCTTCAATTTTTTTCAT  1965023
+
+
+>gb|CP002355.1| Sulfuricurvum kujiense DSM 16994, complete genome
+Length=2574824
+
+ Score = 233 bits (126),  Expect = 2e-56
+ Identities = 271/342 (79%), Gaps = 6/342 (2%)
+ Strand=Plus/Plus
+
+Query  4486     TTATATCGCTTCGCTGTCAGTTTCACCTGTACGGATACGGATGATTTTATCTACAT-T-G  4543
+                ||| || |||||| | || |||||||| ||||||||||||| ||||||  ||  || | |
+Sbjct  2093443  TTAGATAGCTTCGATATCCGTTTCACCCGTACGGATACGGACGATTTT-GCT-GATCTCG  2093500
+
+Query  4544     CTAACAAATATTTTACCATCACCGATCTTGCCGGTGCGGGCTGCTTCAACAATGACACTT  4603
+                || || || ||||| || |||||||| || ||||| || || |||||||||| |    ||
+Sbjct  2093501  CTTACGAAAATTTTGCCGTCACCGATTTTACCGGTACGTGCCGCTTCAACAACG-GTGTT  2093559
+
+Query  4604     G-TTACTTGATCAACACTCTCATCAGCTACTACCATTTCCATTTTAATCTTTGGTAAAAA  4662
+                |   |||||||| ||  || | ||| | || ||||| |||||||| || || || |  ||
+Sbjct  2093560  GACCACTTGATCTACCATCGCGTCATCCACGACCATCTCCATTTTGATTTTAGGGAGGAA  2093619
+
+Query  4663     ATCCACAACATACTCAGCACCACGGTAAAGTTCGCTATGTCCTTTTTGACGACCATAACC  4722
+                 || || ||||| |||||||| || || |||||||| || |||||||| || || || ||
+Sbjct  2093620  GTCAACCACATATTCAGCACCGCGATAGAGTTCGCTGTGCCCTTTTTGTCGTCCGTACCC  2093679
+
+Query  4723     CTTTACTTCACTTACAGTCATACCTGTGATTCCGATGTCTGCCAATGCATCTTTTACATC  4782
+                 |||||||| || || |||||||| || || ||||| || |||| |||||||||||||||
+Sbjct  2093680  TTTTACTTCGCTGACCGTCATACCGGTAATACCGATTTCAGCCAGTGCATCTTTTACATC  2093739
+
+Query  4783     TTCAAGTTTAAATGGTTTAATAACCGCTTCTAtttttttCAT  4824
+                |||||||||||||||||| ||||||||||| |||||||||||
+Sbjct  2093740  TTCAAGTTTAAATGGTTTGATAACCGCTTCAATTTTTTTCAT  2093781
+
+
+>gb|CP003390.2| Methylophaga nitratireducenticrescens strain JAM1, complete genome
+Length=3137191
+
+ Features in this part of subject sequence:
+   Nitrogen regulatory protein P-II
+
+ Score = 148 bits (80),  Expect = 7e-31
+ Identities = 164/205 (80%), Gaps = 4/205 (2%)
+ Strand=Plus/Minus
+
+Query  4622     TCATCAGCTACTACCATTTCCATTTTAATCTTT-GGTAAAAAATCCACAACATACTCAGC  4680
+                ||||| || | ||| ||||||||||| | |||| ||||||||||||||||||||||||||
+Sbjct  1356594  TCATCTGCCAATACAATTTCCATTTTTA-CTTTCGGTAAAAAATCCACAACATACTCAGC  1356536
+
+Query  4681     ACCACGGTAAAGTTCGCTATGTCCTTTTTGACGACCATAACCCTTT-ACTTCACTTACAG  4739
+                |||||| || | |||  |||| |||||||| |  ||| || ||||| |||||   ||| |
+Sbjct  1356535  ACCACGATACAATTCAGTATGGCCTTTTTGTCTGCCA-AAGCCTTTAACTTCGGATACCG  1356477
+
+Query  4740     TCATACCTGTGATTCCGATGTCTGCCAATGCATCTTTTACATCTTCAAGTTTAAATGGTT  4799
+                |||| || |||| |||||| || | |||||| ||    || || || |||||||| ||||
+Sbjct  1356476  TCATGCCCGTGACTCCGATATCGGACAATGCTTCACGCACGTCATCCAGTTTAAAAGGTT  1356417
+
+Query  4800     TAATAACCGCTTCTAtttttttCAT  4824
+                ||||||  ||||| |||||||||||
+Sbjct  1356416  TAATAATGGCTTCAATTTTTTTCAT  1356392
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 703226
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 5134
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 5098
+Effective length of database: 87691245382
+Effective search space: 447049968957436
+Effective search space used: 447049968957436
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+
