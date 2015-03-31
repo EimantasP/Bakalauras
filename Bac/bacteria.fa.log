@@ -1,0 +1,212 @@
+[19:47:42] Command: --outdir Bac --prefix bacteria.fa AD-820-E17_2kb.fa
+[19:47:42] Looking for 'aragorn' - found /usr/bin/aragorn
+[19:47:42] Determined aragorn version is 1.2
+[19:47:42] Looking for 'blastp' - found /home/eimis/prokka-1.11/bin/../binaries/linux/blastp
+[19:47:42] Determined blastp version is 2.2
+[19:47:42] Looking for 'cmpress' - found /home/eimis/prokka-1.11/bin/../binaries/linux/cmpress
+[19:47:42] Determined cmpress version is 1.1
+[19:47:42] Looking for 'cmscan' - found /home/eimis/prokka-1.11/bin/../binaries/linux/cmscan
+[19:47:43] Determined cmscan version is 1.1
+[19:47:43] Looking for 'egrep' - found /bin/egrep
+[19:47:43] Looking for 'find' - found /usr/bin/find
+[19:47:43] Looking for 'grep' - found /bin/grep
+[19:47:43] Looking for 'hmmpress' - found /home/eimis/prokka-1.11/bin/../binaries/linux/hmmpress
+[19:47:43] Determined hmmpress version is 3.1
+[19:47:43] Looking for 'hmmscan' - found /home/eimis/prokka-1.11/bin/../binaries/linux/hmmscan
+[19:47:43] Determined hmmscan version is 3.1
+[19:47:43] Looking for 'less' - found /usr/bin/less
+[19:47:43] Looking for 'makeblastdb' - found /home/eimis/prokka-1.11/bin/../binaries/linux/makeblastdb
+[19:47:43] Determined makeblastdb version is 2.2
+[19:47:43] Looking for 'minced' - found /home/eimis/prokka-1.11/bin/../binaries/linux/../common/minced
+[19:47:43] Determined minced version is 1.6
+[19:47:43] Looking for 'parallel' - found /home/eimis/prokka-1.11/bin/../binaries/linux/../common/parallel
+[19:47:43] Determined parallel version is 20150122
+[19:47:43] Looking for 'prodigal' - found /home/eimis/prokka-1.11/bin/../binaries/linux/prodigal
+[19:47:43] Determined prodigal version is 2.6
+[19:47:43] Looking for 'prokka-genbank_to_fasta_db' - found /home/eimis/prokka-1.11/bin/prokka-genbank_to_fasta_db
+[19:47:43] Looking for 'sed' - found /bin/sed
+[19:47:43] Looking for 'tbl2asn' - found /home/eimis/prokka-1.11/bin/../binaries/linux/tbl2asn
+[19:47:43] Determined tbl2asn version is 23.2
+[19:47:43] Using genetic code table 11.
+[19:47:43] Loading and checking input file: AD-820-E17_2kb.fa
+[19:47:43] Wrote 42 contigs
+[19:47:43] Predicting tRNAs and tmRNAs
+[19:47:43] Running: aragorn -gc11  -w Bac\/bacteria\.fa\.fna
+[19:47:43] 1 tRNA-Ala [15847,15922] 34 (tgc)
+[19:47:43] 1 tRNA-Phe [21231,21306] 34 (gaa)
+[19:47:43] 2 tRNA-Phe [21338,21413] 34 (gaa)
+[19:47:43] 3 tRNA-Arg [36201,36277] 35 (gcg)
+[19:47:43] 1 tRNA-Gln c[13087,13161] 33 (ttg)
+[19:47:43] 1 tmRNA c[21420,21797] 90,131 ANNTNYRPALAVA*
+[19:47:43] 1 tRNA-Glu c[20062,20136] 34 (ttc)
+[19:47:43] 1 tRNA-Asn [5231,5305] 33 (gtt)
+[19:47:43] 2 tRNA-Lys [11010,11085] 34 (ttt)
+[19:47:43] 3 tRNA-Val [11196,11271] 34 (tac)
+[19:47:43] 4 tRNA-Asp [11391,11467] 35 (gtc)
+[19:47:43] 5 tRNA-Glu [11504,11579] 35 (ttc)
+[19:47:43] 6 tRNA-Val [11600,11675] 34 (tac)
+[19:47:43] 7 tRNA-Asp [11799,11875] 35 (gtc)
+[19:47:43] 8 tRNA-Thr [11913,11989] 35 (tgt)
+[19:47:43] 1 tRNA-Gly [12267,12341] 33 (gcc)
+[19:47:43] 2 tRNA-Leu [12374,12460] 35 (taa)
+[19:47:43] 3 tRNA-Cys [12478,12551] 33 (gca)
+[19:47:43] 4 tRNA-Ser [12587,12675] 36 (tga)
+[19:47:43] Found 19 tRNAs
+[19:47:43] Predicting Ribosomal RNAs
+[19:47:43] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[19:47:43] Skipping ncRNA search, enable with --rfam if desired.
+[19:47:43] Total of 18 tRNA + rRNA features
+[19:47:43] Searching for CRISPR repeats
+[19:47:44] Found 0 CRISPRs
+[19:47:44] Predicting coding sequences
+[19:47:44] Contigs total 701588 bp, so using single mode
+[19:47:44] Running: prodigal -i Bac\/bacteria\.fa\.fna -c -m -g 11 -p single -f sco -q
+[19:47:45] Found 705 CDS
+[19:47:45] Connecting features back to sequences
+[19:47:45] Not using genus-specific database. Try --usegenus to enable it.
+[19:47:45] Annotating CDS, please be patient.
+[19:47:45] Will use 4 CPUs for similarity searching.
+[19:47:45] There are still 705 unannotated CDS left (started with 705)
+[19:47:45] Will use blast to search against /home/eimis/prokka-1.11/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[19:47:45] Running: cat Bac\/sprot\.faa | parallel --gnu --plain -j 4 --block 26997 --recstart '>' --pipe blastp -query - -db /home/eimis/prokka-1.11/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > Bac\/sprot\.blast 2> /dev/null
+[19:48:08] Modify product: Chemotaxis protein CheY homolog => hypothetical protein
+[19:48:08] Modify product: N utilization substance protein B homolog => hypothetical protein
+[19:48:08] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[19:48:08] Modify product: Probable diguanylate cyclase YcdT => putative diguanylate cyclase YcdT
+[19:48:08] Modify product: Probable diguanylate cyclase YdaM => putative diguanylate cyclase YdaM
+[19:48:08] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[19:48:08] Modify product: Uncharacterized HTH-type transcriptional regulator HI_1476 => putative HTH-type transcriptional regulator
+[19:48:08] Modify product: Probable inorganic polyphosphate/ATP-NAD kinase => putative inorganic polyphosphate/ATP-NAD kinase
+[19:48:09] Modify product: Putative acetyltransferase SACOL2570 => Putative acetyltransferase
+[19:48:09] Modify product: Putative phosphatase HI_0003 => Putative phosphatase
+[19:48:09] Modify product: Probable diguanylate cyclase AdrA => putative diguanylate cyclase AdrA
+[19:48:09] Modify product: Uncharacterized lipoprotein YbbD precursor => putative lipoprotein YbbD precursor
+[19:48:09] Modify product: Probable diguanylate cyclase YcdT => putative diguanylate cyclase YcdT
+[19:48:09] Modify product: Probable diguanylate cyclase YcdT => putative diguanylate cyclase YcdT
+[19:48:09] Modify product: Transcription termination factor Rho => hypothetical protein
+[19:48:09] Modify product: Probable diguanylate cyclase YegE => putative diguanylate cyclase YegE
+[19:48:09] Modify product: Probable diguanylate cyclase YdaM => putative diguanylate cyclase YdaM
+[19:48:09] Modify product: Uncharacterized deoxyribonuclease YcfH => putative deoxyribonuclease YcfH
+[19:48:09] Modify product: Probable GTP-binding protein EngB => putative GTP-binding protein EngB
+[19:48:09] Modify product: Transcription termination/antitermination protein NusA => hypothetical protein
+[19:48:09] Modify product: Probable diguanylate cyclase YegE => putative diguanylate cyclase YegE
+[19:48:09] Modify product: Probable phospholipid ABC transporter permease protein MlaE => putative phospholipid ABC transporter permease protein MlaE
+[19:48:09] Modify product: Uncharacterized ABC transporter ATP-binding protein HI_1087 => putative ABC transporter ATP-binding protein
+[19:48:09] Modify product: ABC transporter ATP-binding/permease protein Rv1747 => ABC transporter ATP-binding/permease protein
+[19:48:09] Modify product: Probable diguanylate cyclase YdaM => putative diguanylate cyclase YdaM
+[19:48:09] Modify product: Probable D,D-dipeptide transport ATP-binding protein DdpF => putative D,D-dipeptide transport ATP-binding protein DdpF
+[19:48:09] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[19:48:09] Modify product: Cytochrome c oxidase subunit 1 homolog, bacteroid => hypothetical protein
+[19:48:09] Modify product: Probable undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase => putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+[19:48:09] Modify product: Probable copper-importing P-type ATPase A => putative copper-importing P-type ATPase A
+[19:48:09] Cleaned 30 /product names
+[19:48:09] Deleting unwanted file: Bac/sprot.faa
+[19:48:09] Deleting unwanted file: Bac/sprot.blast
+[19:48:09] There are still 299 unannotated CDS left (started with 705)
+[19:48:09] Will use hmmer3 to search against /home/eimis/prokka-1.11/bin/../db/hmm/CLUSTERS.hmm with 4 CPUs
+[19:48:09] Running: cat Bac\/CLUSTERS\.hmm\.faa | parallel --gnu --plain -j 4 --block 8947 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/eimis/prokka-1.11/bin/../db/hmm/CLUSTERS.hmm /dev/stdin > Bac\/CLUSTERS\.hmm\.hmmer3 2> /dev/null
+[19:49:00] Deleting unwanted file: Bac/CLUSTERS.hmm.faa
+[19:49:00] Deleting unwanted file: Bac/CLUSTERS.hmm.hmmer3
+[19:49:00] There are still 253 unannotated CDS left (started with 705)
+[19:49:00] Will use hmmer3 to search against /home/eimis/prokka-1.11/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[19:49:00] Running: cat Bac\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 7318 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/eimis/prokka-1.11/bin/../db/hmm/HAMAP.hmm /dev/stdin > Bac\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[19:49:10] Deleting unwanted file: Bac/HAMAP.hmm.faa
+[19:49:10] Deleting unwanted file: Bac/HAMAP.hmm.hmmer3
+[19:49:10] There are still 247 unannotated CDS left (started with 705)
+[19:49:10] Will use hmmer3 to search against /home/eimis/prokka-1.11/bin/../db/hmm/Pfam.hmm with 4 CPUs
+[19:49:10] Running: cat Bac\/Pfam\.hmm\.faa | parallel --gnu --plain -j 4 --block 7049 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/eimis/prokka-1.11/bin/../db/hmm/Pfam.hmm /dev/stdin > Bac\/Pfam\.hmm\.hmmer3 2> /dev/null
+[19:49:32] Modify product: Hpt domain => Hpt domain protein
+[19:49:32] Modify product: Nucleotidyltransferase domain => Nucleotidyltransferase domain protein
+[19:49:32] Modify product: Peptidase M16 inactive domain => Peptidase M16 inactive domain protein
+[19:49:32] Modify product: EamA-like transporter family => EamA-like transporter family protein
+[19:49:32] Modify product: Transposase DDE domain => Transposase DDE domain protein
+[19:49:32] Modify product: Transglutaminase-like superfamily => Transglutaminase-like superfamily protein
+[19:49:32] Modify product: Bacterial transglutaminase-like N-terminal region => hypothetical protein
+[19:49:32] Modify product: Bacterial transglutaminase-like N-terminal region => hypothetical protein
+[19:49:32] Modify product: Transglutaminase-like superfamily => Transglutaminase-like superfamily protein
+[19:49:32] Modify product: Integral membrane protein TerC family => Integral membrane protein TerC family protein
+[19:49:32] Modify product: Endonuclease/Exonuclease/phosphatase family => Endonuclease/Exonuclease/phosphatase family protein
+[19:49:32] Modify product: Phosphotransferase enzyme family => Phosphotransferase enzyme family protein
+[19:49:32] Modify product: Tetratricopeptide repeat => Tetratricopeptide repeat protein
+[19:49:32] Modify product: von Willebrand factor type A domain => von Willebrand factor type A domain protein
+[19:49:32] Modify product: NLPC_P60 stabilising domain, N term => hypothetical protein
+[19:49:32] Modify product: HDOD domain => HDOD domain protein
+[19:49:32] Modify product: Tetratricopeptide repeat => Tetratricopeptide repeat protein
+[19:49:32] Modify product: CobQ/CobB/MinD/ParA nucleotide binding domain => CobQ/CobB/MinD/ParA nucleotide binding domain protein
+[19:49:32] Modify product: ParB-like nuclease domain => ParB-like nuclease domain protein
+[19:49:32] Modify product: Fibronectin type III domain => Fibronectin type III domain protein
+[19:49:32] Modify product: WLM domain => WLM domain protein
+[19:49:32] Modify product: YGGT family => YGGT family protein
+[19:49:32] Modify product: Heavy-metal-associated domain => Heavy-metal-associated domain protein
+[19:49:32] Modify product: FeoA domain => FeoA domain protein
+[19:49:32] Modify product: DsrE/DsrF-like family => DsrE/DsrF-like family protein
+[19:49:32] Modify product: DsrE/DsrF-like family => DsrE/DsrF-like family protein
+[19:49:32] Modify product: NYN domain => NYN domain protein
+[19:49:32] Modify product: Nucleotidyltransferase domain => Nucleotidyltransferase domain protein
+[19:49:32] Modify product: TrkA-C domain => TrkA-C domain protein
+[19:49:32] Modify product: NapC/NirT cytochrome c family, N-terminal region => hypothetical protein
+[19:49:32] Modify product: Major Facilitator Superfamily => Major Facilitator Superfamily protein
+[19:49:32] Modify product: Acyltransferase family => Acyltransferase family protein
+[19:49:32] Modify product: PEGA domain => PEGA domain protein
+[19:49:32] Modify product: PD-(D/E)XK nuclease superfamily => PD-(D/E)XK nuclease superfamily protein
+[19:49:32] Modify product: MgtE intracellular N domain => MgtE intracellular N domain protein
+[19:49:32] Modify product: Cupin domain => Cupin domain protein
+[19:49:32] Modify product: Stress responsive A/B Barrel Domain => Stress responsive A/B Barrel Domain protein
+[19:49:32] Cleaned 37 /product names
+[19:49:32] Deleting unwanted file: Bac/Pfam.hmm.faa
+[19:49:32] Deleting unwanted file: Bac/Pfam.hmm.hmmer3
+[19:49:32] Labelling remaining 173 proteins as 'hypothetical protein'
+[19:49:32] Possible /pseudo 'Flagellar basal-body rod protein FlgG' at AD-820-E17_NODE_3 position 17840
+[19:49:32] Possible /pseudo 'Adenylate kinase' at AD-820-E17_NODE_3 position 32830
+[19:49:32] Possible /pseudo 'Type II secretion system protein G precursor' at AD-820-E17_NODE_15 position 9246
+[19:49:32] Found 359 unique /gene codes.
+[19:49:32] Fixed 2 duplicate /gene - yegE_1 yegE_2
+[19:49:32] Fixed 2 duplicate /gene - hemN_1 hemN_2
+[19:49:32] Fixed 2 duplicate /gene - xcpT_1 xcpT_2
+[19:49:32] Fixed 2 duplicate /gene - dnaK_1 dnaK_2
+[19:49:32] Fixed 2 duplicate /gene - pleD_1 pleD_2
+[19:49:32] Fixed 2 duplicate /gene - arsB_1 arsB_2
+[19:49:32] Fixed 2 duplicate /gene - kch_1 kch_2
+[19:49:32] Fixed 2 duplicate /gene - flgG_1 flgG_2
+[19:49:32] Fixed 5 duplicate /gene - rpfG_1 rpfG_2 rpfG_3 rpfG_4 rpfG_5
+[19:49:32] Fixed 2 duplicate /gene - gmr_1 gmr_2
+[19:49:32] Fixed 3 duplicate /gene - ycdT_1 ycdT_2 ycdT_3
+[19:49:32] Fixed 2 duplicate /gene - barA_1 barA_2
+[19:49:32] Fixed 2 duplicate /gene - truD_1 truD_2
+[19:49:32] Fixed 5 duplicate /gene - aer_1 aer_2 aer_3 aer_4 aer_5
+[19:49:32] Fixed 2 duplicate /gene - adk_1 adk_2
+[19:49:32] Fixed 2 duplicate /gene - mcpS_1 mcpS_2
+[19:49:32] Fixed 3 duplicate /gene - ydaM_1 ydaM_2 ydaM_3
+[19:49:32] Fixed 2 duplicate /gene - sucD_1 sucD_2
+[19:49:32] Fixed 18 colliding /gene names.
+[19:49:32] Adding /locus_tag identifiers
+[19:49:32] Assigned 724 locus_tags to CDS and RNA features.
+[19:49:32] Writing outputs to Bac/
+[19:49:33] Generating annotation statistics file
+[19:49:33] Generating Genbank and Sequin files
+[19:49:33] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z Bac\/bacteria\.fa\.err -i Bac\/bacteria\.fa\.fsa 2> /dev/null
+[19:49:35] Deleting unwanted file: Bac/errorsummary.val
+[19:49:35] Deleting unwanted file: Bac/bacteria.fa.dr
+[19:49:35] Deleting unwanted file: Bac/bacteria.fa.fixedproducts
+[19:49:35] Deleting unwanted file: Bac/bacteria.fa.ecn
+[19:49:35] Deleting unwanted file: Bac/bacteria.fa.val
+[19:49:35] Repairing broken .GBK output that tbl2asn produces...
+[19:49:35] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < Bac\/bacteria\.fa\.gbf > Bac\/bacteria\.fa\.gbk
+[19:49:35] Deleting unwanted file: Bac/bacteria.fa.gbf
+[19:49:35] Output files:
+[19:49:35] Bac/bacteria.fa.gbk
+[19:49:35] Bac/bacteria.fa.ffn
+[19:49:35] Bac/bacteria.fa.err
+[19:49:35] Bac/bacteria.fa.log
+[19:49:35] Bac/bacteria.fa.fna
+[19:49:35] Bac/bacteria.fa.txt
+[19:49:35] Bac/bacteria.fa.faa
+[19:49:35] Bac/bacteria.fa.fsa
+[19:49:35] Bac/bacteria.fa.tbl
+[19:49:35] Bac/bacteria.fa.gff
+[19:49:35] Bac/bacteria.fa.sqn
+[19:49:35] Walltime used: 1.88 minutes
+[19:49:35] If you use this result please cite the Prokka paper:
+[19:49:35] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[19:49:35] Type 'prokka --citation' for more details.
+[19:49:35] Share and enjoy!
