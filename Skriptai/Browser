@@ -1,0 +1,148 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
+
+# Eimantas Paspirgelis, Bioinformatika 4 kursas
+# Programa generuoja html faila is baltymu seku(MyRast anotacija) ir fermentu keliu.
+# Naudojimas: python Browser
+# Nurodyti ivesties failus: sequenceFile - baltymu sekos, enzymeFile - fermentu keliai.
+
+import os
+import re
+from decimal import *
+
+# baltymu seku ivesties failas
+sequenceFile = open("RastGalutinis.fa", "r")	
+# rasomas html kodas su informacija apie baltymus				
+htmlFile = open("GenomoNarsykle.html", "w")
+# rasomas baltymu seku sarasas				
+listHTML = open("Sarasas.html", "w")
+# fermentu keliu ivesties failas				
+enzymeFile = open("FermentuKeliai", "r")
+# nuskaitomas fermentu keliu failas				
+EcResRead = enzymeFile.readlines()	
+# rasomos html failo pradines eilutes			
+listHTML.write('<html>\n')						
+htmlFile.write('<html>\n<table>\n')
+# nuskaitomas baltymu seku failas					
+sequenceRead = sequenceFile.readlines()				
+enzymeCount = 0
+countTick = 0
+countTick1 = 0
+lineCount = 0
+SizeProtein = 0 
+arrowLine = 24
+max = 0
+lastCurrentLine = 0
+currentLine = 0
+oneProteinEnzymes=[]
+for i in sequenceRead:
+    # skaiciuojamos viso failo eilutes
+    lineCount +=1	
+    # atrenkamos tik anotacijos eilutes	
+    if i[0]=='>':	
+    # skaiciuojamos baltymu sekos	
+	countTick1 +=1
+    # surandama baltymo pradzia	
+	number1 = i.split('ID_')[1].split('_',1)[1].split(' ')[0].replace("_"," ").split(' ')[0]	
+	# surandama baltymo pabaiga
+	number2 = i.split('ID_')[1].split('_',1)[1].split(' ')[0].replace("_"," ").split(' ')[1]
+    # surandamas baltymo pavadinimas	
+	name = i.split('ID_')[1].split(' ',1)[1]							
+	# apskaiciuojamas baltymo ilgis
+	SizeProtein = int(number2) - int(number1)			
+	if SizeProtein < 0:
+	    SizeProtein = SizeProtein * (-1)
+	if SizeProtein > max:
+	    max =SizeProtein
+factor = max / 3 
+factor1 = factor/50
+for i in sequenceRead:
+    currentLine +=1							
+    if i[0]=='>':
+	countTick +=1
+	number1 = i.split('ID_')[1].split('_',1)[1].split(' ')[0].replace("_"," ").split(' ')[0]
+	number2 = i.split('ID_')[1].split('_',1)[1].split(' ')[0].replace("_"," ").split(' ')[1]
+	name = i.split('ID_')[1].split(' ',1)[1]
+	# surandamas baltymo ID
+	ID = i.split('>')[1].split(' AD')[0]
+    # ieskoma ar tai fermentas	
+	if "(EC" in i:	
+        # iskerpamas fermento pavadinimas	
+	    EC = i.split('(EC ')[1].split(')')[0]			
+	    for g in EcResRead:			
+		if EC in g:	
+		    # sudedami visi vieno fermento keliai
+		    oneProteinEnzymes.append(g)				
+	numResult = int(number2) - int(number1)
+	# nustatoma rodykles kryptis ir rodykles spalva
+	if numResult > 0:						
+	    if 'hypothetical protein' in name:				
+	    	img = "arrowR.png"
+	    elif len(oneProteinEnzymes)!=0:
+		img = "arrowGB.png"
+	    elif "(EC" in name:
+		img =  "arrowG.png"
+	    else:
+		img = "arrow.png"
+	else:
+	    if 'hypothetical protein' in name:	
+	    	img = "arrowR1.png"
+	    elif len(oneProteinEnzymes)!=0:
+		img = "arrowGB1.png"
+	    elif "(EC" in name:
+		img =  "arrowG1.png"
+	    else:
+		img = "arrow1.png"
+	if numResult < 0:
+	    numResult = numResult * (-1)
+		# skaiciuojama kada pradeti nauja rodykliu eilute
+        if arrowLine - countTick == 23:					
+	    htmlFile.write('<tr>\n')
+		# skaiciuojamas rodykles dydis
+	width = numResult / factor1 + 50				
+	if width > 100:
+	    width = 100
+	if countTick <= arrowLine:
+	    # jei baltymas neturi fermento keliu rasoma si eilute 
+	    if not oneProteinEnzymes:					
+	        htmlFile.write('<td width = 50px><a href = "Sarasas.html#genas'+str(countTick)+'"> <img src='+'"'+img+'"'+ 'height=50% width='+str(width)+'%  title="ID: '+ID+'\nFunction: '+name+'Start: '+str(number1)+'\nStop: '+str(number2)+'\nLength: '+str(numResult)+'"></a></td>\n')
+        # jei baltymas- fermentas turi kelius rasoma si eilute			
+	    else:							
+		htmlFile.write('<td width = 50px><a href = "Sarasas.html#genas'+str(countTick)+'"> <img src='+'"'+img+'"'+ 'height=50% width='+str(width)+'%  title="ID: '+ID+'\nFunction: '+name+'Start: '+str(number1)+'\nStop: '+str(number2)+'\nLength: '+str(numResult)+'\nPathway: '+str(','.join(oneProteinEnzymes))+'"></a></td>\n')
+		# uzbaigiama rodykliu eilute
+	    if countTick == arrowLine:					
+	    	htmlFile.write('</tr>\n')
+	    	arrowLine += 24
+	# generuojamas baltymu seku sarasas
+	if lastCurrentLine == 0:					
+	    lastCurrentLine = 0
+	else:
+	    listHTML.write('<a id="genas'+str(countTick-1)+'"><pre>\n')	
+	    nulinam = 0
+		# rasomos baltymu sekos
+	    for i in range(currentLine-lastCurrentLine):		
+	        listHTML.write(sequenceRead[lastCurrentLine + nulinam - 1])
+	        nulinam +=1
+		# rasomi fermentu keliai
+	    if enzymeCount + 1 == countTick: 				
+	    	listHTML.write('\nEnzyme pathway: '+'<a href = "' + str('                '.join(lastProteinEnzymes)) +'">' + str('                '.join(lastProteinEnzymes)) + '</a>')
+	    if len(oneProteinEnzymes) != 0:
+		lastProteinEnzymes = oneProteinEnzymes
+		enzymeCount = countTick
+	if countTick == countTick1:
+	    listHTML.write('<a id="genas'+str(countTick)+'"><pre>\n')
+            nulinam = 0
+	    for i in range(lineCount - currentLine +1):
+	        listHTML.write(sequenceRead[currentLine + nulinam -1])
+	        nulinam +=1 
+	lastCurrentLine = currentLine
+	    # tarpai tarp baltymu seku
+        listHTML.write('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')   
+	listHTML.write('</pre></a>\n')
+	oneProteinEnzymes = []
+# baigiamas html failas		
+htmlFile.write('</tr>\n</table>\n</html>')				
+listHTML.write('</html>')						
+htmlFile.close()
+	
+	
