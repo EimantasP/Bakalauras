@@ -1,0 +1,177 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0U1FKZR016
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_27_length_6117_cov_7.31854_ID_53
+
+Length=6117
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP002205.1|  Sulfurimonas autotrophica DSM 16294, complete ...  601     5e-167
+
+ALIGNMENTS
+>gb|CP002205.1| Sulfurimonas autotrophica DSM 16294, complete genome
+Length=2153198
+
+ Score = 601 bits (325),  Expect = 5e-167
+ Identities = 1141/1537 (74%), Gaps = 47/1537 (3%)
+ Strand=Plus/Plus
+
+Query  4603     AAAGAATGAGAATAGATAAGTTTTTAAATTCAGTAAATATTACAAAGAGACGCTCTGTAG  4662
+                ||||||||||||||||||| ||||||||||| || ||||||||||| ||||| || || |
+Sbjct  1069879  AAAGAATGAGAATAGATAAATTTTTAAATTCGGTTAATATTACAAAAAGACGTTCCGTTG  1069938
+
+Query  4663     CTCAAGATATGATAAGCAATGGGGTGGTTCTCATCAACGGTATTATTGCGAAGTCCAGTA  4722
+                | |||||||||||||| || || || ||    || |||||  |  |||| ||  ||||||
+Sbjct  1069939  CACAAGATATGATAAGTAACGGCGTAGTGGAGATAAACGGCGTAGTTGCCAAAGCCAGTA  1069998
+
+Query  4723     AAAATGTTGAGGTTGGAAGCGTTATAACTCTTAACTTTCTTGA-GAGTACAAAGAAGTAT  4781
+                ||||||| || || ||    ||| | ||  | |||| |||  | || | |||| ||||||
+Sbjct  1069999  AAAATGTGGAAGTGGGTTCTGTTGTTACAATCAACTATCTCAACGAAT-CAAAAAAGTAT  1070057
+
+Query  4782     GAAGTTCTTAAAATCCCAACTACAAAATCAACACCAAAATCTTTACAAGATGAATACATT  4841
+                ||||| ||  ||||||| || |||||||||||||| ||||| |||||||   | || || 
+Sbjct  1070058  GAAGTGCTGCAAATCCCTACAACAAAATCAACACCTAAATCATTACAAGGCCAGTATATA  1070117
+
+Query  4842     AAGGAAATAGCATGACATATGATGAA--ACTA-AAAAATCATTTGAGTCTCTTTTTAACA  4898
+                |||||| |  ||||||||||||||||  | ||  |||||  ||  | || ||||||||  
+Sbjct  1070118  AAGGAACTCTCATGACATATGATGAAGCAATAGCAAAAT--TTACA-TCACTTTTTAATC  1070174
+
+Query  4899     ATGAAATGAACGTCAATG-AA--ATGAGAG-ATTTTTTACTTAGTATGAAGCTGGATGAG  4954
+                |||||||| | ||  ||| ||  ||| | | |||| ||     |||||| ||| ||||||
+Sbjct  1070175  ATGAAATG-A-GT-GATGAAACTATGCGTGAATTTCTTGA-AGGTATGAGGCTTGATGAG  1070230
+
+Query  4955     TACACATCTGTAGAGAGT-ATAGCCGCGGCAGCTGAAGTGATGCGATCCCATGCTTTATC  5013
+                   ||  ||||| | ||| || || || || ||  | || ||||||     |||| |  |
+Sbjct  1070231  AGTACTCCTGTA-ACAGTGATTGCAGCTGCTGCACATGTAATGCGAAGTTTTGCTATTCC  1070289
+
+Query  5014     TCTTCCGGTATCTGAGGAGATTCGTCTTAAAGCTATGGACATAGTCGGAACCGGCGGAGA  5073
+                | | ||  | ||||| ||  || |   ||| ||| | || || || || || ||||| ||
+Sbjct  1070290  TTTACCTATTTCTGATGAACTTAGAAATAACGCTTTAGATATTGTAGGGACGGGCGGTGA  1070349
+
+Query  5074     TAAAATAGGCAGTTTTAATATCTCCTCTACGGTTGCCATACTTGTTGCTTCATGCGGGAG  5133
+                ||||||||||||||||||||||||||| || || ||  | |||| |||||| ||  || |
+Sbjct  1070350  TAAAATAGGCAGTTTTAATATCTCCTCAACTGTGGCTTTGCTTGCTGCTTCTTG-TGGTG  1070408
+
+Query  5134     TTA-TGTTGCAAAACATGGAAGCCGTTCTGTTACTTCAAA-GTCAGGAAGCGCAGATATG  5191
+                  |  ||||||||||| ||||| || ||| | ||||||||   | || || || ||||||
+Sbjct  1070409  CAACCGTTGCAAAACACGGAAGTCGCTCTATCACTTCAAAAAGC-GGTAGTGCTGATATG  1070467
+
+Query  5192     TTTGA-GCGTCTCGGCGTAAGACTTGATTTAAGCATCAAAAATAGCGCTAAACTTTTGGA  5250
+                ||||| ||  || |||||  | ||||||||||| ||  || | ||||| |||||||| ||
+Sbjct  1070468  TTTGAAGC-ACTAGGCGTTCGGCTTGATTTAAGTATAGAACAAAGCGCAAAACTTTTAGA  1070526
+
+Query  5251     AGAAACAGGGTTTACTTTTATGTTTGCACAGAACTATCATCCTGCAATGAGCTTTATAAT  5310
+                ||| ||  | ||||| |||||||||||||| ||| |||||||||| ||||  |||||  |
+Sbjct  1070527  AGAGACCAGTTTTACATTTATGTTTGCACAAAACCATCATCCTGCCATGAAATTTATTGT  1070586
+
+Query  5311     GCCGGTAAGAAAAAGCATTCCAGACAAGACAATCTTCAATATTTTAGGACCGCTTACAAA  5370
+                 |||||  | ||||| || || || || || || || |||||  | || ||  | |||||
+Sbjct  1070587  ACCGGTGCGCAAAAGTATCCCCGATAAAACTATATTTAATATACTGGGTCCTTTAACAAA  1070646
+
+Query  5371     TCCTGCAGGAGTTGAAAAATCTCTTCTTGGTGTTTTTGATAAATCGTTTGTTCCAAAGAT  5430
+                 ||||| || ||  |||| ||  | || ||||| ||||| ||| | ||||| ||||| ||
+Sbjct  1070647  CCCTGCCGGTGTAAAAAAGTCGATGCTGGGTGTATTTGACAAAGCTTTTGTACCAAAAAT  1070706
+
+Query  5431     GGCAGAAGCACTGAAAATAAATGGTGCAACTTCTACCATGGTTGTAAGTTCTGCTGAGGG  5490
+                |||  ||||  | |||||||| || ||||  ||  || | |||||||||||   ||| ||
+Sbjct  1070707  GGCCCAAGCTTTAAAAATAAACGGCGCAAAATCAGCCTTAGTTGTAAGTTCAAATGAAGG  1070766
+
+Query  5491     AATGGATGAGATTAGCATCAGTGATATTACTTACGCATCGCAACTCTCTCATGGCG-T--  5547
+                 |||||||| || |||||||||||||| || || || |  | ||| |   | || | |  
+Sbjct  1070767  GATGGATGAAATAAGCATCAGTGATATCACCTATGC-T-TC-ACTTTTAAAAGGTGATGA  1070823
+
+Query  5548     TGTCCATGAGTTTATTATAGATCCGCAGGAATATGAAATCAAAAAAGCTCCGCTAAAAGC  5607
+                | | || ||||| || ||||||||||||||||| |  || |||||||| ||  | | |||
+Sbjct  1070824  TATGCAGGAGTTGATAATAGATCCGCAGGAATACGGCATTAAAAAAGCACCTTTGAGAGC  1070883
+
+Query  5608     CATCATGGGCGGTGATGCAAATGAAAATGCACAA-ATTTTATATAATATCTTTGATGCCA  5666
+                 || ||||| || |||||||  |  ||||| ||| ||||||   ||||| ||||||| ||
+Sbjct  1070884  TATAATGGGTGGAGATGCAAGAGTGAATGC-CAATATTTTACGAAATATTTTTGATGACA  1070942
+
+Query  5667     AATCTACGGATGCACAAAGAGATATCGTACTTATAAATGCGGCTGCAGCTTTACTGGTTG  5726
+                   | || || || ||||||||||| || || || ||  |||| ||| | ||| ||||||
+Sbjct  1070943  CGGCAACAGAGGCTCAAAGAGATATAGTTCTAATCAACACGGCAGCATCATTAATGGTTG  1071002
+
+Query  5727     ACGGCGTGGCGCGTGATATTCAAGAAGGCTTGGAAATGGCAAGAGAGGCGATACG-AAAT  5785
+                ||||  ||||||| ||||| || || || ||||||||||||||||| || || ||  |||
+Sbjct  1071003  ACGGTTTGGCGCGAGATATACAGGATGGTTTGGAAATGGCAAGAGAAGCTAT-CGCCAAT  1071061
+
+Query  5786     TCCCGTGCCAAGAAGAAACTTAAA-CAAATTATAGAGATTTCAAACAAATTATGAAAA-C  5843
+                 |  |  | ||   |||| ||||| ||||| ||||| |  ||||| |||||||||||| |
+Sbjct  1071062  GCAAGACCTAAAGTGAAA-TTAAAGCAAATAATAGAAACATCAAATAAATTATGAAAAGC  1071120
+
+Query  5844     -C-TATAAATTGAAGCTGCCTGAACTGCACATGTTAGTAGATGATGTGATAAAAGATTTT  5901
+                 | |||||| ||||  ||   |||||  ||   || ||| ||||| | ||    ||||||
+Sbjct  1071121  GCTTATAAACTGAACTTGAAAGAACTTGACTCTTTGGTAAATGATATTATCCGTGATTTT  1071180
+
+Query  5902     AA-GAGCGGCGTAGTGATTTTAAAAGGTGATTTGGCAAGC-GGAAAGACCACTTTTGTAA  5959
+                || ||  || || || || |||||||||||||||||  || ||||| || ||||| || |
+Sbjct  1071181  AAAGA-TGGTGTTGTTATCTTAAAAGGTGATTTGGC-TGCAGGAAAAACAACTTTGGTGA  1071238
+
+Query  5960     AAGAGATGGTaaaaaaaCTTGGAGTGAAAGAGGATGTGACTTCACCAACTTTTTCACTTC  6019
+                || |||| | |||| || | ||    ||||||||||| || ||||| || |||||||| |
+Sbjct  1071239  AAAAGATAGCAAAAGAATTAGGTTATAAAGAGGATGTCACATCACCCACATTTTCACTGC  1071298
+
+Query  6020     AGCAATGTTATGG-GA-AAAATATTTATCATTATGATATTTATAATCATGGACTAGATCA  6077
+                ||||||  ||||| || ||| || || ||||||||||||||| ||||||||||| || ||
+Sbjct  1071299  AGCAATACTATGGAGACAAACTA-TT-TCATTATGATATTTACAATCATGGACTTGAACA  1071356
+
+Query  6078     TTTTATCTCTTTGGGAATGCTCGAAGAGTTAGAAAAA  6114
+                |||||| || |||||||||||||||||||||||||||
+Sbjct  1071357  TTTTATATCATTGGGAATGCTCGAAGAGTTAGAAAAA  1071393
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 6117
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 6081
+Effective length of database: 87691245382
+Effective search space: 533250463167942
+Effective search space used: 533250463167942
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 25 (47.3 bits)
+
+
+
+

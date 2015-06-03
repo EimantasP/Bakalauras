@@ -1,0 +1,180 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0UW76DC016
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_38_length_4031_cov_9.95749_ID_75
+
+Length=4031
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP001279.1|  Nautilia profundicola AmH, complete genome         139     3e-28
+gb|CP002205.1|  Sulfurimonas autotrophica DSM 16294, complete ...  122     3e-23
+gb|CP010906.1|  Campylobacter jejuni subsp. jejuni strain 3592...  106     3e-18
+gb|CP002991.1|  Thermoanaerobacter wiegelii Rt8.B1, complete g...  93.5    3e-14
+gb|CP000885.1|  Clostridium phytofermentans ISDg, complete genome  89.8    3e-13
+gb|CP009286.1|  Paenibacillus stellifer strain DSM 14472, comp...  80.5    2e-10
+
+ALIGNMENTS
+>gb|CP001279.1| Nautilia profundicola AmH, complete genome
+Length=1676444
+
+ Score = 139 bits (75),  Expect = 3e-28
+ Identities = 106/121 (88%), Gaps = 1/121 (1%)
+ Strand=Plus/Minus
+
+Query  1177     CAAACAAATCTGCTTGCACTCAATGCTGCCATCGAAGCAGCAAGAGCTGGAGAGCATGGA  1236
+                ||||||||||| |||||| | ||||| ||||| |||||||||||||| || || || |||
+Sbjct  1294240  CAAACAAATCTTCTTGCATTAAATGCAGCCATTGAAGCAGCAAGAGCAGGTGAACACGGA  1294181
+
+Query  1237     AGAGGCTTTGCAGTTGTAGCAGATGAAGTTAGAAAACTTGCCGAGAGAACTCAAAAA-GC  1295
+                ||||| ||||| || ||||||||||||||||||||||||||||| ||||| |||||| ||
+Sbjct  1294180  AGAGGGTTTGCCGTGGTAGCAGATGAAGTTAGAAAACTTGCCGAAAGAACACAAAAAAGC  1294121
+
+Query  1296     T  1296
+                |
+Sbjct  1294120  T  1294120
+
+
+>gb|CP002205.1| Sulfurimonas autotrophica DSM 16294, complete genome
+Length=2153198
+
+ Score = 122 bits (66),  Expect = 3e-23
+ Identities = 124/152 (82%), Gaps = 3/152 (2%)
+ Strand=Plus/Minus
+
+Query  1160   TAAAGGATATTTCAGACCAAACAAATCTGCTTGCACTCAATGCTGCCATCGAAGCAGCAA  1219
+              |||| |||||  | ||||| ||||||||||||||||||||||||||||| ||||||||  
+Sbjct  78878  TAAA-GATATAGCGGACCAGACAAATCTGCTTGCACTCAATGCTGCCATAGAAGCAGCGC  78820
+
+Query  1220   GAGCTGGAGAGCATGGAAGAGGCTTTGCAGTTGTAGCAGATGAAGTTAGAAAACTTGCCG  1279
+              | || || ||||||||| | || ||||| || || || |||||||| ||||||||||| |
+Sbjct  78819  GTGCCGGTGAGCATGGACGCGGTTTTGCCGTCGTTGCCGATGAAGTAAGAAAACTTGCAG  78760
+
+Query  1280   AGAGAACTCAAAAAGCTACAAGCGAAG-TAGA  1310
+              |  | || |||||||| |||| || || ||||
+Sbjct  78759  AACGTACGCAAAAAGCAACAA-CGGAGATAGA  78729
+
+
+>gb|CP010906.1| Campylobacter jejuni subsp. jejuni strain 35925B2, complete genome
+Length=1612378
+
+ Score = 106 bits (57),  Expect = 3e-18
+ Identities = 95/114 (83%), Gaps = 0/114 (0%)
+ Strand=Plus/Minus
+
+Query  1177    CAAACAAATCTGCTTGCACTCAATGCTGCCATCGAAGCAGCAAGAGCTGGAGAGCATGGA  1236
+               ||||| |||||  | || |||||||| || || |||||||| ||||| || ||  | |||
+Sbjct  230094  CAAACTAATCTTTTAGCTCTCAATGCAGCTATAGAAGCAGCTAGAGCAGGTGAATACGGA  230035
+
+Query  1237    AGAGGCTTTGCAGTTGTAGCAGATGAAGTTAGAAAACTTGCCGAGAGAACTCAA  1290
+               || || ||||| ||||||||||||||||||||||||||||| || |||||||||
+Sbjct  230034  AGGGGGTTTGCGGTTGTAGCAGATGAAGTTAGAAAACTTGCTGAAAGAACTCAA  229981
+
+
+>gb|CP002991.1| Thermoanaerobacter wiegelii Rt8.B1, complete genome
+Length=2785056
+
+ Score = 93.5 bits (50),  Expect = 3e-14
+ Identities = 88/106 (83%), Gaps = 3/106 (3%)
+ Strand=Plus/Plus
+
+Query  1172    CAGACCAAACAAATCTGCTTGCACTCAATGCTGCCATCGAAGCAGCAAGAGCTGGAGA-G  1230
+               ||||||| ||||||||  |  |||| || || || || || ||||| ||||| ||||| |
+Sbjct  522460  CAGACCAGACAAATCTTTTATCACTAAACGCGGCAATAGAGGCAGCGAGAGCAGGAGAAG  522519
+
+Query  1231    CATGGAAGAGGCTTTGCAGTTGTAGCAGATGAAGTTAGAAAACTTG  1276
+               || |||||||||||||||||||||||||||||||| || ||| |||
+Sbjct  522520  CA-GGAAGAGGCTTTGCAGTTGTAGCAGATGAAGTGAGGAAA-TTG  522563
+
+
+>gb|CP000885.1| Clostridium phytofermentans ISDg, complete genome
+Length=4847594
+
+ Features in this part of subject sequence:
+   methyl-accepting chemotaxis sensory transducer
+
+ Score = 89.8 bits (48),  Expect = 3e-13
+ Identities = 89/109 (82%), Gaps = 2/109 (2%)
+ Strand=Plus/Minus
+
+Query  1167     TATTTCAGACCAAACAAATCTGCTT-GCACTCAATGCTGCCATCGAAGCAGCAAGAGCTG  1225
+                |||| || |||| || || || ||| ||| | ||||| || || ||||||||||||||||
+Sbjct  4749350  TATTGCAAACCAGACCAACCT-CTTAGCATTAAATGCAGCTATTGAAGCAGCAAGAGCTG  4749292
+
+Query  1226     GAGAGCATGGAAGAGGCTTTGCAGTTGTAGCAGATGAAGTTAGAAAACT  1274
+                |||||||||||| ||| ||| | ||||| || |||||||| || |||||
+Sbjct  4749291  GAGAGCATGGAAAAGGGTTTTCCGTTGTTGCTGATGAAGTAAGGAAACT  4749243
+
+
+>gb|CP009286.1| Paenibacillus stellifer strain DSM 14472, complete genome
+Length=5658798
+
+ Features in this part of subject sequence:
+   hypothetical protein
+
+ Score = 80.5 bits (43),  Expect = 2e-10
+ Identities = 59/67 (88%), Gaps = 0/67 (0%)
+ Strand=Plus/Plus
+
+Query  1196     TCAATGCTGCCATCGAAGCAGCAAGAGCTGGAGAGCATGGAAGAGGCTTTGCAGTTGTAG  1255
+                ||||||| || |||||||| || || || ||||||||||||||||||||||||||||| |
+Sbjct  1234202  TCAATGCGGCTATCGAAGCGGCCAGGGCGGGAGAGCATGGAAGAGGCTTTGCAGTTGTGG  1234261
+
+Query  1256     CAGATGA  1262
+                | |||||
+Sbjct  1234262  CCGATGA  1234268
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 4031
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 3995
+Effective length of database: 87691245382
+Effective search space: 350326525301090
+Effective search space used: 350326525301090
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+

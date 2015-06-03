@@ -1,0 +1,3621 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0USFVRJ016
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_36_length_4105_cov_12.4383_ID_71
+
+Length=4105
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP002205.1|  Sulfurimonas autotrophica DSM 16294, complete ...  1857    0.0   
+dbj|AP009179.1|  Sulfurovum sp. NBC37-1 genomic DNA, complete ...  1605    0.0   
+gb|CP000153.1|  Sulfurimonas denitrificans DSM 1251, complete ...  1563    0.0   
+gb|CP001279.1|  Nautilia profundicola AmH, complete genome         957     0.0   
+gb|EF644762.1|  Sulfurimonas autotrophica ATP citrate lyase al...  636     1e-177
+emb|FN659781.1|  Uncultured bacterium partial aclA gene for AT...  549     1e-151
+gb|KC702276.1|  Uncultured epsilon proteobacterium clone E3M_0...  453     1e-122
+gb|KC702280.1|  Uncultured epsilon proteobacterium clone E3M_1...  442     2e-119
+emb|FN659782.1|  Uncultured bacterium partial aclA gene for AT...  442     2e-119
+gb|AY929805.1|  Sulfurimonas sp. Go25-1 ATP citrate lyase beta...  429     2e-115
+gb|AY885678.1|  Candidatus Arcobacter sulfidicus ATP citrate l...  416     1e-111
+gb|AY929806.1|  Sulfurimonas autotrophica strain OK10 ATP citr...  409     2e-109
+emb|FN659783.1|  Uncultured bacterium partial aclA gene for AT...  398     5e-106
+gb|AY430959.1|  Uncultured prokaryote clone 820-B11 AclB (aclB...  228     7e-55 
+gb|AY430955.1|  Uncultured prokaryote clone 820-D2 AclB (aclB)...  224     9e-54 
+emb|AM181276.1|  Uncultured epsilon proteobacterium partial ac...  224     9e-54 
+emb|AM181259.1|  Uncultured epsilon proteobacterium partial ac...  224     9e-54 
+gb|AY308628.1|  Uncultured episymbiont of Alvinella pompejana ...  220     1e-52 
+gb|AY308637.1|  Uncultured episymbiont of Alvinella pompejana ...  219     4e-52 
+emb|AM181282.1|  Uncultured epsilon proteobacterium partial ac...  219     4e-52 
+emb|AM181275.1|  Uncultured epsilon proteobacterium partial ac...  219     4e-52 
+emb|AM181272.1|  Uncultured epsilon proteobacterium partial ac...  219     4e-52 
+emb|AM181257.1|  Uncultured epsilon proteobacterium partial ac...  219     4e-52 
+emb|AM181245.1|  Uncultured epsilon proteobacterium partial ac...  219     4e-52 
+gb|EU477051.1|  Uncultured epsilon proteobacterium clone yeti_...  217     1e-51 
+gb|AY430970.1|  Uncultured prokaryote clone 694-11 AclB (aclB)...  215     5e-51 
+gb|AY308639.1|  Nautilia profundicola AmH ATP citrate lyase be...  213     2e-50 
+emb|AM181290.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181284.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181278.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181277.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181274.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181273.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181271.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181266.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181263.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181262.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181260.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181258.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181256.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181252.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181251.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181249.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181244.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181243.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+emb|AM181242.1|  Uncultured epsilon proteobacterium partial ac...  213     2e-50 
+gb|AY430978.1|  Uncultured prokaryote clone 694-2 AclB (aclB) ...  211     7e-50 
+emb|AM181291.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181289.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181288.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181286.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181283.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181280.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181270.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181269.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181268.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181267.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181254.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181253.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181250.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181248.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181246.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+emb|AM181241.1|  Uncultured epsilon proteobacterium partial ac...  207     9e-49 
+gb|AY430972.1|  Uncultured prokaryote clone 694-9 AclB (aclB) ...  206     3e-48 
+emb|AM181287.1|  Uncultured epsilon proteobacterium partial ac...  202     4e-47 
+emb|AM181281.1|  Uncultured epsilon proteobacterium partial ac...  202     4e-47 
+emb|AM181265.1|  Uncultured epsilon proteobacterium partial ac...  202     4e-47 
+emb|AM181247.1|  Uncultured epsilon proteobacterium partial ac...  202     4e-47 
+emb|FN659785.1|  Uncultured bacterium partial aclB gene for AT...  198     5e-46 
+emb|AM181264.1|  Uncultured epsilon proteobacterium partial ac...  196     2e-45 
+gb|AY430964.1|  Uncultured prokaryote clone 820-A6 AclB (aclB)...  195     7e-45 
+gb|AY308604.1|  Uncultured episymbiont of Alvinella pompejana ...  183     2e-41 
+emb|AM403106.1|  Uncultured prokaryote partial aclb gene for A...  182     5e-41 
+gb|AY308591.1|  Uncultured episymbiont of Alvinella pompejana ...  176     3e-39 
+gb|AY430979.1|  Uncultured prokaryote clone 694-1 AclB (aclB) ...  172     3e-38 
+gb|AY308636.1|  Uncultured episymbiont of Alvinella pompejana ...  165     6e-36 
+gb|EU265783.1|  Uncultured epsilon proteobacterium clone H11 A...  147     2e-30 
+
+ALIGNMENTS
+>gb|CP002205.1| Sulfurimonas autotrophica DSM 16294, complete genome
+Length=2153198
+
+ Score = 1857 bits (1005),  Expect = 0.0
+ Identities = 2246/2850 (79%), Gaps = 65/2850 (2%)
+ Strand=Plus/Minus
+
+Query  432      TTAACACATTTTATAGTTGAACCATTTACTCCACACTCA-CAA-GAGCAAGAGTATTATA  489
+                |||||||| ||||| ||||| || ||||||||||| | | |||  || ||||||||||||
+Sbjct  1575050  TTAACACACTTTATCGTTGAGCCGTTTACTCCACA-TGACCAATCAG-AAGAGTATTATA  1574993
+
+Query  490      TCTCTGCTACATG-TGTTGGTGAGGATGATGTACTTTACATGTCAGCTGAGGGTGGTATG  548
+                | ||||| || || ||||||||| || || || |||||  | |||||||| |||||||||
+Sbjct  1574992  TTTCTGCAAC-TGTTGTTGGTGATGAAGACGTTCTTTATCTATCAGCTGAAGGTGGTATG  1574934
+
+Query  549      GAAGTTGAAGAGGGTTGGGATGAGAAAGTCAACGAAGTTGTAATCCCTATCGATATGAGC  608
+                ||||||||||| ||||||||||| ||||| |  ||| | | | |||| ||  | |  | |
+Sbjct  1574933  GAAGTTGAAGAAGGTTGGGATGAAAAAGTTACAGAATTAGCATTCCCAAT-TACAGCAAC  1574875
+
+Query  609      -GATGCTGATAT-G--GAACATGCAATAAAAGCAAATATTCCTTCAGATATTCCTGCTCA  664
+                 || |  || || |  ||| |   ||| ||||||||| | ||  | ||| ||    |  |
+Sbjct  1574874  TGAAGAAGAAATCGCTGAA-A--AAATCAAAGCAAATGTCCCGGCTGATGTTAAACCGGA  1574818
+
+Query  665      AAACAGAGAAGGTTTTGCATCATTTGCAATAGCATTTTTTAAATTTTA-CAGAGATATGA  723
+                | ||| ||||   |||||   ||||||||| |  ||||| |||   || |  | || | |
+Sbjct  1574817  AGACAAAGAAAACTTTGCGAAATTTGCAATCGGTTTTTTCAAAGCGTATCGTAAAT-TAA  1574759
+
+Query  724      ACTTCGCTTATTTGGAAATAAACCCGATTGTTATGCTTGAAGGCAACAATATGGCAATTC  783
+                ||||||||||  | ||||| || ||  |||| ||||   |||| |  || || | |  ||
+Sbjct  1574758  ACTTCGCTTACCTTGAAATCAATCCATTTGTAATGC---AAGGGAGTAAAATCG-AGCTC  1574703
+
+Query  784      -TGGATTTAGTTGCAAGACTAGATGATACTGCTGGCTTTATGATGAGAGATACTTGGGGA  842
+                 ||||| | ||||||| ||| |||||||||||||| |||||||||| |||    ||||| 
+Sbjct  1574702  TTGGATATGGTTGCAAAACTTGATGATACTGCTGGATTTATGATGACAGAGGAGTGGGGT  1574643
+
+Query  843      GATATAGAATATCCTACTGCGTTTGGTATGGAAGATCAATCACCTGAAGAAAAAGCTATT  902
+                ||||| |||||||||||||| |||||||||||||   |||| |||||||   |||| |||
+Sbjct  1574642  GATATTGAATATCCTACTGCATTTGGTATGGAAGCAAAATCTCCTGAAGTTGAAGCGATT  1574583
+
+Query  903      GCTCTTGCAGATAGTAAATCTGGTGCTTCATTAAAATTAACAATTTTAAGCCCA-ATGGG  961
+                |     ||||||   ||| | ||||||||||||||| | ||  ||||||  ||| || | 
+Sbjct  1574582  GAAGAAGCAGATGCAAAAACAGGTGCTTCATTAAAACTTACTCTTTTAAAACCAGAT-GC  1574524
+
+Query  962      TAGAGTATGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGC  1021
+                |||| | ||||||||||||||||||||||||||||||||||| ||||||||||| |||||
+Sbjct  1574523  TAGAATCTGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGC  1574464
+
+Query  1022     TGACTTTGCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTC  1081
+                |||||||||||  |   ||      || | |   || ||||| || |||||||| |||||
+Sbjct  1574463  TGACTTTGCAG--G--TAT------AG-A-A---GATCTTGCCAATTATGGTGAGTATTC  1574419
+
+Query  1082     TGGTGGTCCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGAC  1141
+                 |||||||| |||||  |||| || |||||||||||||| ||| |  | ||| | |||||
+Sbjct  1574418  AGGTGGTCCAACTACAGGTGAAACAAAATTTTATGCAGAAACTCTACTTGATTTAATGAC  1574359
+
+Query  1142     TAGACATAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAA  1201
+                |||| | ||||| |||||||||  ||||||||| ||||| || |||||||||||||| ||
+Sbjct  1574358  TAGAGAAAAAGACCCTAAAGGTCGAGATAAAATTTTAATTATCGGTGGAGCTATTGCAAA  1574299
+
+Query  1202     CTTTACGGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGA  1261
+                |||||| ||||| ||||||||||||||||||||||||||| | ||||||||  |||| ||
+Sbjct  1574298  CTTTACTGATGTTGCAAAAACATTTACAGGTATTATTCAGGCTTTTGAAGAGTATGCTGA  1574239
+
+Query  1262     AAAAATAAAAGCGCATAATACAAAAATTTATGTTCGCCGTGGTGGACCAAATTACGAAAA  1321
+                 ||||| ||||    |   |  ||||| || ||||| |||||||||||||| || |||||
+Sbjct  1574238  TAAAATGAAAGAAGTTGGAATTAAAATCTACGTTCGTCGTGGTGGACCAAACTATGAAAA  1574179
+
+Query  1322     AGGTCTAAAAGACATTAAAGAAGCTGCCGATAGATTAGGTCTTTA-TATAGAAGTTTATG  1380
+                |||||||||||| |||||||||||||| || | ||||||| || | ||| ||||||||||
+Sbjct  1574178  AGGTCTAAAAGATATTAAAGAAGCTGCTGACAAATTAGGT-TTAAGTATTGAAGTTTATG  1574120
+
+Query  1381     GACCAGAAACACATGTTACTGACATTGTTAGAATGGCATTAGA-G--AAGTAGGGGCTAA  1437
+                ||||||||||||||||||| ||||| ||  | |||||| |||| |  ||||| ||   | 
+Sbjct  1574119  GACCAGAAACACATGTTACAGACATCGTGCGTATGGCACTAGAAGAAAAGTAAGGAGAAG  1574060
+
+Query  1438     ATATGAATAAATTATATACAAAAGACACACAAGCAATTTTTTGGAACAACAACACAACGG  1497
+                | |||   ||||||| ||| | ||| |||||||||||||||||||| || |||| ||| |
+Sbjct  1574059  AGATGGGAAAATTATTTACTAGAGATACACAAGCAATTTTTTGGAATAATAACAAAACAG  1574000
+
+Query  1498     CTATCCAAAGAATGTTGGATTACGATTACACTATTAAAAGAAAAACTCCATCTGTTGCGG  1557
+                |||| ||||||||| | ||||| ||||| || || |||||| |||| ||||||||||| |
+Sbjct  1573999  CTATTCAAAGAATGCTTGATTATGATTATACAATCAAAAGAGAAACACCATCTGTTGCAG  1573940
+
+Query  1558     CTATTGTTGCTCCAACAAGCGGAAATAAATTTGAGAAGtttttttGGGGTCCAGATGAAA  1617
+                ||||||| ||||| ||||||| ||||||||||||||| ||||| ||||||   |||||||
+Sbjct  1573939  CTATTGTAGCTCCTACAAGCGCAAATAAATTTGAGAAATTTTTCTGGGGTGGGGATGAAA  1573880
+
+Query  1618     TAATGGTTCCACTTTTTAAAACAACTGCTGATGCTAAAAAAGCACATCCAACTGCTGATG  1677
+                | ||| |||| |||| |||||  ||  | || || |||   || || |||   |||||||
+Sbjct  1573879  TTATGATTCCTCTTTATAAAAGTACACCGGAAGCAAAAGCTGCTCAGCCACAAGCTGATG  1573820
+
+Query  1678     TACTTTTAAACTTTGCATCATTTAGAACAGCTTATGATGTAACTATGGAAGCAGTAGAGC  1737
+                |||||||||||||||||||||||||||| ||||| ||||| |||||||||||| || |  
+Sbjct  1573819  TACTTTTAAACTTTGCATCATTTAGAACTGCTTACGATGTGACTATGGAAGCACTAAATA  1573760
+
+Query  1738     TTGGTGGATTTAAATCTATCATGGTAACTGCTGAAGGTATTCCTGAAAGACTTGCTAGAA  1797
+                |||||||||||||| |||||||| | |||||||| ||||||||||||||||||||| |  
+Sbjct  1573759  TTGGTGGATTTAAAACTATCATGATTACTGCTGAGGGTATTCCTGAAAGACTTGCTCGTG  1573700
+
+Query  1798     AAATGAACAACACA-GCAAGAAATGCTGG-TGTTACAGTAATTGGACCTGCAACTGTTGG  1855
+                  |||||   || | |||||| | | |   |||||| ||||| ||||| |||||||||||
+Sbjct  1573699  GTATGAATG-CATATGCAAGAGA-GTTAAATGTTACTGTAATCGGACCGGCAACTGTTGG  1573642
+
+Query  1856     AGCAATCGCACCTGGTGCATTTAAAATTGCAAACATTGGTGGAACAATTGAAAATATCGT  1915
+                 ||||| |  || ||||||||||||||||| || |||||||| ||||| ||||||||  |
+Sbjct  1573641  TGCAATTGTTCCAGGTGCATTTAAAATTGCCAATATTGGTGGTACAATCGAAAATATTAT  1573582
+
+Query  1916     TCAATCAAAACTTCACAGA-AGTGGTTCTTGTGGACTTGTAACTCGTTCAGGCGGTTTAT  1974
+                | | |||||||||||| |  || ||||| |||||||||||||| |||||||| ||  | |
+Sbjct  1573581  TAATTCAAAACTTCACCGTGAG-GGTTCATGTGGACTTGTAACACGTTCAGGTGGCCTTT  1573523
+
+Query  1975     TTAACGAACTTTCAAACATTATAGCTATCAATGCTGATGGTATCGCTGAGGGTGTTGCTA  2034
+                |||| || |||||||| ||||| ||||| |||||||||||||| ||||||||||||||||
+Sbjct  1573522  TTAATGAGCTTTCAAATATTATCGCTATTAATGCTGATGGTATTGCTGAGGGTGTTGCTA  1573463
+
+Query  2035     TTGGTGGAGACAGATTTGTTGGTTCTGTTTTTATTGACAACATGTTGAGAATGGaaaaaa  2094
+                | ||||| || |||||||| || || ||||||||||||||| |  |  | ||||||||||
+Sbjct  1573462  TCGGTGGTGATAGATTTGTCGGATCAGTTTTTATTGACAACTTACTTCGTATGGAAAAAA  1573403
+
+Query  2095     aTCCAGATGTAAAATATATGGTACTTTTAGGCGAAGTTGGTGGTACTGAAGAGTATAAAA  2154
+                |||||||||||||||||||| |  |  | || ||||| |||||||| |||||||||||| 
+Sbjct  1573402  ATCCAGATGTAAAATATATGATTTTACTTGGTGAAGTCGGTGGTACAGAAGAGTATAAAG  1573343
+
+Query  2155     TCATCGATGCTAT-AAAAGCTGGACAAATTACTAAGCCGGTTATCGCTTGGTGTATCGGT  2213
+                | ||||| ||| | |||||| ||| |||||||||| ||| | ||||| ||||||||||||
+Sbjct  1573342  TAATCGAAGCTGTTAAAAGC-GGAAAAATTACTAAACCGATCATCGCATGGTGTATCGGT  1573284
+
+Query  2214     ACAATTGCTAAGCATTTTAGCTCAGGTGTACAGTTTGGTCATGCAGGTGCAAGTGCAAAT  2273
+                |||||||| ||  ||| |   ||||| || || || |||||||||||||||   ||||||
+Sbjct  1573283  ACAATTGCAAAATATTATGATTCAGGCGTTCAATTCGGTCATGCAGGTGCATCAGCAAAT  1573224
+
+Query  2274     GCTGATGCTGAAACAGCTGCTTCAAAAAATAAAGCAATGGCTGAAGCTGGCATATATGTA  2333
+                |||||    ||||| || |   | ||||| ||||| ||||| ||||| || ||  |||| 
+Sbjct  1573223  GCTGAAAGAGAAACTGCAGAAGCTAAAAACAAAGCTATGGCAGAAGCAGGTATCCATGTT  1573164
+
+Query  2334     CCA-CAATCATTCAATGATTTACCGGGAACAATCAAAAAAGTTTATGAAGAACTTAGAGC  2392
+                ||  ||| |||| ||||||||||||| ||| || |   |||||||||| ||  | | | |
+Sbjct  1573163  CCGGCAA-CATTTAATGATTTACCGGCAACTATTATGGAAGTTTATGATGATTTAAAATC  1573105
+
+Query  2393     AAACGGAACTATCGCTGAAATTGCAGAACCTGATATGGATACAGTTCCAAAAGTTAGAAA  2452
+                ||| ||||  |||| |||||||| ||| ||||| ||  ||||  |||| ||| |  |   
+Sbjct  1573104  AAAAGGAATCATCGGTGAAATTGAAGAGCCTGAAATCAATACTATTCCTAAAATACGTCG  1573045
+
+Query  2453     AAGTAAAGAATTTATTTGTACTATATCTGATGACAGGGGTGATGAAGCGACTTATGCAGG  2512
+                   |||| | ||||||||||| || ||||||||||| ||||| ||||| || ||||||||
+Sbjct  1573044  TCCTAAAAACTTTATTTGTACAATCTCTGATGACAGAGGTGAAGAAGCAACATATGCAGG  1572985
+
+Query  2513     TTTCCCAATCTCTTC-GTTGGCAACTCCGGATACAGGCAAAGGCATCGGTGATGTCATCT  2571
+                ||| || |||||||| ||| || ||||| || || || ||||||||||||||||| ||||
+Sbjct  1572984  TTTTCCTATCTCTTCTGTT-GCTACTCCTGACACCGGTAAAGGCATCGGTGATGTTATCT  1572926
+
+Query  2572     CTTTATTATGGTTCAAAAAACAGTATCCACTATGGGCTACACAATTTATTGAAACTGTAC  2631
+                |||||||||||||||||||||||||||||  |||||||||| | ||||||||||||||| 
+Sbjct  1572925  CTTTATTATGGTTCAAAAAACAGTATCCAAAATGGGCTACAGACTTTATTGAAACTGTAA  1572866
+
+Query  2632     TTAAAACTGTTGCAGACCATGGTCCGGCAGTTTCCGGTGCTCACAATGCAAAAGTAACAG  2691
+                | ||||||||||||||||||||||| |||||||| ||||| ||||||||||||||||| |
+Sbjct  1572865  TCAAAACTGTTGCAGACCATGGTCCTGCAGTTTCTGGTGCACACAATGCAAAAGTAACTG  1572806
+
+Query  2692     CAAGAGCTGGTAAATCAGTTGTTGAAGCATTAGTTACAGGACTTTTAACAATCGGTCCAA  2751
+                |  | || || ||||| ||||||||| ||||||| || || ||||||||||| |||||| 
+Sbjct  1572805  CTCGTGCAGGAAAATCTGTTGTTGAATCATTAGTAACTGGTCTTTTAACAATTGGTCCAC  1572746
+
+Query  2752     GATTTGGCGGTGCGATTGACGGTGCTGC-AGAGCATTTCAAATATGCAGATGACAATAAA  2810
+                | || |||||||| |||||||| ||||| | |   ||| |||||||| |||||||| || 
+Sbjct  1572745  GTTTCGGCGGTGCAATTGACGGCGCTGCTAAATACTTT-AAATATGCGGATGACAACAAT  1572687
+
+Query  2811     TTAACTCCAGCAGACTTTTTAAATCATATGAAAAAAGAGGGTATTCCTATTCCAGGTATT  2870
+                 | ||||| ||  | ||||||  | ||||||||||||| ||| | || || |||||||| 
+Sbjct  1572686  ATGACTCCTGCTCAATTTTTAGGTTATATGAAAAAAGAAGGTGTGCCAATCCCAGGTATC  1572627
+
+Query  2871     GGGCATAGAATCAAATCTCTTAAAAACCCTGATTTAAGAGTTGAAGGTTTGAAGAAATTT  2930
+                || ||  | || |||||| | ||||| || |||||| | ||    ||| | | ||| | |
+Sbjct  1572626  GGTCACCGTATTAAATCTTTGAAAAATCCAGATTTACGTGTAACTGGTCTTATGAACTAT  1572567
+
+Query  2931     GCAAAAGAGTATTTTCCA--TCTACTCCATTGTTGGATTATGCATTAACAGTCGA-GCAA  2987
+                |||  |||  ||||||||  || | ||| || || || ||||||  ||| || || ||  
+Sbjct  1572566  GCAGCAGAACATTTTCCAAGTC-ATTCCCTTCTT-GACTATGCAAAAACTGTTGAAGCG-  1572510
+
+Query  2988     TTAACTACATCTAAAAAAGAGAATCTAATTCTTAACGTTGATGGAACAATCGGTATTTTA  3047
+                |||||||||  |||||||||||| || ||||| || ||||| || || |||||||| |||
+Sbjct  1572509  TTAACTACAAGTAAAAAAGAGAACCTTATTCTAAATGTTGACGGTACTATCGGTATCTTA  1572450
+
+Query  3048     ATGGTTGACATGTGGAGAGCATTAGGTTATTCTGAAGATGAAATCAATGAATTCATCTCT  3107
+                |||||||| |||||||||||  | || || |||||||| ||||| ||||| || |||   
+Sbjct  1572449  ATGGTTGATATGTGGAGAGCTCTTGGATACTCTGAAGAAGAAATTAATGAGTTTATCGAG  1572390
+
+Query  3108     TCAGGAACACTAAACTCATTCTTTATAGTAGGCAGAAGCATAGGTTTCATCGGTCATAT-  3166
+                ||||| || || ||  ||||||| ||||| ||  |    || ||||||||||| ||  | 
+Sbjct  1572389  TCAGGTACTCTGAATGCATTCTTCATAGTGGGTCGTTCAATCGGTTTCATCGGACACGTT  1572330
+
+Query  3167     CTTAGATGAAAAACGACTTGCAATGCCAATGTACAGACATCCAATGACTGACATTCTATA  3226
+                ||| ||||||||||| ||||||||||||||||||||||||||||||  ||| || || ||
+Sbjct  1572329  CTT-GATGAAAAACGTCTTGCAATGCCAATGTACAGACATCCAATGGATGATATCCTTTA  1572271
+
+Query  3227     TGATGTTCAAGTAGCAGACAAGATTTAATT  3256
+                ||||||| ||  |||||| || ||||||||
+Sbjct  1572270  TGATGTTAAAAAAGCAGAAAAAATTTAATT  1572241
+
+
+>dbj|AP009179.1| Sulfurovum sp. NBC37-1 genomic DNA, complete genome
+Length=2562277
+
+ Score = 1605 bits (869),  Expect = 0.0
+ Identities = 2411/3165 (76%), Gaps = 67/3165 (2%)
+ Strand=Plus/Plus
+
+Query  98      ATGGCTCAGAAAGCGATACGCGAATATGACGGTAAAGCACTATTTTCCAAGCAATGGGAA  157
+               |||||||| ||||||||  | || || || ||||||||| | |||| ||||  || ||||
+Sbjct  551581  ATGGCTCAAAAAGCGATTAGAGAGTACGATGGTAAAGCAAT-TTTTGCAAGACATTGGAA  551639
+
+Query  158     -AATTATTTTAGTGGATTTCATTATGGATTCAAATCTGTTCTGGTTACAAGTGGAGCAGA  216
+                 | ||||||  ||| || ||||||||||||||||| ||  | ||||  |||||||  ||
+Sbjct  551640  CGAATATTTTGATGGTTTCCATTATGGATTCAAATCAGTATTAGTTAGCAGTGGAGACGA  551699
+
+Query  217     ATTATTAGAGATAGC-CGGGAAGCATGGTTTTGAGTGGTTAAAACAAGAGCCACTAGTTG  275
+               | |   ||||| |||    ||| ||||||||||||||||| || || |||||  | ||||
+Sbjct  551700  ACTGAGAGAGAAAGCAAAAGAA-CATGGTTTTGAGTGGTTGAATCAGGAGCCGTTGGTTG  551758
+
+Query  276     CTAAACCGGATATGCTGTTTGGTAAAAGAGGTAAAAAACGATTTAGTTCTTTTCAAAGAT  335
+               | || ||||||||| ||||||||||||||||||||||  ||  | ||||| ||  | | |
+Sbjct  551759  CAAAGCCGGATATGTTGTTTGGTAAAAGAGGTAAAAA-TGACCTTGTTCTCTTT-AGGGT  551816
+
+Query  336     A-AAAAACCAGGTGACGTATCTTTGGCTGTAGCAGCTGCGTGGATAGATGAGAAAATGGC  394
+               | |||| ||||| || ||  || |||  |  || ||   |||||| ||||||||   | |
+Sbjct  551817  AGAAAAGCCAGGCGATGTTACTCTGGAAGATGCTGCAAAGTGGATCGATGAGAAGCAGTC  551876
+
+Query  395     TCATACAACAACGCTTCTTACTGGTCAG-CATGGGAC-TTTAACACATTTTATAGTTGAA  452
+               ||||     |||||| ||  | ||  ||  |  ||||  || ||||| ||||| || |||
+Sbjct  551877  TCATGATGTAACGCTCCTCTCCGG--AGAAAAAGGACACTTGACACACTTTATTGTAGAA  551934
+
+Query  453     CCATTTACTCCACACTCACAAGAGCAAGAGTATTATATCTCTGCTACATGTGTTGGTGAG  512
+               || || || || ||  | || || || ||||||||||| || ||||||  ||| ||||| 
+Sbjct  551935  CCGTTCACACCGCATACTCAGGATCAGGAGTATTATATTTCAGCTACAACTGTCGGTGAA  551994
+
+Query  513     GATGATGTACTTTACATGTCAGCTGAGGGTGGTATGGAAGTTGAAGAGGGTTGGGATGAG  572
+               |||||||| || | |||||| || || |||||||||||||||||||| || |||||||| 
+Sbjct  551995  GATGATGTTCTATTCATGTCGGCAGAAGGTGGTATGGAAGTTGAAGAAGGATGGGATGAA  552054
+
+Query  573     AAAGTCAACGAAGTTGTAATCCCTATCGATATGAGCGATGCTGATATGGAACATGCAATA  632
+               |||||||| |||||    || |||||| |||||   ||||| ||||||||| |     | 
+Sbjct  552055  AAAGTCAATGAAGTCCATATTCCTATCAATATGCCTGATGCAGATATGGAAAAAATGGTC  552114
+
+Query  633     AAAGCAAATATTCCTTCAGATATTCCTGCTCAAAACAGAGAAGG-TTTTGCATCATTTGC  691
+               ||  || |||| ||| | ||||||||||   | |||| | | ||  |||||||| |||||
+Sbjct  552115  AAGTCACATATCCCTGCCGATATTCCTGACGAGAACA-AAACGGCATTTGCATCCTTTGC  552173
+
+Query  692     AATAGCA-TTTTTTAAATTTTACAGAGATATGAACTTCGCTTATTTGGAAATAAACCCGA  750
+                ||  || || || ||||| |||||||||||||||||||||||  | || || |||||||
+Sbjct  552174  GAT-CCAGTTCTTCAAATTCTACAGAGATATGAACTTCGCTTACCTTGAGATCAACCCGA  552232
+
+Query  751     TTGTTATGCTTGAAGGCAACAATATGGCAATTCTGGATTTAGTTGCAAGACTAGATGATA  810
+               | ||||||||||| |||    | ||||| || || ||  | ||||||||||| || ||||
+Sbjct  552233  TCGTTATGCTTGACGGCGGTGAAATGGCGATCCTTGACCTGGTTGCAAGACTGGACGATA  552292
+
+Query  811     CTGCTGGCTTTATGATGAGAGATACTTGGGGAGATATAGAATATCCTACTGCGTTTGGTA  870
+               | || || || ||||||| |||| | ||||| || || || |  || ||||| || ||||
+Sbjct  552293  CCGCAGGATTCATGATGAAAGATGCATGGGGTGACATCGAGTTCCCGACTGCATTCGGTA  552352
+
+Query  871     TGGAAGATCAATCACCTGAAGAAAAAGCTATTGCTCTTGCAGATAGTAAATCTGGTGCTT  930
+               |||| |||   ||   |||||||||||| || ||    || ||||| ||||| || ||||
+Sbjct  552353  TGGAGGATATGTCCGATGAAGAAAAAGCGATCGCAGAAGCGGATAGCAAATCAGGCGCTT  552412
+
+Query  931     CATTAAAATTAACAAT-TTTAAGCCCAATGGGTAGAGTATGGACTATGGTTGCCGGTGGT  989
+               |  | ||  | || ||  |||| ||| |||||  |  | ||||| ||||| |||||||||
+Sbjct  552413  CTCTCAAGCTGACGATCCTTAA-CCCGATGGGCCGCATCTGGACAATGGTCGCCGGTGGT  552471
+
+Query  990     GGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTTGCAGAAGCAAATGGCGGCAGT  1049
+               ||||| ||||| ||||||||||||||||| || ||||||||            |||  ||
+Sbjct  552472  GGTGCGTCAGTAGTTTATGCTGATACAATCGCCGACTTTGC------------CGG-TGT  552518
+
+Query  1050    ATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGTCCGACTACTAGTGAGACTAAA  1109
+                | |  ||||| || |||||||||||||| || || || ||||| ||  |||| || || 
+Sbjct  552519  -T-GAGGACCTCGCGAACTATGGTGAATACTCAGGCGGGCCGACAACAGGTGAAACAAAG  552576
+
+Query  1110    TTTTATGCAGATACTATTATAGATCTTATGACTAGACATAAAGATCCTAAAGGTGAAGAT  1169
+               || |||||||| || ||  | ||||| ||||| ||| |  | || ||   |   || || 
+Sbjct  552577  TTCTATGCAGAAACGATCTTCGATCTGATGACAAGATACGATGA-CC-CCA---GAGGA-  552630
+
+Query  1170    AAAAT-CTTAATCATTGGTGGAGCTATTGCTAACTTTACGGATGTCGCAAAAACATTTAC  1228
+               ||| | ||| ||||| ||||| || ||||| |||||||| ||||| || |||||||||||
+Sbjct  552631  AAAGTGCTT-ATCATCGGTGGTGCGATTGCGAACTTTACCGATGTTGCCAAAACATTTAC  552689
+
+Query  1229    AGGTATTATTCAGTCATTTGAAGA-AAATGCAGAAAAAATAAAAGCGCATAATACAAAAA  1287
+                ||||| |||||| ||||||| ||   |||| || ||  | |||| |||||| ||||| |
+Sbjct  552690  GGGTATCATTCAGGCATTTGA-GATCTATGCGGACAAGCTCAAAGAGCATAAGACAAAGA  552748
+
+Query  1288    TTTATGTTCGCCGTGGTGGACCAAATTACGAAAAAGGTCTAAAAGACATTAAAGAAGCTG  1347
+               | |||||  | ||||| |||||||| || |||||||| || || || || ||||||||||
+Sbjct  552749  TCTATGTAAGACGTGGCGGACCAAACTATGAAAAAGGGCTGAAGGATATCAAAGAAGCTG  552808
+
+Query  1348    CCGATAGATTAGGTCTTTATATAGAAGTTTATGGACCAGAAACACATGTTACTGACATTG  1407
+               | || ||||| ||||||||||| ||||||||||| || ||||||||||| ||||||||||
+Sbjct  552809  CTGACAGATTGGGTCTTTATATTGAAGTTTATGGGCCGGAAACACATGTCACTGACATTG  552868
+
+Query  1408    TTAGAATGGCATTAGAGAAGTA-GGG--GCT-AA--ATATGAATAAATTATATACAAAAG  1461
+               |||||||||||||||||||||| |||  |   ||  | |||| || ||||||||| ||||
+Sbjct  552869  TTAGAATGGCATTAGAGAAGTAAGGGTAGGAGAAGCAGATGAGTAGATTATATACTAAAG  552928
+
+Query  1462    ACACACAAGCAATTTTTTGGAACAACAACACAACGGCTATCCAAAGAATGTTGGATTACG  1521
+               |||||||||| ||||||||||||||||||| ||| || ||||| |||||||||||||| |
+Sbjct  552929  ACACACAAGCGATTTTTTGGAACAACAACAAAACAGCGATCCAGAGAATGTTGGATTATG  552988
+
+Query  1522    ATTACACTATTAAAAGAAAAACTCCATCTGTTGCGGCTATTGTTGCTCCAACAAGCGGAA  1581
+               | || || ||    ||| | |  ||||| || || | |||||| || || || |||||||
+Sbjct  552989  ACTATACGATCGGTAGAGACAAGCCATCCGTAGCCGGTATTGTCGCGCCTACGAGCGGAA  553048
+
+Query  1582    ATAAATTTGAGAAGtttttttGGGGTCCAGATGAAATAATGGTTCCACTTTTTAAAACAA  1641
+               | || || ||||| || || |  ||||||||||| || ||| || | ||||  ||  |||
+Sbjct  553049  ACAAGTTCGAGAAATTCTTCTATGGTCCAGATGAGATCATGATTTCTCTTTACAAGTCAA  553108
+
+Query  1642    CTGCTGATGCTAAAAAAGCACATCCAACTGCTGATGTACTTTTAAACTTTGCATCATTTA  1701
+               | || ||||||   |||| ||| ||    || ||||||||||| ||||| |||||||| |
+Sbjct  553109  CAGCAGATGCTGTCAAAGAACAGCCTCAGGCAGATGTACTTTTGAACTTCGCATCATTCA  553168
+
+Query  1702    GAACAGCTTATGATGTAACTATGGAAGCAGTAGAGCTTGGTGGAT---TTAA-ATCTATC  1757
+               ||||||| ||||||||||||||||||||  | ||  | || | ||   || | ||| |||
+Sbjct  553169  GAACAGCCTATGATGTAACTATGGAAGCGATCGAAATGGGAG-ATCAGTTCAGATCCATC  553227
+
+Query  1758    ATGGTAACTGCTGAAGGTATTCCTGAAAGACTTGCTAGAAAAATGAACAACACAGCAAGA  1817
+               ||| | ||||| |||||||||||||||||| | || |||||||||||  |  | ||||||
+Sbjct  553228  ATGATCACTGCGGAAGGTATTCCTGAAAGATTGGCAAGAAAAATGAATCAGGCGGCAAGA  553287
+
+Query  1818    AATGCTGGTGTTACAGTAATTGGACCTGCAACTGTTGGAGCAATCGCACCTGGTGCATTT  1877
+                |||| ||  |||| || || || |||||||| ||||| || || || || || ||||| 
+Sbjct  553288  GATGCCGGAATTACGGTTATCGGGCCTGCAACAGTTGGTGCCATTGCTCCAGGCGCATTC  553347
+
+Query  1878    AAAATTGCAAACATTGGTGGAACAATTGAAAATATCGTTCAATCAAAACTTCACAGAAGT  1937
+               || ||||| || || ||||| || ||||| ||||| ||  | || ||||||||||||   
+Sbjct  553348  AAGATTGCCAATATCGGTGGTACGATTGAGAATATTGTGAACTCCAAACTTCACAGAGCA  553407
+
+Query  1938    GGTTCTTGTGGACTTGTAACTCGTTCAGGCGGTTTATTTAACGAACTTTCAAACATTATA  1997
+               ||||| ||||| ||||||||  | ||||||||| | || || || |||||||||||||| 
+Sbjct  553408  GGTTCCTGTGGTCTTGTAACAAGATCAGGCGGTCTTTTCAATGAGCTTTCAAACATTATT  553467
+
+Query  1998    GCTATCAATGCTGATGGTATCGCTGAGGGTGTTGCTATTGGTGGAGACAGATTTGTTGGT  2057
+               || ||||||||||| ||||| || || ||||| || || || |||||||||||||| |||
+Sbjct  553468  GCCATCAATGCTGACGGTATTGCAGAAGGTGTAGCGATCGGAGGAGACAGATTTGTCGGT  553527
+
+Query  2058    TCTGTTTTTATTGACAACATGTTGAGAATGGaaaaaaaTCCAGATGTAAAATATATGGTA  2117
+               || || ||||| ||  || || ||||||||||||  ||||||||||| ||||| ||| | 
+Sbjct  553528  TCCGTATTTATCGATCACCTGCTGAGAATGGAAAGCAATCCAGATGTCAAATACATGATC  553587
+
+Query  2118    CTTTTAGGCGAAGTTGGTGGTACTGAAGAGTATAAAATCATCGATGCTATAAAAGCTGGA  2177
+               ||| | || ||||| |||||||| |||||||| ||| | ||||| ||| | ||||  || 
+Sbjct  553588  CTTCTTGGTGAAGTGGGTGGTACGGAAGAGTACAAAGTGATCGAAGCTGTCAAAGACGG-  553646
+
+Query  2178    CAA-ATTACTAAGCCGGTTATCGCTTGGTGTATCGGTACAATTGCTAAGCATTTTAGCTC  2236
+               ||  || |  |||||  ||||||| |||||||||||||| ||||| ||||| ||    ||
+Sbjct  553647  CAGGATCAAAAAGCCAATTATCGCATGGTGTATCGGTACGATTGCAAAGCACTTCTCTTC  553706
+
+Query  2237    AGGTGTACAGTTTGGTCATGCAGGTGCAAGTGCAAATGCTGATGCTGAAACAGCTGCTTC  2296
+               |||||| ||||| ||||| ||||||||   ||||||||| ||||| |||||||||||| |
+Sbjct  553707  AGGTGTTCAGTTCGGTCACGCAGGTGCTTCTGCAAATGCAGATGCCGAAACAGCTGCTGC  553766
+
+Query  2297    AAAAAATAAAGCAATGGCTGAAGCTGGCATATATGTACCACAATCATTCAATGATTTACC  2356
+                || || ||||||||||||||||| || ||  |||||||  |||||||||||||  | ||
+Sbjct  553767  GAAGAACAAAGCAATGGCTGAAGCCGGTATCCATGTACCTGAATCATTCAATGACCTTCC  553826
+
+Query  2357    GGGAACAATCAAAAAAGTTTATGAAGAACTTAGAGCAAACGGAACTATCGCTGAAATTGC  2416
+                |  || |||  | |||| ||| | || |||| | |||| || |  || | ||| || | 
+Sbjct  553827  TGCTACGATCGCAGAAGTCTATAATGATCTTAAATCAAAAGGTATCATTGGTGAGATCGA  553886
+
+Query  2417    AGAACCTGATATG-GATACAGTTCCAAAAGTTAGAAAAAGTAAAGAATTTATTTGTACTA  2475
+               ||| |||||  |  ||  | |||||||| || |||| |   ||  | || || ||||| |
+Sbjct  553887  AGAGCCTGAGCTCAGAATC-GTTCCAAAGGTCAGAAGACCCAAGCAGTTCATCTGTACGA  553945
+
+Query  2476    TATCTGATGACAGGGGTGATGAAGCGACTTATGCAGGTTTCCCAATCTCTTCGTTGGCAA  2535
+               | ||||||||||| || || |||||||| ||||| |||||||| ||||||||  | || |
+Sbjct  553946  TCTCTGATGACAGAGGCGAAGAAGCGACCTATGCCGGTTTCCCTATCTCTTCAGTAGCGA  554005
+
+Query  2536    CTCCGGATACAGGCAAAGGCATCGGTGATGTCATCTCTTTATTATGGTTCAAAAAACAGT  2595
+               ||||||||||||| ||||| |||||||||||||| ||  |  | ||||||||||| ||||
+Sbjct  554006  CTCCGGATACAGGTAAAGGTATCGGTGATGTCATTTCACTGCTCTGGTTCAAAAAGCAGT  554065
+
+Query  2596    ATCCACTATGGGCTACACAATTTATTGAAACTGTACTTAAAACTGTTGCAGACCATGGTC  2655
+               ||||    ||||| ||| | || |||||||||||  | ||||| ||||| ||||| ||||
+Sbjct  554066  ATCCGAAGTGGGCGACAGAGTTCATTGAAACTGTTATCAAAACAGTTGCCGACCACGGTC  554125
+
+Query  2656    CGGCAGTTTCCGGTGCTCACAATGCAAAAGTAACAGCAAGAGCTGGTAAATCAGTTGTTG  2715
+               | || ||||| ||||| ||||||||||||||||| || ||||| ||||||||||| || |
+Sbjct  554126  CTGCCGTTTCAGGTGCGCACAATGCAAAAGTAACTGCCAGAGCAGGTAAATCAGTGGTAG  554185
+
+Query  2716    AAGCATTAGTTACAGGACTTTTAACAATCGGTCCAAGATTTGGCGGTGCGATTGACGGTG  2775
+               ||||||| || || || ||||| || || || |||||||| || ||||| ||||||||||
+Sbjct  554186  AAGCATTGGTCACGGGTCTTTTGACCATTGGACCAAGATTCGGTGGTGCCATTGACGGTG  554245
+
+Query  2776    CTGCAGAGCATTTCAAATATGCAGATGACAATAAATTAACTCCAGCAGACTTTTTAAATC  2835
+               | ||| |  | ||||||||||| ||||||||  |  | || |||||||| ||  ||||  
+Sbjct  554246  CGGCAAAATACTTCAAATATGCGGATGACAACGATCTGACACCAGCAGAGTTCCTAAAGT  554305
+
+Query  2836    ATATGAAAAAAGAGGGTATTCCTATTCCAGGTATTGGGCATAGAATCAAATCTCTTAAA-  2894
+               ||||||||   |||||| | || || ||||| || || || |||||||||||  ||||| 
+Sbjct  554306  ATATGAAAGGTGAGGGTGTACCGATCCCAGGAATCGGACACAGAATCAAATCA-TTAAAG  554364
+
+Query  2895    AACCCTGATTTAAGAGTTGAAGGTTTGAAGAAATTTGCAAAAGAGTATTTTCCATCTACT  2954
+               ||||||||  |  | |||  |||| | | ||| |||||   |||| |||| ||  | || 
+Sbjct  554365  AACCCTGACCTCCGTGTTACAGGTCTTATGAACTTTGCGGCAGAGAATTTCCCTGCAACA  554424
+
+Query  2955    CCA-TTGTTGGATTATGCATTAACAGTCGA-GCAATTAACTACATCTAAAAAAGAGAATC  3012
+               ||  || || || ||||||  |||||| || ||  |  ||||||  ||| |||||||| |
+Sbjct  554425  CCGCTTCTT-GACTATGCAAGAACAGTTGAAGCGCTC-ACTACAAGTAAGAAAGAGAACC  554482
+
+Query  3013    TAATTCTTAACGTTGATGGAACAATCGGTATTTTAATGGTTGACATGTGGAGAGCATTAG  3072
+               | |||||||| || ||||| || ||||||||| | ||||| || |||||||||||| | |
+Sbjct  554483  TCATTCTTAATGTGGATGGTACTATCGGTATTCTTATGGTAGATATGTGGAGAGCACTTG  554542
+
+Query  3073    GTTATTCTGAAGATGAAATCAATGAATTCATCTCTTCAGGAACACTAAACTCATTCTTTA  3132
+               | || ||||||||||||||||||||||| |||   ||||| ||||| ||  | ||||| |
+Sbjct  554543  GATACTCTGAAGATGAAATCAATGAATTTATCGAGTCAGGTACACTCAATGCCTTCTTCA  554602
+
+Query  3133    TAGTAGGCAGAAGCATAGGTTTCATCGGTCA--TATCTTAGATGAAAAACGACTTGCAAT  3190
+               | || || |||  ||| || |||||||||||  || ||  ||||| ||| || | || ||
+Sbjct  554603  TCGTTGGTAGATCCATCGGGTTCATCGGTCACGTA-CTC-GATGAGAAAAGATTGGCTAT  554660
+
+Query  3191    GCCAATGTACAGACATCCAATGACTGACATTCTATATGATGTTCA  3235
+               ||||||||||||||| ||||||  ||| ||||| || ||||||||
+Sbjct  554661  GCCAATGTACAGACACCCAATGGATGATATTCTTTACGATGTTCA  554705
+
+
+>gb|CP000153.1| Sulfurimonas denitrificans DSM 1251, complete genome
+Length=2201561
+
+ Score = 1563 bits (846),  Expect = 0.0
+ Identities = 2175/2824 (77%), Gaps = 61/2824 (2%)
+ Strand=Plus/Plus
+
+Query  441     TTTATAGTTGAACCATTTACTCCACACTCACAAGAGCAAGAGTATTATATCTCTGCTACA  500
+               ||||| ||||| ||||||||||| ||||| |||||  ||||||| ||||| |||||||||
+Sbjct  572628  TTTATCGTTGAGCCATTTACTCCGCACTCTCAAGAAGAAGAGTACTATATTTCTGCTACA  572687
+
+Query  501     TGTGTTGGTGAGGATGATGTACTTTACATGTCAGCTGAGGGTGGTATGGAAGTTGAAGAG  560
+               |||||||| || ||||||||  | |||||||||||||||||||| |||||||||||||||
+Sbjct  572688  TGTGTTGGCGATGATGATGTTTTATACATGTCAGCTGAGGGTGGAATGGAAGTTGAAGAG  572747
+
+Query  561     GGTTGGGATGAGAAAGTCAACGAAGTTGTAATCCCTATCGATA-TG-AGC-GATGCTGAT  617
+                 ||||||    ||||| |  ||||| |   |||| ||   || || | | || |  || 
+Sbjct  572748  AATTGGGA---CAAAGTTACAGAAGTGGCTTTCCCAAT---TACTGCAACAGAAGAAGAA  572801
+
+Query  618     A-TG-GAACATGCAATAAAAGCAAATATTCCTTCAGATATTCCTGCTCAAAACAGAGAAG  675
+               | || ||| |   ||| ||||||| ||||||   |||| |  ||||| || | | ||| |
+Sbjct  572802  ATTGAGAA-A-AAAATCAAAGCAAGTATTCCAAAAGATGTGGCTGCTAAAGATAAAGAGG  572859
+
+Query  676     GTTTTGCATCATTTGCAATAGCATTTTTTAAATTTTACAGAGATATGAACTTCGCTTATT  735
+                 ||||||   ||||||||||  ||||||| |   || |||||  | || || || ||||
+Sbjct  572860  CATTTGCAGATTTTGCAATAGGCTTTTTTAGAGCATATAGAGAGTTAAATTTTGCATATT  572919
+
+Query  736     TGGAAATAAACCCGATTGTTATGCTTGAAGGCAACAATATGGCAATT-CTGGATTTAGTT  794
+               | || ||||| || | | || | ||| |||| || ||  | | |||| || ||| | |||
+Sbjct  572920  TAGAGATAAATCC-A-T-TTGTTCTTCAAGGTAAAAAAGTTG-AATTACTAGATATGGTT  572975
+
+Query  795     GCAAGACTAGATGATACTGCTGGCTTTATGATGAGAGATACTTGGGGAGATATAGAATAT  854
+               |||| ||| |||||||||||||| ||||||||||||||    ||||| ||| |||| |  
+Sbjct  572976  GCAAAACTTGATGATACTGCTGGGTTTATGATGAGAGAAGAGTGGGGTGATGTAGATTTC  573035
+
+Query  855     CCTACTGCGTTTGGTATGGAAGATCAATCACCTGAAGAAAAAGCTATTGCTCTTGCAGAT  914
+               || ||| | ||||| ||||||||  |||| |||||||    |||||| |    ||| |||
+Sbjct  573036  CCAACTTCTTTTGGCATGGAAGAGAAATCTCCTGAAGTTTTAGCTATAGAAGATGCTGAT  573095
+
+Query  915     AGTAAATCTGGTGCTTCATTAAAATTAACAATTTTAAGCCCAATGGGTAGAGTATGGACT  974
+               |||||||| ||||||||  ||||| |||| || ||||  |||   |  ||||| ||||||
+Sbjct  573096  AGTAAATCAGGTGCTTCGCTAAAACTAACCATATTAAAACCAGAAGCAAGAGTTTGGACT  573155
+
+Query  975     ATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTTGCAGAA  1034
+               |||||||| ||||||||||||||||||||||||||||| || || ||||| |||   |  
+Sbjct  573156  ATGGTTGCAGGTGGTGGTGCTTCAGTTGTTTATGCTGACACTATCGCTGA-TTT---G--  573209
+
+Query  1035    GCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGTCCGACT  1094
+               ||   |   || |  || |  ||||||||||||||||| ||||| || ||||| || |||
+Sbjct  573210  GC---T---GG-A--ATTGAAGACCTTGCTAACTATGGCGAATACTCAGGTGGGCCAACT  573260
+
+Query  1095    ACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACATAAAGAT  1154
+               || |||||||| ||||||||||| || |||||| ||||||||||||| ||| | ||||||
+Sbjct  573261  ACAAGTGAGACAAAATTTTATGCTGAGACTATTTTAGATCTTATGACAAGAGACAAAGAT  573320
+
+Query  1155    CCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACGGATGTC  1214
+               | ||||||   ||||||| | || || |||||||| || ||||| || ||||||||||| 
+Sbjct  573321  CTTAAAGGCAGAGATAAAGTGTTGATTATTGGTGGTGCAATTGCAAATTTTACGGATGTT  573380
+
+Query  1215    GCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT-AAAAGC  1273
+               || ||||||||||| |||||||||||  |||||||     | || || ||||| |||   
+Sbjct  573381  GCTAAAACATTTACGGGTATTATTCAAGCATTTGAGCTTTACGCTGATAAAATGAAACAA  573440
+
+Query  1274    GCATAATACAAAAATTTATGTTCGCCGTGGTGGACCAAATTACGAAAAAGGTCTAAAAGA  1333
+               |  |  ||  || ||||||||| | || |||||||||||||| ||||||||||| |||||
+Sbjct  573441  G-TTGGTATTAAGATTTATGTTAGACGCGGTGGACCAAATTATGAAAAAGGTCTCAAAGA  573499
+
+Query  1334    CATTAAAGAAGCTGCCGATAGATTAGGTCTTTATATAGAAGTTTATGGACCAGAAACACA  1393
+                ||||||||||| || |||||| | |||||||||||||||||||||||||||||||||||
+Sbjct  573500  TATTAAAGAAGCAGCAGATAGACTTGGTCTTTATATAGAAGTTTATGGACCAGAAACACA  573559
+
+Query  1394    TGTTACTGACATTGTTAGAATGGCATTAGAGAAGTAGGGGCTAAATATGAATAAATTATA  1453
+               |||||||||||||||  | |||||| |||  ||||| ||   | | |||    |||||||
+Sbjct  573560  TGTTACTGACATTGTGCGTATGGCACTAGCAAAGTAAGGAAAAGAGATGGCACAATTATA  573619
+
+Query  1454    TACAAAAGACACACAAGCAATTTTTTGGAACAACAACACAACGGCTATCCAAAGAATGTT  1513
+               ||| | ||| |||||||||||||||||||| |||||| |||  ||||| ||||||||| |
+Sbjct  573620  TACTAGAGATACACAAGCAATTTTTTGGAATAACAACGCAAGTGCTATTCAAAGAATGCT  573679
+
+Query  1514    GGATTACGATTACACTATTAAAAGAAAAACTCCATCTGTTGCGGCTATTGTTGCTCCAAC  1573
+                ||||| || || || ||||||||| |||  || || ||||| |||||||| ||||||||
+Sbjct  573680  AGATTATGACTATACAATTAAAAGACAAAAACCTTCGGTTGCAGCTATTGTAGCTCCAAC  573739
+
+Query  1574    AAGCGGAAATAAATTTGAGAAGtttttttGGGGTCCAGATGAAATAATGGTTCCACTTTT  1633
+               |||      ||||||||| ||||||||||  ||||||||||| || ||| ||||||||| 
+Sbjct  573740  AAGTAACTCTAAATTTGATAAGTTTTTTTATGGTCCAGATGAGATTATGATTCCACTTTA  573799
+
+Query  1634    TAAAACAACTGCTGATGCTAAAAAAGCACATCCAACTGCTGATGTACTTTTAAACTTTGC  1693
+               || ||  ||  |||| || |||  |||||| ||    |||||||| || |||||||||||
+Sbjct  573800  TAGAAATACAACTGAAGCAAAATCAGCACAACCTCAGGCTGATGTGCTATTAAACTTTGC  573859
+
+Query  1694    ATCATTTAGAACAGCTTATGATGTAACTATGGAAGCAGTAGAGCTTGGTGGATTTAAATC  1753
+               ||| |||||||||||||| |||||||||||||||||| |||||||||||||||||| |||
+Sbjct  573860  ATCTTTTAGAACAGCTTACGATGTAACTATGGAAGCATTAGAGCTTGGTGGATTTACATC  573919
+
+Query  1754    TATCATGGTAACTGCTGAAGGTATTCCTGAAAGACTTGCTAGAAAAATGAA--CAACACA  1811
+               ||| ||||| || || || || |||||||| ||| | ||| | ||||||||  |||||  
+Sbjct  573920  TATTATGGTTACAGCCGAGGGAATTCCTGAGAGATTAGCTCGTAAAATGAATGCAACAG-  573978
+
+Query  1812    GCA-AGAAATGCTGGTGTTACAGTAATTGGACCTGCAACTGTTGGAGCAATCGCACCTGG  1870
+               | | |||||      ||| ||  | |||||||| ||||| ||||| ||||| || || ||
+Sbjct  573979  GAAGAGAAAAAAA--TGTCACTATTATTGGACCAGCAACAGTTGGTGCAATAGCTCCAGG  574036
+
+Query  1871    TGCATTTAAAATTGCAAACATTGGTGGAACAATTGAAAATATCGTTCAATCAAAACTTCA  1930
+                ||||||||||||||||| ||||||||||| ||||||||||| |||||||||||||||||
+Sbjct  574037  CGCATTTAAAATTGCAAATATTGGTGGAACGATTGAAAATATTGTTCAATCAAAACTTCA  574096
+
+Query  1931    CAGAAGTGGTTCTTGTGGACTTGTAACTCGTTCAGGCGGTTTATTTAACGAACTTTCAAA  1990
+               | |    || |||||||||||||||||||||||||||||| | || || || || |||||
+Sbjct  574097  CCGTGCAGGATCTTGTGGACTTGTAACTCGTTCAGGCGGTCTCTTCAATGAGCTCTCAAA  574156
+
+Query  1991    CATTATAGCTATCAATGCTGATGGTATCGCTGAGGGTGTTGCTATTGGTGGAGACAGATT  2050
+                ||||| || || || |||||||||||||||||||||||||| || ||||| || |||||
+Sbjct  574157  TATTATCGCAATTAACGCTGATGGTATCGCTGAGGGTGTTGCAATCGGTGGCGATAGATT  574216
+
+Query  2051    TGTTGGTTCTGTTTTTATTGACAA-CATGTTGAGAATGGaaaaaaaTCCAGATGTAAAAT  2109
+               |||||| || || ||||| || || | | || |||||||||   || || || ||||| |
+Sbjct  574217  TGTTGGATCGGTATTTATAGATAATCTTCTT-AGAATGGAAGCTAACCCTGAAGTAAAGT  574275
+
+Query  2110    ATATGGTACTTTTAGGCGAAGTTGGTGGTACTGAAGAGTATAAAATCATCGATGCTATAA  2169
+               | ||| |||||||||| ||||||||||| ||||||||||||||  | || || ||| |||
+Sbjct  574276  ACATGTTACTTTTAGGTGAAGTTGGTGGAACTGAAGAGTATAAGGTAATTGAAGCTGTAA  574335
+
+Query  2170    AAGCTGGACAAATTACTAAGCCGGTTATCGCTTGGTGTATCGGTACAATTGCTAAGCATT  2229
+               ||  |||| ||||||  || ||  |||| || |||||||| ||||| || |||||| |||
+Sbjct  574336  AAAGTGGAAAAATTAAAAAACCAATTATTGCATGGTGTATAGGTACGATAGCTAAGTATT  574395
+
+Query  2230    TTAGCTCAG-GT-GTACAGTTTGGTCATGCAGGTGCAAGTGCAAATGCTGATGCTGAAAC  2287
+                | |  ||| |  || |||||||||||||| ||||||  ||||||||  |||   |||||
+Sbjct  574396  AT-GA-CAGTGGCGTTCAGTTTGGTCATGCTGGTGCATCTGCAAATGGCGATATGGAAAC  574453
+
+Query  2288    AGCTGCTTCAAAAAATAAAGCAATGGCTGAAGCTGGCATATATGTACCACAATCATTCAA  2347
+                ||||   | ||||| | ||| |||   |||| ||| ||  |||| ||   |||||||||
+Sbjct  574454  GGCTGAAGCTAAAAACAGAGCTATGAAAGAAGTTGGTATTCATGTTCCTGCATCATTCAA  574513
+
+Query  2348    TGATTTACCGGGAACAATCAAAAAAGTTTATGAAGAACTTAGAGCAAACGGAACTATCGC  2407
+               ||||||||| | || ||| |      ||||  | |||||    ||| | ||||||||   
+Sbjct  574514  TGATTTACCAGAAATAATTAGTGCGCTTTACCATGAACTCCATGCAGAGGGAACTATAAA  574573
+
+Query  2408    TGAAATTGCAGAACCTGATATGGATACAGTTCCAAAAGTTAGAAAAAGTAAAGAATTTAT  2467
+                || |||  |||||||  |||| ||  |  |||||  || ||||||   ||| | |||||
+Sbjct  574574  AGATATTATAGAACCTTCTATGAATGTATGTCCAAGTGTAAGAAAATCAAAACAGTTTAT  574633
+
+Query  2468    TTGTACTATATCTGATGACAGGGGTGATGAAGCG-ACTTATGCAGGTTTCCCAATCTCTT  2526
+                |||||||| ||||||||||| || ||||||||  |||  ||  ||||  |||||    |
+Sbjct  574634  CTGTACTATTTCTGATGACAGAGGAGATGAAGCTCACTACTGT-GGTTATCCAATTAGCT  574692
+
+Query  2527    C-GTTGGCAACTCCGGATACAGGCAAAGGC-ATCGGTGATGTCATCTCTTTATTATGGTT  2584
+               | ||| || || || |||||||| |    | || |||||||| ||   | | ||||||||
+Sbjct  574693  CAGTT-GCGACACCAGATACAGG-ATTTACTATTGGTGATGTAATGAGTATCTTATGGTT  574750
+
+Query  2585    CAAAAAACAGTATCCACTATGGGC--TACACAATTTATTGAAACTGTACTTAAAACTGTT  2642
+                |||||||  ||||||  ||||||  |  ||  ||||  ||||| || || ||||| |||
+Sbjct  574751  TAAAAAACGCTATCCAAGATGGGCAGTTGACTTTTTA--GAAACAGTTCTAAAAACAGTT  574808
+
+Query  2643    GCAGACCATGGTCCGGCAGTTTCCGGTGCTCACAATGCAAAAGTAACAGCAAGAGCTGGT  2702
+               ||||| |||||||| || ||||| || ||||||||||| ||||| |||||  | || |||
+Sbjct  574809  GCAGATCATGGTCCAGCTGTTTCAGGCGCTCACAATGCTAAAGTTACAGCTCGTGCAGGT  574868
+
+Query  2703    AAATCAGTTGTTGAAGCATTAGTTACAGGACTTTTAACAATCGGTCCAAGATTTGGCGGT  2762
+               |||   ||| |     || || || | |||||  | ||||| || ||  | ||||| || 
+Sbjct  574869  AAAGATGTTATCAGTTCACTAATTTCTGGACTACTTACAATTGGGCCTCGTTTTGGTGGA  574928
+
+Query  2763    GCGATTGACGGTGCTGCAGAGCATTTCAAATATGCAGATGACAATAAATTAACTCCAGCA  2822
+               || ||||| | ||||||  || |||| |||||||||  ||| |||  | | | ||||   
+Sbjct  574929  GCTATTGATGATGCTGCTAAGTATTTTAAATATGCAAGTGATAATGGAATGAGTCCAAAT  574988
+
+Query  2823    GACTTTTTAAATCATATGAAAAAAGAGGGTATTCCTATTCCAGGTATTGGGCATAGAATC  2882
+               ||||| ||||||||||||||||||||||| ||||| |||||||| || ||||||||||||
+Sbjct  574989  GACTTCTTAAATCATATGAAAAAAGAGGGCATTCCAATTCCAGGGATAGGGCATAGAATC  575048
+
+Query  2883    AAATCTCTTAAAAACCCTGATTTAAGAGTTGAAGGTTTGAAGAAATTTGCAAAAGAGTAT  2942
+               || || ||||||||||| |||||| | ||||| || || ||||| ||||||||||   | 
+Sbjct  575049  AAGTCGCTTAAAAACCCAGATTTACGTGTTGAGGGATTAAAGAAGTTTGCAAAAGCAAAC  575108
+
+Query  2943    TTTCCATCTACTCCA-TTGTTGGATTATGCATTAACAGTCGAGCAATTAACTACATCTAA  3001
+               || || || |||||  || || |||||||| ||||| || || ||| | || ||||||||
+Sbjct  575109  TTCCCTTCAACTCCGCTTCTT-GATTATGCTTTAACGGTTGAACAACTTACAACATCTAA  575167
+
+Query  3002    AAAAGAGAATCTAATTCTTAACGTTGATGGAACAATCGGTATTTTAATGGTTGACATGTG  3061
+               |||||||||||| ||| | || |||||||| || || ||||| |||||||||||||||||
+Sbjct  575168  AAAAGAGAATCTTATTTTAAATGTTGATGGTACTATTGGTATATTAATGGTTGACATGTG  575227
+
+Query  3062    GAGAGCATTAGGTTATTCTGAAGATGAAATCAATGAATTCATCTCTTCAGGAACACTAAA  3121
+               |||| || | || |||   || || || ||  ||| ||| ||   | ||||  | |||||
+Sbjct  575228  GAGATCACTTGGATATAAAGATGAAGAGATAGATGTATTTATAAATGCAGGCGCTCTAAA  575287
+
+Query  3122    CTCATTCTTTATAGTAGGCAGAAGCATAGGTTTCATCGGTCATATCTTAGATGAAAAACG  3181
+                 | ||||||||  |||| ||||| || ||||| ||||| |||||||| ||||| |||||
+Sbjct  575288  TGCGTTCTTTATTTTAGGTAGAAGTATCGGTTTTATCGGGCATATCTTGGATGAGAAACG  575347
+
+Query  3182    ACTTGCAATGCCAATGTACAGACATCCAATGACTGACATTCTATATGATGTTCAAGT-AG  3240
+                || |||||||||||||||||||||||||||  ||| ||  ||||||||||  |||| ||
+Sbjct  575348  TCTAGCAATGCCAATGTACAGACATCCAATGGATGATATCTTATATGATGTA-AAGTTAG  575406
+
+Query  3241    CAGA  3244
+               ||||
+Sbjct  575407  CAGA  575410
+
+
+>gb|CP001279.1| Nautilia profundicola AmH, complete genome
+Length=1676444
+
+ Score = 957 bits (518),  Expect = 0.0
+ Identities = 1719/2300 (75%), Gaps = 78/2300 (3%)
+ Strand=Plus/Plus
+
+Query  73      CTAAACATAAAAA-T-AGGGAGTGGCAATGGCTCAGAAAGCGATACGCGAATATGACGGT  130
+               ||||| ||||||| | | ||||    ||||||||| ||| |||| || ||||||||||| 
+Sbjct  637473  CTAAA-ATAAAAATTCAAGGAGAATTAATGGCTCAAAAACCGATTCGTGAATATGACGGA  637531
+
+Query  131     AAAGCACTATTTTCCAAGCAATGGGAAAATTATTTTAGTGGATTTCATTAT-GGATTCAA  189
+               |||  ||| ||| || |  | ||||| || |||||||| ||| || | |||  | || ||
+Sbjct  637532  AAAAAACTTTTTGCCCAAAATTGGGATAAATATTTTAGCGGACTTAACTATCCGTTTGAA  637591
+
+Query  190     ATCTGTTCTGGTTACAAGTGGAGCAGAATTATTAGAGATAGC-CGGGAAGCATGGTTTTG  248
+               |  |||||| |||||||||||||  || |||  ||  | |||    ||| || || | ||
+Sbjct  637592  A-GTGTTCTTGTTACAAGTGGAGATGAGTTAAGAGCAAAAGCAAAAGAACCA-GGATATG  637649
+
+Query  249     AGTGGTTAAAACAAGAGCCACTAGTTGCTAAACCGGATATGCTGTTTGGTAAAAGAGGTA  308
+               ||||||||||  || | ||  |||||||||| || |||||||||||||||||||||||||
+Sbjct  637650  AGTGGTTAAATGAAAAACCTTTAGTTGCTAAGCCAGATATGCTGTTTGGTAAAAGAGGTA  637709
+
+Query  309     AAAAACGATTTAGTTCTTTTCAAAGATAAAAAACCAGGTGACGTATCTTTGGCTGTAGCA  368
+               |||| | | |||||| | || |||| ||| ||||| || || ||  |||| |  |  || 
+Sbjct  637710  AAAA-CAACTTAGTTTTATTTAAAGTTAACAAACCTGGAGATGTTACTTTAGAAGATGCG  637768
+
+Query  369     GCTGCGTGGATAGATGAGAAAATG-GCTCATACAACAACGCTTCTTACTGGTCAGCATGG  427
+               |||   ||||| ||||| ||||   ||   || |  ||| |||||||  || ||    ||
+Sbjct  637769  GCTAAATGGATTGATGAAAAAAGAAGC-GGTAAAGTAACACTTCTTAGCGGACAAAGCGG  637827
+
+Query  428     -GACTTTAACACATTTTATAGTTGAACCATTTACTCCACACTCA-CAAGAGCAAGAGTAT  485
+                ||   | || || ||||| || || || || || || || |    ||||  ||||||||
+Sbjct  637828  TGA-GCTGACTCACTTTATCGTAGAGCCTTTCACACCTCA-TAGTGAAGATGAAGAGTAT  637885
+
+Query  486     TATATCTCTGCTACATGTGTTGGTG-AG--GATGATGTACTTTACATGTCAGCTGAGGGT  542
+               || ||  | ||||||  | | | || ||   | |||||| | ||| | |||||| | |||
+Sbjct  637886  TACATTGCGGCTACAACTTTCGATGAAGTAAACGATGTATTATACCTTTCAGCTCATGGT  637945
+
+Query  543     GGTATGGAAGTTGAAGAGGGTTGGGATGAGAAAGTCAACGAAGTTGTAATCCCTATCGAT  602
+               |||||||||||||||||    ||||||   ||||| |  |||||   ||| |||||||||
+Sbjct  637946  GGTATGGAAGTTGAAGAAAACTGGGAT---AAAGTTACTGAAGTAAAAATTCCTATCGAT  638002
+
+Query  603     ATGAGCGATGCTGATATGGAACATGCAATAAAAGCAAATATTCCTTCAGATATTCCTGCT  662
+                  || || |  || || ||| |     |||||| |||||| ||| |||| |||||||||
+Sbjct  638003  GCAAGTGACGAAGAAATCGAAAAACTTGTAAAAGAAAATATCCCTGCAGACATTCCTGCT  638062
+
+Query  663     --CAAAACAGAGAAGGTTTTGCATCATTTGCAATAGCATTT-TTTAAATTTTACAGAGAT  719
+                 ||||| | ||| |  | ||||   ||||||||   |||| |  ||||| |  ||||||
+Sbjct  638063  GACAAAA-A-AGACGTATATGCAAACTTTGCAATTA-ATTTCTACAAATTCTTTAGAGAT  638119
+
+Query  720     ATGAACTTCGCTTATTTGGAAATAAACCCGATTGTTATGCTTGAAGGCAACAATATGGCA  779
+                | ||||| || ||| | ||||| |||||  | ||||| |  | ||| ||| | |||   
+Sbjct  638120  CTAAACTTTGCATATCTTGAAATTAACCCTGTAGTTAT-C--GTAGGAAAC-A-ATGTTT  638174
+
+Query  780     AT-T-CTGGATTTAGTTGCAAGACTAGATGATACTGCTGGCTTTATGATGAGAGATACTT  837
+               || | || ||  | ||||||||| |||| |||||||| || |||||||||| ||| |  |
+Sbjct  638175  ATCTACTTGACCTTGTTGCAAGATTAGACGATACTGCCGGATTTATGATGAAAGACAAAT  638234
+
+Query  838     GGGGAGATATAGAATATCCTACTGCGTTTGGTATGGAAGATCAATCACCTGAAGAAAAAG  897
+               |||| ||||| ||||  || ||  | || || |||   ||  ||||||||||||||||||
+Sbjct  638235  GGGGTGATATCGAATTCCCAACACCATTCGGAATGCCTGAAAAATCACCTGAAGAAAAAG  638294
+
+Query  898     CTATTGCTCTTGCAGATAGTAAATCTGGTGCTTCA-TTAAAATTAACAATT-TTAAGCCC  955
+               |||||||    ||||||   |||  |||||||||| ||||| || |||||| |||| || 
+Sbjct  638295  CTATTGCAGAAGCAGATGCAAAAAGTGGTGCTTCACTTAAACTT-ACAATTCTTAACCCT  638353
+
+Query  956     AATGGGTAGAGTATGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATAC  1015
+               ||  |||||| | |||||  | || |||||||||||||||||||||||||||||||||||
+Sbjct  638354  AA-AGGTAGAATCTGGACACTTGTAGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATAC  638412
+
+Query  1016    AATTGCTGACTTTGCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGA  1075
+                |||||||| | ||  |   |   ||| || ||| | |  ||  | || |||||||| ||
+Sbjct  638413  TATTGCTGA-TATG--G---C---TGGTGG-AGT-T-GAAGATTTAGCAAACTATGGAGA  638460
+
+Query  1076    ATATTCTGGTGGTCCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATC  1134
+               ||||||||||||||||||||||  ||| || | ||| ||| | || || | || | ||| 
+Sbjct  638461  ATATTCTGGTGGTCCGACTACTGATGAAACAAGATTCTATACTGAAAC-AGTACTTGATT  638519
+
+Query  1135    TTATGACTAGACATAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTA  1194
+               | ||||| ||| | ||||| || ||||||  |||||||||||||||||||||||| || |
+Sbjct  638520  TAATGACAAGAGAAAAAGACCCAAAAGGTAGAGATAAAATCTTAATCATTGGTGGTGCGA  638579
+
+Query  1195    TTGCTAACTTTACGGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAA  1254
+               |||| |||||||| || || ||||||||||||||||||||||| ||  |||||||| || 
+Sbjct  638580  TTGCAAACTTTACAGACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAAT  638639
+
+Query  1255    ATGCAGAAAAAATAAAAGCGCATAATACAAAAATTTATGTTCGCCGTGGTGGACCAAATT  1314
+               |||| || ||||| ||||    |   |||| |||||| ||  |  | ||||||||||| |
+Sbjct  638640  ATGCTGATAAAATGAAAGATGTTGGAACAAGAATTTACGTAAGAAGAGGTGGACCAAACT  638699
+
+Query  1315    ACGAAAAAGGTCTAAAAGACATTAAAGAAGCTGCCGATAGATTAGGTCTTTATATAGAAG  1374
+               ||||||||||| ||||||| |||||||  || || || ||| | || |||  ||| ||||
+Sbjct  638700  ACGAAAAAGGTTTAAAAGATATTAAAGCGGCAGCTGAAAGACTTGGACTTCCTATTGAAG  638759
+
+Query  1375    TTTATGGACCAGAAACACATGTTACTGACATTGTTAGAATGGCATTAGA-GAAG-TAG--  1430
+               |||| ||||||||||| ||  ||||||| || || ||||||||| | || |||| ||   
+Sbjct  638760  TTTACGGACCAGAAACTCACATTACTGATATCGTAAGAATGGCACTTGAAGAAGATAAAA  638819
+
+Query  1431    --GG-GCTAAATA-TGAATA---AATTATATACAAAAGACACACAAGCAATTTTTTGGAA  1483
+                 || || || || ||  ||   |||||| |||||  || ||||||||||| ||||||||
+Sbjct  638820  AAGGAGCGAACTAATGGCTAACGAATTATTTACAAGGGATACACAAGCAATATTTTGGAA  638879
+
+Query  1484    CAACAACACAACGGCTATCCAAAGAATGTTGGATTACGATTACACTATT-AAA-AGAAAA  1541
+                ||||||| | | ||||||||||||||| | ||||| ||||| | |||| ||| ||||||
+Sbjct  638880  TAACAACAAATCTGCTATCCAAAGAATGCTTGATTATGATTATATTATTCAAAGAGAAAA  638939
+
+Query  1542    ACTCCATCTGTTGCGGCTATTGTTGCTCCAACAAGCGGAAATAAATTTGAGAAGtt-ttt  1600
+               || |  || || ||||| || |||||||| || ||| | || ||||| || || || |||
+Sbjct  638940  AC-CG-TCAGTAGCGGCAATCGTTGCTCCTACCAGCAGCAACAAATTCGAAAAATTCTTT  638997
+
+Query  1601    ttGGGGTCCAGATGAAATAATGGTTCCACTTTTTAAAACAACTGCTGATGC--TAAAAAA  1658
+               || ||  |  |||||| ||||| ||||| ||| || ||  || |  || ||  | |||||
+Sbjct  638998  TTTGGAACT-GATGAAGTAATGATTCCAATTTATAGAAGTACAGAAGAAGCAGTGAAAAA  639056
+
+Query  1659    GCACATCCAACTGCTGATGTACTTTTAAACTTTGCATCATTTAGAACAGCTTATGATGTA  1718
+                ||  ||| | |||||||||||| ||||||||||||||||| ||||||||||||||||||
+Sbjct  639057  TCA--TCCGAATGCTGATGTACTATTAAACTTTGCATCATTCAGAACAGCTTATGATGTA  639114
+
+Query  1719    ACTATGGAAGCAGTAGAGCTTGGTGGATTTAAATCTATCATGGTAACTGCTGAAGGTATT  1778
+               |||||||| ||  | |   | | |   || | |   || ||| | || ||||||||||||
+Sbjct  639115  ACTATGGATGCTCTTGCAATGGATCAGTTCAGAGTAATTATGATTACAGCTGAAGGTATT  639174
+
+Query  1779    CCTGAAAGACTTGCTAGAAAAATGAACAACACAGCAAGAAATGCTGGTGTTACAGTAATT  1838
+               ||||| |||  ||| |||| |||||| || || |||||| |    || |||||  | || 
+Sbjct  639175  CCTGAGAGAAATGCAAGAATAATGAATAAAACTGCAAGAGAAAAAGGCGTTACTATCATC  639234
+
+Query  1839    GGACCTGCAACTGTTGGAGCAATCGCACCTGGTGCATTTAAAATTGCAAACATTGGTGGA  1898
+               ||||||||||| ||||| || || || || || ||||||||| | ||||| |||||||| 
+Sbjct  639235  GGACCTGCAACAGTTGGTGCTATTGCTCCGGGAGCATTTAAAGTAGCAAATATTGGTGGT  639294
+
+Query  1899    ACAATTGAAAATATCGTTCAATCAAAACTTCACAGAAGTGGTTCTTGTGGACTTGTAACT  1958
+               ||||| ||||| |||||| |||||||||||||||||  |||   |   || |||||||| 
+Sbjct  639295  ACAATAGAAAACATCGTTAAATCAAAACTTCACAGAGCTGGAAGTGCCGGTCTTGTAACA  639354
+
+Query  1959    CGTTCAGGCGGTTTATTTAACGAACTTTCAAACATTATAGCTATCAATGCTGATGGTATC  2018
+                |    || ||||||||||| ||||||||||||||||| ||  | |||||||| || || 
+Sbjct  639355  AGAAGTGGTGGTTTATTTAATGAACTTTCAAACATTATTGCACTAAATGCTGACGGAATT  639414
+
+Query  2019    GCTGAGGGTGTTGCTATTGGTGGAGACAGATTTGTTGGTTCTGTTTTTATTGACAACATG  2078
+               ||||| |||||||| || ||||| |||||||| || ||||| |||||  ||||  | |||
+Sbjct  639415  GCTGAAGGTGTTGCAATCGGTGGTGACAGATTCGTAGGTTCAGTTTTCCTTGATCATATG  639474
+
+Query  2079    TTGAGAATGGaaaaaaaTCCAGATGTAAAATATATGGTACTTTTAGGCGAAGTTGGTGGT  2138
+                | |||||||||||||||||  | || ||||||||| | ||| | || ||||| ||||||
+Sbjct  639475  CTTAGAATGGAAAAAAATCCTAAAGTTAAATATATGATTCTTCTTGGTGAAGTAGGTGGT  639534
+
+Query  2139    ACTGAAGAGTATAAAATCATCGATGCTATAAAAGCTGGACAAATTACTAAGCCGGTTATC  2198
+               |  ||||| |||||| | || || || |||||||  ||  |||| ||||| || || || 
+Sbjct  639535  AGAGAAGAATATAAAGTAATTGAAGCAATAAAAGAAGGTAAAATCACTAAACCTGTGATT  639594
+
+Query  2199    GCTTGGTGTATCGGTACAATTGCTAAGCATTTTAGCTCA---GGTGTACAGTTTGGTCAT  2255
+               | ||||||||| |||||||||||||| |||||   ||||   |||||||| ||||| |||
+Sbjct  639595  GGTTGGTGTATTGGTACAATTGCTAAACATTT---CTCAAGTGGTGTACAATTTGGACAT  639651
+
+Query  2256    GCAGGTGCAAGTGCAAATGCTGATGCTGAAACAGCTGCTTCAAAAAATAAAGCAATGGCT  2315
+               ||||||||||| ||||| |||||||  ||||| || |   | ||||| | |||||||   
+Sbjct  639652  GCAGGTGCAAGCGCAAACGCTGATGAAGAAACTGCAGAAGCTAAAAACAGAGCAATGAAA  639711
+
+Query  2316    GAAGCTGGCATATATGTACC  2335
+               |||||||| ||  |||||||
+Sbjct  639712  GAAGCTGGTATTCATGTACC  639731
+
+
+>gb|EF644762.1| Sulfurimonas autotrophica ATP citrate lyase alpha subunit (aclA) 
+gene, partial cds
+Length=976
+
+ Score = 636 bits (344),  Expect = 1e-177
+ Identities = 777/987 (79%), Gaps = 26/987 (3%)
+ Strand=Plus/Plus
+
+Query  2046  AGATTTGTTGGTTCTGTTTTTATTGACAACATGTTGAGAATGGaaaaaaaTCCAGATGTA  2105
+             |||||||| || || ||||||||||||||| |  |  | |||||||||||||||||||||
+Sbjct  2     AGATTTGTCGGATCAGTTTTTATTGACAACTTACTTCGTATGGAAAAAAATCCAGATGTA  61
+
+Query  2106  AAATATATGGTACTTTTA---GGCGAAGTTGGTGGTACTGAAGAGTATAAAATCATCGAT  2162
+             |||||||||  | |||||   || ||||| |||||||| |||||||||||| | ||||| 
+Sbjct  62    AAATATATG--A-TTTTACTTGGTGAAGTCGGTGGTACAGAAGAGTATAAAGTAATCGAA  118
+
+Query  2163  GCT-ATAAAAGCTGGACAAATTACTAAGCCGGTTATCGCTTGGTGTATCGGTACAATTGC  2221
+             |||  ||||||| ||| |||||||||| ||| | ||||| ||||||||||||||||||||
+Sbjct  119   GCTGTTAAAAGC-GGAAAAATTACTAAACCGATCATCGCATGGTGTATCGGTACAATTGC  177
+
+Query  2222  TAAGCATTTTA-G-CTCAGGTGTACAGTTTGGTCATGCAGGTGCAAGTGCAAATGCTGAT  2279
+              ||  || ||| |  ||||| || || || |||||||||||||||   ||||||||||| 
+Sbjct  178   -AA-AATATTATGATTCAGGCGTTCAATTCGGTCATGCAGGTGCATCAGCAAATGCTGAA  235
+
+Query  2280  GCTGAAACAGCTGCTTCAAAAAATAAAGCAATGGCTGAAGCTGGCATATATGTACC-ACA  2338
+                ||||| || |   | ||||| ||||| ||||| ||||| || ||  |||| ||  ||
+Sbjct  236   AGAGAAACTGCAGAAGCTAAAAACAAAGCTATGGCAGAAGCAGGTATCCATGTTCCGGCA  295
+
+Query  2339  ATCATTCAATGATTTACCGGGAACAATCAAAAAAGTTTATGAAGAACTTAGAGCAAACGG  2398
+             | |||| ||||||||||||| ||| || |   |||||||||| ||  | | | |||| ||
+Sbjct  296   A-CATTTAATGATTTACCGGCAACTATTATGGAAGTTTATGATGATTTAAAATCAAAAGG  354
+
+Query  2399  AACTATCGCTGAAATTGCAGAACCTGATATGGATACAGTTCCAAAAGTTAGA-AAAAGTA  2457
+             ||  |||| |||||||| ||| ||||| ||  ||||  |||| |||  || |      ||
+Sbjct  355   AATCATCGGTGAAATTGAAGAGCCTGAAATCAATACTATTCCTAAAA-TACATCGTCCTA  413
+
+Query  2458  AAGAATTTATTTGTACTATATCTGATGACAGGGGTGATGAAGCGACTTATGCAGGTTTCC  2517
+             || | ||||||||||| || ||||||||||| ||||| ||||| || ||||||||||| |
+Sbjct  414   AAAACTTTATTTGTACAATCTCTGATGACAGAGGTGAAGAAGCAACATATGCAGGTTTTC  473
+
+Query  2518  CAATCTCTTC-GTTGGCAACTCCGGATACAGGCAAAGGCATCGGTGATGTCATCTCTTTA  2576
+             | |||||||| ||| || ||||| || || || ||||||||||||||||| |||||||||
+Sbjct  474   CTATCTCTTCTGTT-GCTACTCCTGACACCGGTAAAGGCATCGGTGATGTTATCTCTTTA  532
+
+Query  2577  TTATGGTTCAAAAAACAGTATCCACTATGGGCTACACAATTTATTGAAACTGTACTTAAA  2636
+             ||||||||||||||||||||||||  |||||||||| | ||||||||||||||| | |||
+Sbjct  533   TTATGGTTCAAAAAACAGTATCCAAAATGGGCTACAGACTTTATTGAAACTGTAATCAAA  592
+
+Query  2637  ACTGTTGCAGACCATGGTCCGGCAGTTTCCGGTGCTCACAATGCAAAAGTAACAGCAAGA  2696
+             |||||||||||||||||||| |||||||| ||||| ||||||||||||||||| ||  | 
+Sbjct  593   ACTGTTGCAGACCATGGTCCTGCAGTTTCTGGTGCACACAATGCAAAAGTAACTGCTCGT  652
+
+Query  2697  GCTGGTAAATCAGTTGTTGAAGCATTAGTTACAGGACTTTTAACAATCGGTCCAAGATTT  2756
+             || || ||||| |||||||||  |||||| || || ||||||||||| |||||| | || 
+Sbjct  653   GCAGGAAAATCTGTTGTTGAATTATTAGTAACTGGTCTTTTAACAATTGGTCCACGTTTC  712
+
+Query  2757  GGCGGTGCGATTGACGGTGCTGC-AGAGCATTTCAAATATGCAGATGACAATAAATTAAC  2815
+             |||||||| |||||||| ||||| | |   ||| |||||||| |||||||| ||  | ||
+Sbjct  713   GGCGGTGCAATTGACGGCGCTGCTAAATACTTT-AAATATGCGGATGACAACAATATGAC  771
+
+Query  2816  TCCAGCAGACTTTTTAAATCATATGAAAAAAGAGGGTATTCCTATTCCAGGTATTGGGCA  2875
+             ||| ||  | ||||||  | ||||||||||||| ||| | || || |||||||| || ||
+Sbjct  772   TCCTGCTCAATTTTTAGGTTATATGAAAAAAGAAGGTGTGCCAATCCCAGGTATCGGTCA  831
+
+Query  2876  TAGAATCAAATCTCTTAAAAACCCTGATTTAAGAGTTGAAGGTTTGAAGAAATTTGCAAA  2935
+               | || |||||| | ||||| || |||||| | ||    ||| | | ||| | ||||  
+Sbjct  832   CCGTATTAAATCTTTGAAAAATCCAGATTTACGTGTAACTGGTCTTATGAACTATGCAGC  891
+
+Query  2936  AGAGTATTTTCCA--TCTACTCCATTGTTGGATTATGCATTAACAGTCGA-GCAATTAAC  2992
+             |||  ||||||||  || | ||| || || || ||||||  ||| || || ||  |||||
+Sbjct  892   AGAACATTTTCCAAGTC-ATTCCCTTCTT-GACTATGCAAAAACTGTTGAAGCG-TTAAC  948
+
+Query  2993  TACATCTAAAAAAGAGAATCTAATTCT  3019
+             ||||  |||||||||||| || |||||
+Sbjct  949   TACAAGTAAAAAAGAGAACCTTATTCT  975
+
+
+>emb|FN659781.1| Uncultured bacterium partial aclA gene for ATP citrate lyase, 
+clone aclAE6
+Length=1006
+
+ Score = 549 bits (297),  Expect = 1e-151
+ Identities = 777/1009 (77%), Gaps = 31/1009 (3%)
+ Strand=Plus/Plus
+
+Query  2034  ATTGGTGGAGACAGATTTGTTGGTTCTGTTTTTATTGACAACATGTTGAGAATGGaaaaa  2093
+             ||||| || || |||||||||||||| ||||| ||||||||| |  | ||||||||||||
+Sbjct  10    ATTGGCGGGGATAGATTTGTTGGTTCAGTTTTCATTGACAACCTTCTTAGAATGGAAAAA  69
+
+Query  2094  aaTCCAGATGTAAAATATATGGTACTTTTAGGCGAAGTTGGTGGTACTGAAGAGTATAAA  2153
+             ||||||||||||||||||||| |  |  | || |||||||||||||| |||||||| |||
+Sbjct  70    AATCCAGATGTAAAATATATGATTTTACTTGGAGAAGTTGGTGGTACAGAAGAGTACAAA  129
+
+Query  2154  ATCATCGATGCTATAAA-AGCTGGACAAATTACTAAGCCGGTTATCGCTTGGTGTATCGG  2212
+              | || || ||| | || || |||| | |||||||| ||  | || ||||||||||||||
+Sbjct  130   GTAATTGAAGCTGTCAAGAG-TGGAAAGATTACTAAACCAATCATTGCTTGGTGTATCGG  188
+
+Query  2213  TACAATTGCTAAGCATTTTA-GCTCA-GGTGTACAGTTTGGTCATGCAGGTGCAAGTGCA  2270
+             ||||||||||||  || ||| | |   ||||| ||||||||||| |||||||||  ||||
+Sbjct  189   TACAATTGCTAA--ATATTACGATAGTGGTGTTCAGTTTGGTCACGCAGGTGCATCTGCA  246
+
+Query  2271  AATGCTGATGCTGAA-ACAGCTGCTTCAAAAAATAAAGCAATGGCTGAAGCTGGCATATA  2329
+             ||||  || | || | ||||| |  |  ||||| || |||||||||||||| || || ||
+Sbjct  247   AATGGCGA-GATGGAGACAGCAGAATACAAAAACAATGCAATGGCTGAAGCAGGTATTTA  305
+
+Query  2330  TGTACC-ACAATCATTCAATGATTTACCGGGAACAATCAAAAAAGTTTATGAAGAACTTA  2388
+             |||||| || ||||||||||||  | || |  |  || || ||||| | | |    |  |
+Sbjct  306   TGTACCTAC-ATCATTCAATGAACTTCCAGCGATGATTAACAAAGTATTT-A----C--A  357
+
+Query  2389  GAGCAAACGGAACTATCGCTGAAATTGCAGAACCTGATATGGATACAGTTCCAAAAGTTA  2448
+             ||||  |   | || | || || ||| |||| ||||| ||| | |||||||||  |   |
+Sbjct  358   GAGCTTA---ATCT-T-GCAGATATTCCAGAGCCTGAAATGAACACAGTTCCAGCAAACA  412
+
+Query  2449  GAAAAAGTAAAGAATTTATTTGTACTATATCTGATGACAGGGGTGATGAAGCG-ACTTAT  2507
+             ||| ||||||| | || || |||||||| |||||||| || || || || | | ||||| 
+Sbjct  413   GAAGAAGTAAACAGTTCATCTGTACTATCTCTGATGATAGAGGAGAAGA-GTGTACTTAC  471
+
+Query  2508  GCAGGTTTCCCAATCTCT-TCGTTGGCAACTCCGGATACAGGCAAAGGCATCGGTGATGT  2566
+             ||||||||||||||||||   ||| || || || || ||||| ||||| || || |||||
+Sbjct  472   GCAGGTTTCCCAATCTCTAGTGTT-GCTACACCTGACACAGGTAAAGGAATTGGAGATGT  530
+
+Query  2567  CATCTCTTTATTATGGTTCAAAAAACAGTATCCACTATGGGCTACACAATTTATTGAAAC  2626
+              |||||  |  |||||||||||||||||||||||  |||||||||| | || ||||| ||
+Sbjct  531   TATCTCACTTCTATGGTTCAAAAAACAGTATCCAAAATGGGCTACAGAGTTCATTGAGAC  590
+
+Query  2627  TGTACTTAAAACTGTTGCAGACCATGGTCCGGCAGTTTCCGGTGCTCACAATGCAAAAGT  2686
+             |||| | ||||| || |||||||| || || |||||||| || || ||||| ||||||||
+Sbjct  591   TGTAATCAAAACCGTAGCAGACCACGGACCAGCAGTTTCAGGAGCCCACAACGCAAAAGT  650
+
+Query  2687  AACAGCAAGAGCTGGTAAATCAGTTGTTGAAGCATTAGTTACAGGACTTTTAACAATCGG  2746
+             ||||||||||||||||||||| ||||||||| || | || ||||||||| | || || ||
+Sbjct  651   AACAGCAAGAGCTGGTAAATCGGTTGTTGAATCACTTGTAACAGGACTTCTTACCATTGG  710
+
+Query  2747  TCCAAGATTTGGCGGTGCGATTGACGGTGCTGCAGAGCATTTCAAATATGCAGATGACAA  2806
+              || |||||||| || || ||||| ||||||||  |  | || || ||||||||||||||
+Sbjct  711   ACCTAGATTTGGTGGAGCAATTGATGGTGCTGCTCAATACTTTAAGTATGCAGATGACAA  770
+
+Query  2807  TAAATTAACTCCAGCAGACTTTTTAAATCATATGAAAAAAGAGGGTATTCCTATTCCAGG  2866
+              ||  || |||||  ||| || |||  | | ||||||||| | ||||| || || || ||
+Sbjct  771   CAACCTATCTCCAAAAGAGTTCTTAGGTTACATGAAAAAACAAGGTATCCCAATCCCTGG  830
+
+Query  2867  TATTGGGCATAGAATCAAATCTCTTAAAAACCCTGATTTAAGAGTTGAAGGTTTGAAGAA  2926
+              ||||| || ||||| || |||||||||||||||||  | ||||||  |||  | | |||
+Sbjct  831   AATTGGTCACAGAATTAAGTCTCTTAAAAACCCTGACCTTAGAGTTACAGGACTAATGAA  890
+
+Query  2927  ATTTGCAAAAGAGTATTTTCCATCTACTCCA-TTGTTGGATTATGCATTAACAGTCGA-G  2984
+              ||||||   ||  | || |||  ||| ||| || || || ||||||  |||||| || |
+Sbjct  891   CTTTGCAGCTGAACACTTCCCAAGTACACCACTTCTT-GACTATGCAAGAACAGTAGAAG  949
+
+Query  2985  CAATTAACTACATCTAAAAAAGAGAATCTAATTCTTAACGTTGA-TGGA  3032
+             |  ||||| || ||||| |||||||| ||||||||||| || || ||||
+Sbjct  950   CG-TTAACAACCTCTAAGAAAGAGAACCTAATTCTTAATGTAGAGTGGA  997
+
+
+>gb|KC702276.1| Uncultured epsilon proteobacterium clone E3M_042 ATP citrate 
+lyase beta subunit and ATP citrate lyase alpha subunit genes, 
+partial cds
+Length=620
+
+ Score = 453 bits (245),  Expect = 1e-122
+ Identities = 495/619 (80%), Gaps = 4/619 (1%)
+ Strand=Plus/Plus
+
+Query  1302  GGTGGACCAAATTACGAAAAAGGTCTAAAAGACATTAAAGAAGCTGCCGATAGATTAGGT  1361
+             ||||| || ||||||||||||||||| || || ||||||||||| || |||||| |||||
+Sbjct  1     GGTGGTCCGAATTACGAAAAAGGTCTTAAGGATATTAAAGAAGCGGCTGATAGACTAGGT  60
+
+Query  1362  CTTTATATAGAAGTTTATGGACCAGAAACACATGTTACTGACATTGTTAGAATGGCATTA  1421
+             |||||||| ||||| |||||||||||||||||||| || ||||| ||| | |||||| ||
+Sbjct  61    CTTTATATTGAAGTATATGGACCAGAAACACATGTAACGGACATCGTTCGTATGGCACTA  120
+
+Query  1422  GAGAAGTAGGGGCTAAATATGAATAAATTATATACAAAAGACACACAAGCAATTTTTTGG  1481
+             |||||||| |||   || |||   ||||||||||| ||||||||||||||||||||||||
+Sbjct  121   GAGAAGTAAGGGAAGAAAATGGCAAAATTATATACTAAAGACACACAAGCAATTTTTTGG  180
+
+Query  1482  AACAACAACACAACGGCTATCCAAAGAATGTTGGATTACGATTACACTATTAAAAGAAAA  1541
+             ||||||||||| |  ||||| ||||||||| | ||||| || || || ||  ||||||||
+Sbjct  181   AACAACAACACCAGCGCTATTCAAAGAATGCTCGATTATGACTATACAATCCAAAGAAAA  240
+
+Query  1542  ACTCCATCTGTTGCGGCTATTGTTGCTCCAACAAGCGGAAATAAATTTGAGAAGtttttt  1601
+             |  || ||||| || ||||| ||||| || |||||| | || ||||||||||||||||||
+Sbjct  241   AAACCCTCTGTAGCAGCTATCGTTGCGCCTACAAGCAGTAACAAATTTGAGAAGTTTTTT  300
+
+Query  1602  tGGGGTCCAGATGAAATAATGGTTCCACTTTTTAAAACAACTGCTGATGCTAAAAAAGCA  1661
+             |  ||||| ||||| || ||| |||||   |||||||||||  |||| || |||   || 
+Sbjct  301   TACGGTCCTGATGAGATTATGATTCCATCGTTTAAAACAACCACTGAAGCAAAAGCTGCC  360
+
+Query  1662  CATCCAACTGCTGATGTACTTTTAAACTTTGCATCATTTAGAACAGCTTATGATGTAACT  1721
+             || ||    || |||||  | |||||||| || |||||||||||||||||||||||||| 
+Sbjct  361   CAGCCTCAAGCAGATGTTTTCTTAAACTTCGCGTCATTTAGAACAGCTTATGATGTAACC  420
+
+Query  1722  ATGGAAGCAGTAGAGCTTGGTGGATTTAAATCTATCATGGTAACTGCTGAAGGTATTCCT  1781
+             ||||||||| ||||  ||||||| |||   ||||| ||| | || || || |||||||||
+Sbjct  421   ATGGAAGCATTAGAAATTGGTGGTTTTTCTTCTATTATGATTACAGCAGAGGGTATTCCT  480
+
+Query  1782  GAAAGACTTGCTAGAAAAATGAACAACACAGC-AA-GAAATGCTGGTGTTACAGTAATTG  1839
+             ||  |||||||| |    ||||||    |||| || | ||    ||||| || || ||||
+Sbjct  481   GAGCGACTTGCTCGTGGCATGAACGCTGCAGCTAAAGCAAAA--GGTGTCACCGTGATTG  538
+
+Query  1840  GACCTGCAACTGTTGGAGCAATCGCACCTGGTGCATTTAAAATTGCAAACATTGGTGGAA  1899
+             |||||||||| ||||| || || || || || ||||||||||| || ||||| |||||||
+Sbjct  539   GACCTGCAACCGTTGGTGCCATTGCTCCAGGCGCATTTAAAATCGCCAACATCGGTGGAA  598
+
+Query  1900  CAATTGAAAATATCGTTCA  1918
+             |||| ||||| || |||||
+Sbjct  599   CAATAGAAAACATTGTTCA  617
+
+
+>gb|KC702280.1| Uncultured epsilon proteobacterium clone E3M_123 ATP citrate 
+lyase beta subunit and ATP citrate lyase alpha subunit genes, 
+partial cds
+Length=620
+
+ Score = 442 bits (239),  Expect = 2e-119
+ Identities = 493/619 (80%), Gaps = 4/619 (1%)
+ Strand=Plus/Plus
+
+Query  1302  GGTGGACCAAATTACGAAAAAGGTCTAAAAGACATTAAAGAAGCTGCCGATAGATTAGGT  1361
+             ||||| || || |||||||||||||| || || ||||||||||| || |||||| |||||
+Sbjct  1     GGTGGTCCGAACTACGAAAAAGGTCTTAAGGATATTAAAGAAGCGGCTGATAGACTAGGT  60
+
+Query  1362  CTTTATATAGAAGTTTATGGACCAGAAACACATGTTACTGACATTGTTAGAATGGCATTA  1421
+             |||||||| ||||| |||||||||||||||||||| || ||||| ||| | |||||| ||
+Sbjct  61    CTTTATATTGAAGTATATGGACCAGAAACACATGTAACGGACATCGTTCGTATGGCACTA  120
+
+Query  1422  GAGAAGTAGGGGCTAAATATGAATAAATTATATACAAAAGACACACAAGCAATTTTTTGG  1481
+             |||||||| |||   || |||   ||||||||||| ||||||||||||||||||||||||
+Sbjct  121   GAGAAGTAAGGGAAGAAAATGGCAAAATTATATACTAAAGACACACAAGCAATTTTTTGG  180
+
+Query  1482  AACAACAACACAACGGCTATCCAAAGAATGTTGGATTACGATTACACTATTAAAAGAAAA  1541
+             ||||||||||| |  ||||| ||||||||| | ||||| || || || ||  ||||||||
+Sbjct  181   AACAACAACACCAGCGCTATTCAAAGAATGCTCGATTATGACTATACAATCCAAAGAAAA  240
+
+Query  1542  ACTCCATCTGTTGCGGCTATTGTTGCTCCAACAAGCGGAAATAAATTTGAGAAGtttttt  1601
+             |  || ||||| || ||||| ||||| || |||||| | || ||||||||||||||||||
+Sbjct  241   AAACCCTCTGTAGCAGCTATCGTTGCGCCTACAAGCAGTAACAAATTTGAGAAGTTTTTT  300
+
+Query  1602  tGGGGTCCAGATGAAATAATGGTTCCACTTTTTAAAACAACTGCTGATGCTAAAAAAGCA  1661
+             |  ||||| ||||| || ||| |||||   |||||||||||  |||| || |||   || 
+Sbjct  301   TACGGTCCTGATGAGATTATGATTCCATCGTTTAAAACAACCACTGAAGCAAAAGCTGCC  360
+
+Query  1662  CATCCAACTGCTGATGTACTTTTAAACTTTGCATCATTTAGAACAGCTTATGATGTAACT  1721
+             || ||    || |||||  | |||||||| || |||||||||||||||||||||||||| 
+Sbjct  361   CAGCCTCAAGCAGATGTTTTCTTAAACTTCGCGTCATTTAGAACAGCTTATGATGTAACC  420
+
+Query  1722  ATGGAAGCAGTAGAGCTTGGTGGATTTAAATCTATCATGGTAACTGCTGAAGGTATTCCT  1781
+             ||||||||| ||||  ||||||| |||   ||||| ||| | || || || |||||||||
+Sbjct  421   ATGGAAGCATTAGAAATTGGTGGTTTTTCTTCTATTATGATTACAGCAGAGGGTATTCCT  480
+
+Query  1782  GAAAGACTTGCTAGAAAAATGAACAACACAGC-AA-GAAATGCTGGTGTTACAGTAATTG  1839
+             |   |||||||| |    ||||||    |||| || | ||    ||||| || || ||||
+Sbjct  481   GGGCGACTTGCTCGTGGCATGAACGCTGCAGCTAAAGCAAAA--GGTGTCACCGTGATTG  538
+
+Query  1840  GACCTGCAACTGTTGGAGCAATCGCACCTGGTGCATTTAAAATTGCAAACATTGGTGGAA  1899
+             |||||||||| ||||| || || || || || ||||||||||| || ||||| |||||||
+Sbjct  539   GACCTGCAACCGTTGGTGCCATTGCTCCAGGCGCATTTAAAATCGCCAACATCGGTGGAA  598
+
+Query  1900  CAATTGAAAATATCGTTCA  1918
+             |||| ||||| || |||||
+Sbjct  599   CAATAGAAAACATTGTTCA  617
+
+
+>emb|FN659782.1| Uncultured bacterium partial aclA gene for ATP citrate lyase, 
+clone aclAD3
+Length=770
+
+ Score = 442 bits (239),  Expect = 2e-119
+ Identities = 593/764 (78%), Gaps = 24/764 (3%)
+ Strand=Plus/Plus
+
+Query  2046  AGATTTGTTGGTTCTGTTTTTATTGACAACATGTTGAGAATGGaaaaaaaTCCAGATGTA  2105
+             ||||||||||| ||||| ||||| || ||| |  |  | ||||||  |||||| || |||
+Sbjct  22    AGATTTGTTGGATCTGTATTTATAGATAACTTACTTCGTATGGAAGCAAATCCTGAGGTA  81
+
+Query  2106  AAATATATGGTACTTTTA---GGCGAAGTTGGTGGTACTGAAGAGTATAAAATCATCGAT  2162
+             |||||||||  | |||||   || ||||||||||||||||||||||| ||| | ||||| 
+Sbjct  82    AAATATATG--A-TTTTACTTGGTGAAGTTGGTGGTACTGAAGAGTACAAAGTAATCGAA  138
+
+Query  2163  GCTATAAAAGCTGGACAAATTACTAAGCCGGTTATCGCTTGGTGTATCGGTACAATTGCT  2222
+             ||  | ||||  || |  || |  || ||  | ||||| |||||||||||||| ||||| 
+Sbjct  139   GCAGTCAAAGACGGTCGTATCAAAAAACCAATCATCGCATGGTGTATCGGTACTATTGCG  198
+
+Query  2223  AAGCATTTTA-G-CTCAGGTGTACAGTTTGGTCATGCAGGTGCAAGTGCAAATGCTGATG  2280
+             ||  || ||| | |||||||||||||||||||||||||||||||||||||||||| ||  
+Sbjct  199   AA--ATATTATGACTCAGGTGTACAGTTTGGTCATGCAGGTGCAAGTGCAAATGCAGACT  256
+
+Query  2281  CTGAAACAGCTGCTTCAAAAAATAAAGCAATGGCTGAAGCTGGCATATATGTACCACAAT  2340
+             |||| ||||| |  |  ||||| | ||| ||||| ||||| || ||  ||||||||  ||
+Sbjct  257   CTGAGACAGCAGAATACAAAAACAGAGCGATGGCAGAAGCAGGTATCCATGTACCAACAT  316
+
+Query  2341  CATTCAATGATTTACCGGGAACAATCAAAAAAGTTTATGAAGAACTTAGAGCAAACGGAA  2400
+             |||| |||||  | || |  |  || || ||||| | |  ||| |||| | |   | |  
+Sbjct  317   CATTTAATGAACTTCCAGCGATGATTAACAAAGTGTTTACAGACCTTA-ATCTTCCAG--  373
+
+Query  2401  CTATCGCTGAAATTGCAGAACCTGATATGGATACAGTTCCAAAAGTTAGAAAAAGTAAAG  2460
+             ||||| |||||  || |||   |||     ||||||| ||||||||||||| ||||||| 
+Sbjct  374   CTATCCCTGAACCTG-AGA---TGA-----ATACAGTACCAAAAGTTAGAAGAAGTAAAC  424
+
+Query  2461  AATTTATTTGTACTATATCTGATGACAGGGGTGATGAAGCGACTTATGCAGGTTTCCCAA  2520
+             | || || ||||| || || |||||  | ||||| ||||| || ||||| ||||||||||
+Sbjct  425   AGTTCATCTGTACGATTTCAGATGATCGTGGTGAAGAAGCAACATATGCTGGTTTCCCAA  484
+
+Query  2521  TCTCT-TCGTTGGCAACTCCGGATACAGGCAAAGGCATCGGTGATGTCATCTCTTTATTA  2579
+             | ||    ||| || ||||| |||||||| ||||| ||||||||||| |||||  || ||
+Sbjct  485   TTTCAAGTGTT-GCTACTCCAGATACAGGAAAAGGAATCGGTGATGTTATCTCACTACTA  543
+
+Query  2580  TGGTTCAAAAAACAGTATCCACTATGGGCTACACAATTTATTGAAACTGTACTTAAAACT  2639
+             |||||||||||||||||||||  |||||||||| | ||||| ||||| ||  ||||||| 
+Sbjct  544   TGGTTCAAAAAACAGTATCCAAAATGGGCTACAGACTTTATAGAAACAGTTATTAAAACA  603
+
+Query  2640  GTTGCAGACCATGGTCCGGCAGTTTCCGGTGCTCACAATGCAAAAGTAACAGCAAGAGCT  2699
+             || || || ||||| |||||||| || |||||||||||||||||||| ||||| ||||| 
+Sbjct  604   GTGGCTGATCATGGACCGGCAGTATCAGGTGCTCACAATGCAAAAGTTACAGCTAGAGCA  663
+
+Query  2700  GGTAAATCAGTTGTTGAAGCATTAGTTACAGGACTTTTAACAATCGGTCCAAGATTTGGC  2759
+             |||||||| ||||| ||| || | || || || || ||||| || ||||| |||||||| 
+Sbjct  664   GGTAAATCTGTTGTCGAATCACTTGTAACTGGCCTCTTAACTATTGGTCCTAGATTTGGT  723
+
+Query  2760  GGTGCGATTGACGGTGCTGCAGAGCATTTCAAATATGCAGATGA  2803
+             |||||||| || || |||||  |  |||||||||||||||||||
+Sbjct  724   GGTGCGATAGATGGCGCTGCGAAATATTTCAAATATGCAGATGA  767
+
+
+>gb|AY929805.1| Sulfurimonas sp. Go25-1 ATP citrate lyase beta subunit (aclB) 
+gene, partial cds
+Length=924
+
+ Score = 429 bits (232),  Expect = 2e-115
+ Identities = 652/852 (77%), Gaps = 40/852 (5%)
+ Strand=Plus/Plus
+
+Query  432   TTAACACATTTTATAGTTGAACCATTTACTCCACACTCA-CAA-GAGCAAGAGTATTATA  489
+             ||||| |||||||| ||||| || |||||||| || | | |||  || ||||||| ||||
+Sbjct  61    TTAACTCATTTTATTGTTGAGCCTTTTACTCCTCA-TGACCAATCAG-AAGAGTACTATA  118
+
+Query  490   TCTCTGCTACATG-TGTTGGTGAGGATGATGTACTTTACATGTCAGCTGAGGGTGGTATG  548
+             | |||||||| || |||||||||  | ||||| ||||| ||||||||||| |||||||||
+Sbjct  119   TTTCTGCTAC-TGTTGTTGGTGATCAAGATGTTCTTTATATGTCAGCTGAAGGTGGTATG  177
+
+Query  549   GAAGTTGAAGAGGGTTGGGATGAGAAAGTCAACGAAGTTGTAATCCCTATCGATA-TG-A  606
+             |||||||||||||| ||||| || ||||| |  ||||| | | |||| ||   || || |
+Sbjct  178   GAAGTTGAAGAGGGCTGGGAAGAAAAAGTTACAGAAGTAGCATTCCCGAT---TACTGCA  234
+
+Query  607   GC-GATGCTGATATGGAACATGCA-ATAAAAGCAAATATTCCTTCAGATATTCCTGCTCA  664
+              | || |  || || | | | | | || ||||| ||||||||  | ||| |    |   |
+Sbjct  235   ACAGAAGAAGAGATAGCAGA-GAAGATCAAAGCTAATATTCCAGCTGATGTAAAAGAAGA  293
+
+Query  665   AAACAGAGAAGGTTTTGCATCATTTGCAATAGCATTTTTTAAATTTTACAGAGATATGAA  724
+             | | | ||||  ||| |||  ||||||||||| ||| ||||||   ||  | ||  | ||
+Sbjct  294   AGATAAAGAAAATTTCGCAAAATTTGCAATAGGATTCTTTAAAGCATATCGTGAACTCAA  353
+
+Query  725   CTTCGCTTATTTGGAAATAAACCCGATTGTTATGCTTGAAGGCAACAATATGGCAATTCT  784
+             || ||| ||| | ||||| |||||  |||| ||||   ||||||  || || | | || |
+Sbjct  354   CTCCGCATATCTTGAAATCAACCCATTTGTAATGC---AAGGCAGTAAAATTGAACTTTT  410
+
+Query  785   GGATTTAGTTGCAAGACTAGATGATACTGCTGGCTTTATGA-TG-AGAGATACTTGGGGA  842
+             |||| | ||||||| ||| |||||||| || || |||||||  |  || | |  ||||| 
+Sbjct  411   GGATATGGTTGCAAAACTTGATGATACAGCCGGATTTATGACGGTTGA-AGA-GTGGGGT  468
+
+Query  843   GATATAGAATATCCTACTGCGTTTGGTATGGAAGATCAATCACCTGAAGAAAAAGCTATT  902
+             ||| | |||||||| ||||||||||| ||||||    |||| ||||||| | ||||||||
+Sbjct  469   GATGTTGAATATCCGACTGCGTTTGGAATGGAATCAAAATCTCCTGAAGTAGAAGCTATT  528
+
+Query  903   GCTCTTGCAGATAGTAAATCTGGTGCTTCATTAAAATTAACAATTTT-AAGCCCAATGGG  961
+             |     || |||  |||| |||||||||| |||||| | ||| | || || ||  |  | 
+Sbjct  529   GAAGAAGCTGATGCTAAAACTGGTGCTTCTTTAAAACTTACATTGTTAAAACCGGAA-GC  587
+
+Query  962   TAGAGTATGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGC  1021
+             |||| ||||||| ||||||||||||||||||||||||||||||||||||||||| |||||
+Sbjct  588   TAGAATATGGACAATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGC  647
+
+Query  1022  TGACTTTGCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTC  1081
+             |||||||||||  | || ||     |  |     |||||||| || |||||||| |||||
+Sbjct  648   TGACTTTGCAG--G-AATTG-----A--A-----GACCTTGCAAATTATGGTGAGTATTC  692
+
+Query  1082  TGGTGGTCCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTT-ATGA  1140
+              ||||||||||||||  |||||||||| || ||||| || ||  || | || ||| ||||
+Sbjct  693   AGGTGGTCCGACTACAGGTGAGACTAAGTTCTATGCTGAAACACTTCTTGA-CTTAATGA  751
+
+Query  1141  CTAGACATAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTA  1200
+             | ||| | ||||| |||||||||   ||||||||||||||||| ||||||||||| || |
+Sbjct  752   CAAGAGAAAAAGACCCTAAAGGTCGTGATAAAATCTTAATCATCGGTGGAGCTATCGCAA  811
+
+Query  1201  ACTTTACGGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAG  1260
+             ||||||| ||||| || ||||||||||| ||||| |||||| ||||||||||  ||||||
+Sbjct  812   ACTTTACAGATGTAGCGAAAACATTTACTGGTATCATTCAGGCATTTGAAGAGTATGCAG  871
+
+Query  1261  AAAAAATAAAAG  1272
+             ||||||| ||||
+Sbjct  872   AAAAAATGAAAG  883
+
+
+>gb|AY885678.1| Candidatus Arcobacter sulfidicus ATP citrate lyase alpha subunit 
+gene, partial cds
+Length=839
+
+ Score = 416 bits (225),  Expect = 1e-111
+ Identities = 645/847 (76%), Gaps = 31/847 (4%)
+ Strand=Plus/Plus
+
+Query  2194  TTATCGCTTGGTGTATCGGTACAATTGCTAAGCATTTTA-GCTCA-GGTGTACAGTTTGG  2251
+             |||| || |||||||| ||||||||||||||  || ||| | |   |||||||| |||||
+Sbjct  6     TTAT-GCATGGTGTATTGGTACAATTGCTAA--ATATTATGATAGTGGTGTACAATTTGG  62
+
+Query  2252  TCATGCAGGTGCAAGTGCAAATGCTGATGCTGAAACAGCTGCTTCAAAAAATAAAGCAAT  2311
+             |||||||||||||  ||||||||||||    ||||| ||||   | ||||||||||| ||
+Sbjct  63    TCATGCAGGTGCATCTGCAAATGCTGAGAGAGAAACTGCTGAAGCTAAAAATAAAGCTAT  122
+
+Query  2312  GGCTGAAGCTGGCATATATGTACC-ACAATCATTCAATGATTTACCGGGAACAATCAAAA  2370
+             ||| |||||||| ||  |||||||  | | |||| ||||||||||| |  |  || ||| 
+Sbjct  123   GGCGGAAGCTGGTATCCATGTACCTGCTA-CATTTAATGATTTACCAGCTAAGATTAAAG  181
+
+Query  2371  AAGTTTATGAAGAACTTAGAGCAAACGGAACTATCGCTGAAATTGCAGAACCTGATATGG  2430
+             | |||||||| |    |    | |   | | |||||||  |||  |||| ||||| ||| 
+Sbjct  182   AGGTTTATGA-G----T----C-ATTAG-A-TATCGCTCCAATCCCAGAGCCTGAGATGA  229
+
+Query  2431  ATACAGTTCCAAAAGTTAGAAAAAGTAAAGAATTTATTTGTACTATATCTGATGACAGGG  2490
+             ||  ||| ||||  ||||||| ||||||| ||||||| |||||||| |||||||| || |
+Sbjct  230   ATGTAGTACCAACTGTTAGAAGAAGTAAACAATTTATCTGTACTATCTCTGATGATAGAG  289
+
+Query  2491  GTGATGAAGCGAC-TTATGCAGGTTTCCCAATCTCTTCGTTGGCAACTCCGGATACAGGC  2549
+             |||| ||||| ||  |||   |||| ||| || |||||  |||| || || |||||||| 
+Sbjct  290   GTGAAGAAGC-ACAATATTGTGGTTACCCTATATCTTCTGTGGCTACACCTGATACAGG-  347
+
+Query  2550  AAAGGC-ATCGGTGATGTCATCTCTTTATTATGGTTCAAAAAACAG-TATCCACTATGGG  2607
+             |    |  | |||||||| || ||| |  | |||||||||||| || || |||  |||||
+Sbjct  348   ATTTACTGTTGGTGATGTTATGTCTATCCTTTGGTTCAAAAAA-AGATACCCAAGATGGG  406
+
+Query  2608  CTACACAATTTATT-GAAACTGTACTTAAAACTGTTGCAGACCATGGTCCGGCAGTTTCC  2666
+             ||     |||| || ||||| ||||||||||||||||| ||||||||||| || ||    
+Sbjct  407   CT-GTTGATTTCTTAGAAACAGTACTTAAAACTGTTGCGGACCATGGTCCAGCTGTAAGT  465
+
+Query  2667  GGTGCTCACAATGCAAAAGTAACAGCAAGAGCTGGTAAATCAGTTGTTGAAGCA-TTAGT  2725
+             || ||||| ||||| ||||| || || ||||||||||||   ||| |     || ||| |
+Sbjct  466   GGAGCTCATAATGCTAAAGTGACTGCTAGAGCTGGTAAAGATGTTATCTCTTCACTTA-T  524
+
+Query  2726  TACAGGACTTTTAACAATCGGTCCAAGATTTGGCGGTGCGATTGACGGTGCTGCAGAGCA  2785
+             | |||| |||||||| ||||| ||||||||||| ||||| ||||| ||||| ||| |  |
+Sbjct  525   TGCAGGTCTTTTAACTATCGGACCAAGATTTGGTGGTGCTATTGATGGTGCAGCAAAATA  584
+
+Query  2786  TTTCAAATATGCAGATGACAATAAATTAACTCCAGCAGACTTTTTAAATCATATGAAAAA  2845
+              || || |||||| |||| ||| |  | |||||||| || || ||||| |||||||||  
+Sbjct  585   CTTTAAGTATGCAAATGATAATGAGATGACTCCAGCTGAGTTCTTAAAACATATGAAAGG  644
+
+Query  2846  AGAGGGTATTCCTATTCCAGGTATTGGGCATAGAATCAAATCTCTTAAAAACCCTGATTT  2905
+              || ||| | || ||||||||||| || || ||||||||||||||||||||||| |||||
+Sbjct  645   TGAAGGTGTACCAATTCCAGGTATCGGACACAGAATCAAATCTCTTAAAAACCCAGATTT  704
+
+Query  2906  AAGAGTTGAAGGTTTGAAGAAATTTGCAAAAGAGTATTTTCCATCTACTCCATTGTTGGA  2965
+             ||| ||  ||||||| | | | ||||||  |||  |||| || || ||||| ||  | ||
+Sbjct  705   AAGGGTAAAAGGTTTAATGGATTTTGCAGCAGAAAATTTCCCTTCAACTCCTTTACTTGA  764
+
+Query  2966  TTATGCATTAACAGTCGA-GCAATTAACTACATCTAAAAAAGAGAATCTAATTCTTAACG  3024
+             |||||||  ||| || || ||  || || |||||||||||||||||||||||||||||||
+Sbjct  765   TTATGCAAGAACTGTTGAAGCTCTT-ACAACATCTAAAAAAGAGAATCTAATTCTTAACG  823
+
+Query  3025  TTGATGG  3031
+             |||||||
+Sbjct  824   TTGATGG  830
+
+
+>gb|AY929806.1| Sulfurimonas autotrophica strain OK10 ATP citrate lyase beta 
+subunit (aclB) gene, partial cds
+Length=918
+
+ Score = 409 bits (221),  Expect = 2e-109
+ Identities = 650/854 (76%), Gaps = 44/854 (5%)
+ Strand=Plus/Plus
+
+Query  432   TTAACACATTTTATAGTTGAACCATTTACTCCACACTCA-CAA-GAGCAAGAGTATTATA  489
+             |||||||| ||||| ||||| || ||||||||||| | | |||  || ||||||||||||
+Sbjct  55    TTAACACACTTTATCGTTGAGCCGTTTACTCCACA-TGACCAATCAG-AAGAGTATTATA  112
+
+Query  490   TCTCTGCTACATG-TGTTGGTGAGGATGATGTACTTTACATGTCAGCTGAGGGTGGTATG  548
+             | ||||| || || ||||||||| || || || |||||  | |||||||| |||||||||
+Sbjct  113   TTTCTGCAAC-TGTTGTTGGTGATGAAGACGTTCTTTATCTATCAGCTGAAGGTGGTATG  171
+
+Query  549   GAAGTTGAAGAGGGTTGGGATGAGAAAGTCAACGAAGTTGTAATCCCTATCGATATGAGC  608
+             ||||||||||| ||||||||||| ||||| |  ||| | | | |||| ||  | |  | |
+Sbjct  172   GAAGTTGAAGAAGGTTGGGATGAAAAAGTTACAGAATTAGCATTCCCAAT-TACAGCAAC  230
+
+Query  609   -GATGCTGATAT-G--GAACATGCAATAAAAGCAAATATTCC-TTCAGATATTCCTGCTC  663
+              || |  || || |  ||| |   ||| ||||| ||| | ||   | ||| ||    |  
+Sbjct  231   TGAAGAAGAAATCGCTGAA-A--AAATCAAAGC-AATGTCCCGGCCTGATGTTAAACCGG  286
+
+Query  664   AAAACAGAGAAGGTTTTGCATCATTTGCAATAGCATTTTTTAAATTTTACAG-AGATATG  722
+             || ||| ||||   |||||   ||||||||| |  ||||| |||   ||  | | || | 
+Sbjct  287   AAGACAAAGAAAACTTTGCGAAATTTGCAATCGGTTTTTTCAAAGCGTATCGTAAAT-TA  345
+
+Query  723   AACTTCGCTTATTTGGAAATAAACCCGATTGTTATGCTTGAAGGCAACAATATGGCAATT  782
+             |||||||||||  | ||||| || ||  |||| ||||   |||| |  || || | |  |
+Sbjct  346   AACTTCGCTTACCTTGAAATCAATCCATTTGTAATGC---AAGGGAGTAAAATCG-AGCT  401
+
+Query  783   C-TGGATTTAGTTGCAAGACTAGATGATACTGCTGGCTTTATGATGAGAGATACTTGGGG  841
+             | ||||| | ||||||| ||| |||||||||||||| |||||||||| |||    |||||
+Sbjct  402   CTTGGATATGGTTGCAAAACTTGATGATACTGCTGGATTTATGATGACAGAGGAGTGGGG  461
+
+Query  842   AGATATAGAATATCCTACTGCGTTTGGTATGGAAGATCAATCACCTGAAGAAAAAGC-TA  900
+              ||||| |||||||||||||| |||||||||||||   |||| |||||||   ||||  |
+Sbjct  462   TGATATTGAATATCCTACTGCATTTGGTATGGAAGCAAAATCTCCTGAAGTTGAAGCGGA  521
+
+Query  901   -TTGCTCTTGCAGATAGTAAATCTGGTGCTTCATTAAAATTAACAATTTTAAGCCCA-AT  958
+              ||| |   ||||||   ||| | || |||||||||||| | ||  ||||||  ||| ||
+Sbjct  522   TTTGAT-AAGCAGATGCAAAAACAGG-GCTTCATTAAAACTTACTCTTTTAAAACCAGAT  579
+
+Query  959   GGGTAGAGTATGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAAT  1018
+              | |||| | ||||||||||||||||||||||||||||||||||| ||||||||||| ||
+Sbjct  580   -GCTAGAATCTGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTAT  638
+
+Query  1019  TGCTGACTTTGCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATA  1078
+             ||||||||||||||  |   ||      || | |   || ||||| || |||||||| ||
+Sbjct  639   TGCTGACTTTGCAG--G--TAT------AG-A-A---GATCTTGCCAATTATGGTGAGTA  683
+
+Query  1079  TTCTGGTGGTCCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTAT  1138
+             ||| |||||||| |||||  |||  || |||||||||||||| ||| |  | ||| | ||
+Sbjct  684   TTCAGGTGGTCCAACTACAGGTGWAACAAAATTTTATGCAGAAACTCTACTTGATTTAAT  743
+
+Query  1139  GACTAGACATAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGC  1198
+             ||||||| | ||||| |||||||||  ||||||||| ||||| || ||||||||||||||
+Sbjct  744   GACTAGAGAAAAAGACCCTAAAGGTCGAGATAAAATTTTAATTATCGGTGGAGCTATTGC  803
+
+Query  1199  TAACTTTACGGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGC  1258
+              |||||||| ||||| ||||||||||||||||||||||||||| | ||||||||  ||||
+Sbjct  804   AAACTTTACTGATGTTGCAAAAACATTTACAGGTATTATTCAGGCTTTTGAAGAGTATGC  863
+
+Query  1259  AGAAAAAATAAAAG  1272
+              || ||||| ||||
+Sbjct  864   TGATAAAATGAAAG  877
+
+
+>emb|FN659783.1| Uncultured bacterium partial aclA gene for ATP citrate lyase, 
+clone aclAB2
+Length=744
+
+ Score = 398 bits (215),  Expect = 5e-106
+ Identities = 575/750 (77%), Gaps = 20/750 (3%)
+ Strand=Plus/Plus
+
+Query  2034  ATTGGTGGAGACAGATTTGTTGGTTCTGTTTTTATTGACAACATGTTGAGAATGGaaaaa  2093
+             |||||||| || |||||||| ||||| || ||||| || ||| | || |||||| || | 
+Sbjct  10    ATTGGTGGTGATAGATTTGTAGGTTCAGTGTTTATAGATAACCTTTTAAGAATGCAAGAG  69
+
+Query  2094  aaTCCAGATGTAAAATATATGGTACTTTTAGGCGAAGTTGGTGGTACTGAAGAGTATAAA  2153
+             ||||||||||||||||||||| | ||  | || |||||||||||||| |||||||| |||
+Sbjct  70    AATCCAGATGTAAAATATATGATTCTACTTGGAGAAGTTGGTGGTACAGAAGAGTACAAA  129
+
+Query  2154  ATCATCGATGCTA-TAAAAGCTGGACAAATTACTAAGCCGGTTATCGCTTGGTGTATCGG  2212
+              | || || ||   |||||| |||  |||||||||||||  |||| || |||||||| ||
+Sbjct  130   GTAATAGAAGCAGTTAAAAG-TGGTAAAATTACTAAGCCTATTATTGCATGGTGTATTGG  188
+
+Query  2213  TACAATTGCTAAGCATTTTA-GCTCA-GGTGTACAGTTTGGTCATGCAGGTGCAAGTGCA  2270
+              |||||||||||  || ||| | |   ||||| ||||||||||| |||||||||   |||
+Sbjct  189   AACAATTGCTAA--ATATTACGATAGTGGTGTTCAGTTTGGTCACGCAGGTGCATCGGCA  246
+
+Query  2271  AATGCTGATGCTGAAACAGCTGCTTCAAAAAATAAAGCAATGGCTGAAGCTGGCATATAT  2330
+             ||||  ||    |||||||| |  |  ||||| || || |||   || || || ||  | 
+Sbjct  247   AATGGCGAAATGGAAACAGCAGAGTATAAAAACAATGCTATGAAAGAGGCAGGAATTCAC  306
+
+Query  2331  GTACCACAATCATTCAATGATTTACCGGGAACAATCAAAAAAGTTTATGAAGAACTTAGA  2390
+             || ||| |  | ||||| ||  |||| |  | ||||||| | ||||| |||   |||| |
+Sbjct  307   GTTCCAGATACTTTCAACGACCTACCAGCTAAAATCAAAGAGGTTTACGAATCGCTTA-A  365
+
+Query  2391  GCAAACGGAACTATCGCTGAAATTGCAGAACCTGATATGGATACAGTTCCAAAAGTTAGA  2450
+                ||  ||| || | |  | | | ||| | |  || |  ||||||| || || || |||
+Sbjct  366   CTTAAGTGAAATA-C-C--AGAGT-CAG-A-C--AT-T-AATACAGTACCTAAGGTAAGA  414
+
+Query  2451  AAAAGTAAAGAATTTATTTGTACTATATCTGATGACAGGGGTGATGAAGCGACTTATGCA  2510
+             | |  |||  | ||||| ||||| || ||||| || || || || || || || ||||| 
+Sbjct  415   AGACCTAAGCAGTTTATCTGTACAATCTCTGACGATAGAGGCGAAGAGGCTACATATGCT  474
+
+Query  2511  GGTTTCCCAATCTCTTCGT-TGGCAACTCCGGATACAGGCAAAGGCATCGGTGATGTCAT  2569
+             || ||||||||||||  || | |||||||| ||||| || ||||| || || ||||| ||
+Sbjct  475   GGATTCCCAATCTCT-AGTGTTGCAACTCCAGATACTGGTAAAGGAATTGGAGATGTTAT  533
+
+Query  2570  CTCTTTATTATGGTTCAAAAAACAGTATCCACTATGGGCTACACAATTTATTGAAACTGT  2629
+             ||||||||||||||| |||||||||||||||  |||||||||  | ||||| ||||||||
+Sbjct  534   CTCTTTATTATGGTTTAAAAAACAGTATCCAAAATGGGCTACTGAGTTTATCGAAACTGT  593
+
+Query  2630  ACTTAAAACTGTTGCAGACCATGGTCCGGCAGTTTCCGGTGCTCACAATGCAAAAGTAAC  2689
+             | ||||||| |||||||||||||| || ||||||   |||||||||||||||||||||||
+Sbjct  594   AATTAAAACAGTTGCAGACCATGGACCAGCAGTTAGTGGTGCTCACAATGCAAAAGTAAC  653
+
+Query  2690  AGCAAGAGCTGGTAAATCAGTTGTTGAAGCATTAGTTACAGGACTTTTAACAATCGGTCC  2749
+             ||||||||| ||||||   ||||| ||||||||||| |||||  | ||||| || |||||
+Sbjct  654   AGCAAGAGCAGGTAAAAGTGTTGTAGAAGCATTAGTAACAGGTTTATTAACCATTGGTCC  713
+
+Query  2750  AAGATTTGGCGGTGCGATTGACGGTGCTGC  2779
+             ||||||||| || || ||||| ||||||||
+Sbjct  714   AAGATTTGGTGGAGCAATTGATGGTGCTGC  743
+
+
+>gb|AY430959.1| Uncultured prokaryote clone 820-B11 AclB (aclB) gene, partial 
+cds
+Length=327
+
+ Score = 228 bits (123),  Expect = 7e-55
+ Identities = 263/327 (80%), Gaps = 23/327 (7%)
+ Strand=Plus/Minus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||||||||||||||| |||||||| |||
+Sbjct  327   TGGACAATGGTAGCTGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TTT  269
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+               ||   |   ||| |  |  | || |    | |||||||||||||| ||||| || || 
+Sbjct  268   --AG---C---TGGTGTTA--A-AGAT---TTAGCTAACTATGGTGAGTATTCAGGAGGA  223
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || ||||||  ||||||  |||| |||||||| |||||| | ||| | ||||||||||||
+Sbjct  222   CCTACTACTGCTGAGACACAATTCTATGCAGAAACTATTTTTGATTTAATGACTAGACAT  163
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             ||||| || || |  |  | ||||||||||||||||||||| ||||||||||||||||| 
+Sbjct  162   AAAGACCC-AA-GA-G--G-TAAAATCTTAATCATTGGTGGTGCTATTGCTAACTTTACA  109
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGT-CATTTGAAGAAAATGCAGAAAAAAT  1267
+             ||||| || |||||||||||||||||||| || | |||||||| || |||| || ||| |
+Sbjct  108   GATGTTGCTAAAACATTTACAGGTATTAT-CAATGCATTTGAAAAATATGCTGATAAACT  50
+
+Query  1268  AAAAGCGCATAATACAAAAATTTATGT  1294
+             |||||  ||||| ||||||||||||||
+Sbjct  49    AAAAGAACATAAAACAAAAATTTATGT  23
+
+
+>gb|AY430955.1| Uncultured prokaryote clone 820-D2 AclB (aclB) gene, partial 
+cds
+Length=327
+
+ Score = 224 bits (121),  Expect = 9e-54
+ Identities = 263/328 (80%), Gaps = 23/328 (7%)
+ Strand=Plus/Minus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||||||||||||||| |||||||| |||
+Sbjct  327   TGGACAATGGTAGCCGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGATTTT  268
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+             |||| ||  ||       || ||  || |    |||||||||||||||||||| ||||| 
+Sbjct  267   GCAGGAGTTAA-------AG-AT--CT-A----GCTAACTATGGTGAATATTCAGGTGGA  223
+
+Query  1089  CCGACTACTAG-TGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACA  1147
+             || ||||| || ||| ||| | ||||||||||| || ||| | ||| | |||||||||||
+Sbjct  222   CCTACTAC-AGCTGAAACTCAGTTTTATGCAGAAACAATTTTTGATTTAATGACTAGACA  164
+
+Query  1148  TAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+             ||||||||| || |  |  || ||||| ||||| |||||||| |||||||||||||||||
+Sbjct  163   TAAAGATCC-AA-GA-G--GA-AAAATTTTAATTATTGGTGGTGCTATTGCTAACTTTAC  110
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT  1267
+              ||||| || ||||||||||||||||||||  |  |||||||| || ||||||| ||| |
+Sbjct  109   AGATGTTGCTAAAACATTTACAGGTATTATCAAAGCATTTGAAAAATATGCAGATAAATT  50
+
+Query  1268  AAAAGCGCATAATACAAAAATTTATGTT  1295
+             |||||  ||    || ||||||||||||
+Sbjct  49    AAAAGAACACGGAACTAAAATTTATGTT  22
+
+
+>emb|AM181276.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone E07
+Length=350
+
+ Score = 224 bits (121),  Expect = 9e-54
+ Identities = 245/304 (81%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181259.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C09
+Length=350
+
+ Score = 224 bits (121),  Expect = 9e-54
+ Identities = 245/304 (81%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||| |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAGGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>gb|AY308628.1| Uncultured episymbiont of Alvinella pompejana clone 3722TR-19 
+ATP citrate lyase beta gene, partial cds
+Length=322
+
+ Score = 220 bits (119),  Expect = 1e-52
+ Identities = 258/322 (80%), Gaps = 21/322 (7%)
+ Strand=Plus/Plus
+
+Query  974   TATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTTGCAGA  1033
+             |||||| ||||| ||||||||||||||||||||||||||||| |||||||| ||||||| 
+Sbjct  1     TATGGTGGCCGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGATTTTGCAGG  60
+
+Query  1034  AGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGTCCGAC  1093
+             ||  || |     | | |   | |    |||||||||||||||||||| ||||| || ||
+Sbjct  61    AGTTAAAG-----A-T-T---T-A----GCTAACTATGGTGAATATTCAGGTGGACCTAC  105
+
+Query  1094  TACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACATAAAGA  1153
+             ||||  ||||||  |||| |||||||| |||||| | ||| | |||||||||||||||||
+Sbjct  106   TACTGCTGAGACGCAATTCTATGCAGAAACTATTTTTGATTTAATGACTAGACATAAAGA  165
+
+Query  1154  TCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACGGATGT  1213
+              || || |  |  | |||||||||||| |||||||| ||||||||||||||||| |||||
+Sbjct  166   CCC-AA-GA-G--G-TAAAATCTTAATTATTGGTGGTGCTATTGCTAACTTTACAGATGT  219
+
+Query  1214  CGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATAAAAGC  1273
+              || ||||||||||||||||||||| |  |||| ||| || |||| || ||| |||||| 
+Sbjct  220   TGCTAAAACATTTACAGGTATTATTAATGCATTCGAAAAATATGCTGATAAATTAAAAGA  279
+
+Query  1274  GCATAATACAAAAATTTATGTT  1295
+              |||   || ||||||||||||
+Sbjct  280   ACATGGAACTAAAATTTATGTT  301
+
+
+>gb|AY308637.1| Uncultured episymbiont of Alvinella pompejana clone 3722TR-23 
+ATP citrate lyase beta gene, partial cds
+Length=327
+
+ Score = 219 bits (118),  Expect = 4e-52
+ Identities = 261/328 (80%), Gaps = 23/328 (7%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||||||||||||||||||||||||||||||||| |||||||| |||
+Sbjct  1     TGGACCATGGTGGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TTT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+               ||   |   ||| |  |  | || |    | |||||||||||||||||||| || || 
+Sbjct  60    --AG---C---TGGTGTTA--A-AGAT---TTAGCTAACTATGGTGAATATTCAGGAGGA  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || ||||||  ||| ||| |||| |||||||| |||||| | ||| | ||||||||||||
+Sbjct  106   CCTACTACTGCTGAAACTCAATTCTATGCAGAAACTATTTTTGATTTAATGACTAGACAT  165
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+              | || || || |  |  | |||||| |||||||||||||| |||||||| |||||||| 
+Sbjct  166   TANGACCC-AA-GA-G--G-TAAAATNTTAATCATTGGTGGNGCTATTGCAAACTTTACA  219
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGT-CATTTGAAGAAAATGCAGAAAAAAT  1267
+             ||||| || |||||||| ||||||||||| || | |||||||| || |||| || ||| |
+Sbjct  220   GATGTTGCTAAAACATTCACAGGTATTAT-CAATGCATTTGAAAAATATGCTGATAAATT  278
+
+Query  1268  AAAAGCGCATAATACAAAAATTTATGTT  1295
+             ||||| |||||| || ||||| ||||||
+Sbjct  279   AAAAGAGCATAAAACTAAAATCTATGTT  306
+
+
+>emb|AM181282.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone B07
+Length=350
+
+ Score = 219 bits (118),  Expect = 4e-52
+ Identities = 244/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCGAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181275.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F01
+Length=350
+
+ Score = 219 bits (118),  Expect = 4e-52
+ Identities = 244/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181272.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F09
+Length=350
+
+ Score = 219 bits (118),  Expect = 4e-52
+ Identities = 244/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  || || || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATCTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181257.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone E02
+Length=350
+
+ Score = 219 bits (118),  Expect = 4e-52
+ Identities = 244/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181245.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone G02
+Length=350
+
+ Score = 219 bits (118),  Expect = 4e-52
+ Identities = 244/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>gb|EU477051.1| Uncultured epsilon proteobacterium clone yeti_aclB_H9 ATP citrate 
+lyase beta subunit (aclB) gene, partial cds
+Length=332
+
+ Score = 217 bits (117),  Expect = 1e-51
+ Identities = 247/307 (80%), Gaps = 19/307 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||||||||||||||||||||||||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+             |  |   |   |||    | | | |  |||||||||||||||||||||||||| ||||| 
+Sbjct  60    G--G---C---TGGA---A-T-T-GAAGACCTTGCTAACTATGGTGAATATTCAGGTGGG  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATCTTATGACTAGACA  1147
+             || |||||  |||| || ||||| ||||| || || |||| | || |||||||||||| |
+Sbjct  106   CCAACTACAGGTGAAACAAAATTCTATGCTGAAAC-ATTACTTGACCTTATGACTAGAGA  164
+
+Query  1148  TAAAGATCCTAAAGGT-GAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTA  1206
+                |||| || ||||| || || ||| |  | || ||||||||||||||||| |||||||
+Sbjct  165   GCCAGATGCTCAAGGTAGAGGA-AAAGTTATGATTATTGGTGGAGCTATTGCAAACTTTA  223
+
+Query  1207  CGGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAA  1266
+             | ||||| ||||||||||||||||||||||||||  ||||||||| | |||| || ||||
+Sbjct  224   CAGATGTTGCAAAAACATTTACAGGTATTATTCAAGCATTTGAAGTATATGCTGATAAAA  283
+
+Query  1267  TAAAAGC  1273
+             | |||||
+Sbjct  284   TGAAAGC  290
+
+
+>gb|AY430970.1| Uncultured prokaryote clone 694-11 AclB (aclB) gene, partial 
+cds
+Length=336
+
+ Score = 215 bits (116),  Expect = 5e-51
+ Identities = 260/328 (79%), Gaps = 16/328 (5%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || ||||||||||||||||||||||||||||| || |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTTTATGCTGACACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||| || |||||||| ||||||
+Sbjct  60    ---G--GC---TGGCGG-GGT-T-GAAGATTTAGCAAACTACGGAGAATATTCCGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATCTTATGACTAGACA  1147
+             |||||||||  ||| || | ||||||| | || || | || ||||| | ||||| ||| |
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAAC-AGTACTAGATTTAATGACAAGAGA  167
+
+Query  1148  TAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+              |||||||| |||||   ||||||||| |||||||| ||||| |||||||||||||| ||
+Sbjct  168   AAAAGATCCAAAAGGCAGAGATAAAATATTAATCATCGGTGGTGCTATTGCTAACTTCAC  227
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT  1267
+              || || ||||||||||||||||||||||||||  |||||||| || ||||||| |||||
+Sbjct  228   AGACGTAGCAAAAACATTTACAGGTATTATTCAAGCATTTGAAAAATATGCAGATAAAAT  287
+
+Query  1268  AAAAG-CGCATAATACAAAAATTTATGT  1294
+              |||| ||    | |||| |||||||||
+Sbjct  288   GAAAGACGTTGGA-ACAAGAATTTATGT  314
+
+
+>gb|AY308639.1| Nautilia profundicola AmH ATP citrate lyase beta gene, partial 
+cds
+Length=336
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 244/305 (80%), Gaps = 14/305 (5%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||||||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||| || ||| | |  ||  | || |||||||| |||||||||||||||
+Sbjct  60    ---G--GC---TGGTGG-AGT-T-GAAGATTTAGCAAACTATGGAGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATCTTATGACTAGACA  1147
+             |||||||||  ||| || | ||| ||| | || || | || | ||| | ||||| ||| |
+Sbjct  109   CCGACTACTGATGAAACAAGATTCTATACTGAAAC-AGTACTTGATTTAATGACAAGAGA  167
+
+Query  1148  TAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+              ||||| || ||||||  |||||||||||||||||||||||| || ||||| ||||||||
+Sbjct  168   AAAAGACCCAAAAGGTAGAGATAAAATCTTAATCATTGGTGGTGCGATTGCAAACTTTAC  227
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT  1267
+              || || ||| ||||||||||||||||||||||  |||||||| || |||| || |||||
+Sbjct  228   AGACGTAGCAGAAACATTTACAGGTATTATTCAAGCATTTGAAAAATATGCTGATAAAAT  287
+
+Query  1268  AAAAG  1272
+              ||||
+Sbjct  288   GAAAG  292
+
+
+>emb|AM181290.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone H02
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181284.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F10
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181278.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D05
+ emb|AM181279.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone B05
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181277.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F06
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+             |  |   |   ||||||  || | |  ||  | || ||||||||||| ||||||||||||
+Sbjct  60    G--G---C---TGGCGGT-GT-T-GAAGATTTAGCAAACTATGGTGAGTATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || || |||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCGAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181274.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D04
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTAGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181273.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A02
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181271.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone E04
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||| ||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAGACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181266.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A04
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181263.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone G01
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||    || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTCAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181262.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D09
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181260.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone G06
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181258.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone G03
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| ||||||||||||||||| || ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCTGGTGGTGGTGCTTCAGTCGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181256.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F07
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181252.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone E03
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTAGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181251.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D06
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTAGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181249.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F03
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181244.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C06
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181243.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone B01
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181242.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C05
+Length=350
+
+ Score = 213 bits (115),  Expect = 2e-50
+ Identities = 243/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>gb|AY430978.1| Uncultured prokaryote clone 694-2 AclB (aclB) gene, partial cds
+Length=324
+
+ Score = 211 bits (114),  Expect = 7e-50
+ Identities = 256/321 (80%), Gaps = 23/321 (7%)
+ Strand=Plus/Plus
+
+Query  975   ATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTTGCAGAA  1034
+             ||||| || |||||||||||||||||||||||||||||||| |||||||| |||  ||  
+Sbjct  4     ATGGTGGCTGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TTT--AG--  58
+
+Query  1035  GCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGTCCGACT  1094
+              |   ||| |  |  | || |    | |||||||||||||| ||||| || || || |||
+Sbjct  59    -C---TGGTGTTA--A-AGAT---TTAGCTAACTATGGTGAGTATTCAGGAGGACCTACT  108
+
+Query  1095  ACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACATAAAGAT  1154
+             |||  ||| ||  ||||||||||||| |||||| | ||| | ||||||||||||||||| 
+Sbjct  109   ACTGCTGAAACAGAATTTTATGCAGAAACTATTTTTGATTTAATGACTAGACATAAAGAC  168
+
+Query  1155  CCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACGGATGTC  1214
+             || || |  |  | |||||||||||| |||||||| ||||||||||||||||| ||||| 
+Sbjct  169   CC-AA-GA-G--G-TAAAATCTTAATTATTGGTGGTGCTATTGCTAACTTTACAGATGTT  222
+
+Query  1215  GCAAAAACATTTACAGGTATTATTCAGT-CATTTGAAGAAAATGCAGAAAAAATAAAAGC  1273
+             || |||||||||||||||||||| || | |||| ||| || |||| || ||| | |||| 
+Sbjct  223   GCTAAAACATTTACAGGTATTAT-CAATGCATTCGAAAAATATGCTGATAAACTTAAAGA  281
+
+Query  1274  GCATAATACAAAAATTTATGT  1294
+              ||||| ||||||||||||||
+Sbjct  282   ACATAAAACAAAAATTTATGT  302
+
+
+>emb|AM181291.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone G05
+Length=351
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181289.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C11
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181288.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone E06
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181286.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D02
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181283.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C03
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCCGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             ||||||||   ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACCGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181280.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C02
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || || | |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATTCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181270.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone E05
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTAGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181269.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A01
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTAGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGCTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181268.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D10
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTTGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCCGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181267.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone B10
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCCGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181254.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone F02
+ emb|AM181255.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A03
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181253.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A05
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || | ||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAGAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181250.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone G07
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGACAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181248.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A11
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| ||  |||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATCAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181246.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C01
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| ||  ||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATCTGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181241.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone B03
+Length=350
+
+ Score = 207 bits (112),  Expect = 9e-49
+ Identities = 242/304 (80%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || | ||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGACTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| || ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGATAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>gb|AY430972.1| Uncultured prokaryote clone 694-9 AclB (aclB) gene, partial cds
+Length=333
+
+ Score = 206 bits (111),  Expect = 3e-48
+ Identities = 259/328 (79%), Gaps = 19/328 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||| ||||||||||||||||||||||||||||| ||||||||||| 
+Sbjct  1     TGGACAATGGTTGCCGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGACTT-  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+               ||   |    || |   || | |  ||  | || ||||| || |||||||| ||||||
+Sbjct  60    --AG---C----GG-GT--GT-T-GAAGATTTGGCAAACTACGGAGAATATTCCGGTGGT  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATCTTATGACTAGACA  1147
+             |||||||||  ||| || | ||||||| | || || | || | ||| | ||||| ||| |
+Sbjct  106   CCGACTACTGATGAAACAAGATTTTATACTGAAAC-AGTACTTGATTTAATGACAAGAGA  164
+
+Query  1148  TAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+              |||||||| |||||   ||||||||| |||||||| ||||| |||||||||||||| ||
+Sbjct  165   AAAAGATCCAAAAGGCAGAGATAAAATATTAATCATCGGTGGTGCTATTGCTAACTTCAC  224
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT  1267
+              || || ||||||||||||||||||||||||||  |||||||| || ||||||| |||||
+Sbjct  225   AGACGTAGCAAAAACATTTACAGGTATTATTCAAGCATTTGAAAAATATGCAGATAAAAT  284
+
+Query  1268  AAAAG-CGCATAATACAAAAATTTATGT  1294
+              |||| ||    | |||| |||||||||
+Sbjct  285   GAAAGACGTTGGA-ACAAGAATTTATGT  311
+
+
+>emb|AM181287.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone C08
+Length=350
+
+ Score = 202 bits (109),  Expect = 4e-47
+ Identities = 241/304 (79%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181281.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone H04
+Length=350
+
+ Score = 202 bits (109),  Expect = 4e-47
+ Identities = 241/304 (79%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTGGCCGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| || ||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATCGGTGGGGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181265.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone A06
+Length=350
+
+ Score = 202 bits (109),  Expect = 4e-47
+ Identities = 241/304 (79%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| |||||||| || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTTGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| ||  ||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATTTGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|AM181247.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone H06
+Length=350
+
+ Score = 202 bits (109),  Expect = 4e-47
+ Identities = 241/304 (79%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTGGCTGGTGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| |||||  | 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCGCA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| || |||| ||  |||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATATGCCGATGAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>emb|FN659785.1| Uncultured bacterium partial aclB gene for ATP citrate lyase, 
+clone aclBD9
+Length=333
+
+ Score = 198 bits (107),  Expect = 5e-46
+ Identities = 243/306 (79%), Gaps = 19/306 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || ||||||||||||||||||||||||||||| || |||||||| | |
+Sbjct  1     TGGACAATGGTGGCTGGTGGTGGTGCTTCAGTTGTTTATGCTGACACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   |   || |  || | ||| ||||| ||||||||||| || |||||||||
+Sbjct  60    ---G--GC---T---GG-A--ATCGATGATCTTGCAAACTATGGTGAGTACTCTGGTGGT  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATCTTATGACTAGACA  1147
+             || |||||| ||||||| ||||| ||||| || || | || ||||||| ||||| ||| |
+Sbjct  106   CCAACTACTGGTGAGACAAAATTCTATGCTGAAAC-ACTACTAGATCTAATGACAAGAGA  164
+
+Query  1148  TAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+              ||||||||| |||||   | |||| |  | || || |||||||||||||||||||| ||
+Sbjct  165   AAAAGATCCTCAAGGTCGTGGTAAAGTTATGATTATCGGTGGAGCTATTGCTAACTTCAC  224
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAA-ATGCAGAAAAAA  1266
+              ||||| |||||||||||||| |||||||||||  ||||||| || | |||| || ||||
+Sbjct  225   TGATGTTGCAAAAACATTTACTGGTATTATTCAAGCATTTGA-GATATATGCTGATAAAA  283
+
+Query  1267  TAAAAG  1272
+             | ||||
+Sbjct  284   TGAAAG  289
+
+
+>emb|AM181264.1| Uncultured epsilon proteobacterium partial aclB gene for ATP 
+citrate lyase beta subunit, clone D03
+Length=350
+
+ Score = 196 bits (106),  Expect = 2e-45
+ Identities = 240/304 (79%), Gaps = 12/304 (4%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||| ||||||||||| |||||||| | |
+Sbjct  1     TGGACAATGGTAGCTGGGGGTGGTGCTTCAGTTGTATATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+                |  ||   ||||||  || | |  ||  | || ||||||||||||||||||||||||
+Sbjct  60    ---G--GC---TGGCGG-TGT-T-GAAGATTTAGCAAACTATGGTGAATATTCTGGTGGT  108
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             |||||||||  ||| || | ||||||| | || ||  || | ||| | ||||| ||| | 
+Sbjct  109   CCGACTACTGATGAAACAAGATTTTATACTGAAACGGTTCTTGATTTGATGACAAGAGAA  168
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             |||||||| ||||||  ||||||||||||||| |||||||| || ||||| ||||| || 
+Sbjct  169   AAAGATCCAAAAGGTAGAGATAAAATCTTAATTATTGGTGGTGCGATTGCAAACTTCACA  228
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             || || ||||||||||||||||||||||| ||  |||||||| ||  ||| |  ||||| 
+Sbjct  229   GACGTAGCAAAAACATTTACAGGTATTATCCAAGCATTTGAAAAATTTGCTGTTAAAATG  288
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  289   AAAG  292
+
+
+>gb|AY430964.1| Uncultured prokaryote clone 820-A6 AclB (aclB) gene, partial 
+cds
+Length=325
+
+ Score = 195 bits (105),  Expect = 7e-45
+ Identities = 255/324 (79%), Gaps = 23/324 (7%)
+ Strand=Plus/Minus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||||||||||||||||||||||||||||||||| |||||||| |||
+Sbjct  325   TGGACCATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TTT  267
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+              | |   ||   ||    ||| ||   ||  | |||||||||||||||||||| ||||||
+Sbjct  266   -C-G---CA---GG----AGT-TAAA-GATTTAGCTAACTATGGTGAATATTCAGGTGGT  221
+
+Query  1089  CCGACTACTAG-TGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACA  1147
+             || ||||| || ||| ||  | |||||||| || |||||  | ||| | ||||| |||||
+Sbjct  220   CCTACTAC-AGCTGAAACAGAGTTTTATGCTGAAACTATCTTTGATTTAATGACAAGACA  162
+
+Query  1148  TAAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+             |||||| || || |  |  || ||||| ||||| |||||||| |||||||||||||||||
+Sbjct  161   TAAAGACCC-AA-GA-G--GA-AAAATTTTAATTATTGGTGGTGCTATTGCTAACTTTAC  108
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT  1267
+              ||||| || |||||||||||||| |||||| |  || | ||| || |||| || ||| |
+Sbjct  107   AGATGTTGCTAAAACATTTACAGGCATTATTAATGCACTAGAAAAATATGCTGATAAATT  48
+
+Query  1268  AAAAGCGCATAATACAAAAATTTA  1291
+             |||||  |||   || ||||||||
+Sbjct  47    AAAAGAACATGGAACTAAAATTTA  24
+
+
+>gb|AY308604.1| Uncultured episymbiont of Alvinella pompejana clone 42D-20 ATP 
+citrate lyase beta gene, partial cds
+Length=327
+
+ Score = 183 bits (99),  Expect = 2e-41
+ Identities = 254/326 (78%), Gaps = 21/326 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||||||||| ||||||||||||||||||||||||||||| || ||||| |||
+Sbjct  1     TGGACAATGGTTGCCGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATCGCTGA-TTT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+               ||   |   ||| |   | | || |    | ||||||||||| || |||  |||||| 
+Sbjct  60    --AG---C---TGGTGTT-G-A-AGAT---TTGGCTAACTATGGAGAGTATAGTGGTGGG  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || || ||  ||||||||||||| ||||| || |||||  | ||| | ||||| ||| ||
+Sbjct  106   CCAACAACAGGTGAGACTAAATTCTATGCTGAAACTATCTTTGATTTGATGACAAGATAT  165
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+              ||||||||| |||| ||| |    ||||| | |||||||||||||||||||||||||| 
+Sbjct  166   GAAGATCCTAGAGGTAAAG-T----TCTTATT-ATTGGTGGAGCTATTGCTAACTTTACA  219
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             ||||| ||||||||||||||||||||||| ||  || | ||| |  |||| || ||| ||
+Sbjct  220   GATGTTGCAAAAACATTTACAGGTATTATCCAAGCACTAGAAAACTATGCGGATAAACTA  279
+
+Query  1269  AAAGCGCATAATACAAAAATTTATGT  1294
+             ||||| || ||||| || || |||||
+Sbjct  280   AAAGCACACAATACTAAGATATATGT  305
+
+
+>emb|AM403106.1| Uncultured prokaryote partial aclb gene for ATP citrate lyase 
+beta subunit, clone D5
+Length=283
+
+ Score = 182 bits (98),  Expect = 5e-41
+ Identities = 236/300 (79%), Gaps = 19/300 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||||||||||||||| |||||||| | |
+Sbjct  1     TGGACCATGGTAGCTGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCTGA-TAT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+             |  |   |   |||    | | | | ||| ||||| || |||||||| ||||| || |||
+Sbjct  60    G--G---C---TGGT---A-T-T-GATGATCTTGCAAATTATGGTGAGTATTCAGGAGGT  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTA-TAGATCTTATGACTAGACA  1147
+             || |||||| |||| ||||||||||| || || || | || | || |||||||||||| |
+Sbjct  106   CCCACTACTGGTGAAACTAAATTTTACGCTGAAAC-ACTACTTGACCTTATGACTAGAGA  164
+
+Query  1148  TAAAGATCCTAAAGGT-GAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTA  1206
+              |||||| || ||||| |  || ||| |  | || ||||||||||| |||||||||||||
+Sbjct  165   AAAAGATGCTCAAGGTCGTGGA-AAAGTTATGATTATTGGTGGAGCAATTGCTAACTTTA  223
+
+Query  1207  CGGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAA  1266
+             | ||||| |||||||| ||||||||||| || ||  ||||||||| | |||| || ||||
+Sbjct  224   CAGATGTTGCAAAAACTTTTACAGGTATCATCCAAGCATTTGAAGTATATGCGGATAAAA  283
+
+
+>gb|AY308591.1| Uncultured episymbiont of Alvinella pompejana clone 42D-19 ATP 
+citrate lyase beta gene, partial cds
+Length=333
+
+ Score = 176 bits (95),  Expect = 3e-39
+ Identities = 237/304 (78%), Gaps = 15/304 (5%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || || ||||||||||||||||||||||||||||| || ||||| |||
+Sbjct  1     TGGACCATGGTGGCTGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATCGCTGA-TTT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+               ||   |   ||| |   | | || |    | ||||||||||| || |||  ||| |||
+Sbjct  60    --AG---C---TGGTGTT-G-A-AGAT---TTGGCTAACTATGGAGAGTATAGTGGAGGT  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || || ||| ||||||| || || ||||| || || ||| |||| |||||||| ||| | 
+Sbjct  106   CCAACAACTGGTGAGACAAAGTTCTATGCTGAGACAATTTTAGACCTTATGACAAGAGAG  165
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+             ||||| ||| |||||  ||| || || ||||| || ||||| |||||||| |||||||| 
+Sbjct  166   AAAGACCCTCAAGGTAGAGAGAAGATTTTAATTATCGGTGGGGCTATTGCCAACTTTACA  225
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             ||||| ||||| ||||||||||| ||||||||  ||||||||||  ||||||| ||||| 
+Sbjct  226   GATGTAGCAAAGACATTTACAGGAATTATTCAAGCATTTGAAGAGTATGCAGATAAAATG  285
+
+Query  1269  AAAG  1272
+             ||||
+Sbjct  286   AAAG  289
+
+
+>gb|AY430979.1| Uncultured prokaryote clone 694-1 AclB (aclB) gene, partial cds
+Length=327
+
+ Score = 172 bits (93),  Expect = 3e-38
+ Identities = 252/326 (77%), Gaps = 21/326 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||||||||||||||| || ||||| |||
+Sbjct  1     TGGACAATGGTGGCCGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATCGCTGA-TTT  59
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+               ||   |   ||| |   | | || |    | ||||||||||| || |||  |||||| 
+Sbjct  60    --AG---C---TGGTGTT-G-A-AGAT---TTGGCTAACTATGGAGAGTATAGTGGTGGG  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || || ||  ||||||||||||| ||||| || |||||  | ||| |  |||| ||| ||
+Sbjct  106   CCAACAACAGGTGAGACTAAATTCTATGCTGAAACTATCTTTGATTTGGTGACAAGATAT  165
+
+Query  1149  AAAGATCCTAAAGGTGAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTACG  1208
+              ||||||||| |||| ||| |    ||||| | |||||||||||||||||||||||||| 
+Sbjct  166   GAAGATCCTAGAGGTAAAG-T----TCTTATT-ATTGGTGGAGCTATTGCTAACTTTACA  219
+
+Query  1209  GATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAATA  1268
+             ||||| ||||||||||||||||||||||| ||  || | ||| |  |||| || ||| ||
+Sbjct  220   GATGTTGCAAAAACATTTACAGGTATTATCCAAGCACTAGAAAACTATGCGGATAAACTA  279
+
+Query  1269  AAAGCGCATAATACAAAAATTTATGT  1294
+             ||||| || ||||| || || |||||
+Sbjct  280   AAAGCACACAATACTAAGATATATGT  305
+
+
+>gb|AY308636.1| Uncultured episymbiont of Alvinella pompejana clone 3722TD-35 
+ATP citrate lyase beta gene, partial cds
+Length=333
+
+ Score = 165 bits (89),  Expect = 6e-36
+ Identities = 236/305 (77%), Gaps = 17/305 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| ||||| ||||||||||||||||||||||||||||| ||||| ||  | 
+Sbjct  1     TGGACAATGGTGGCCGGGGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCAGATATG  60
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+             ||||  | || | |  | | | ||||  |       ||||||||||| || |||||||| 
+Sbjct  61    GCAG--G-AA-TCGATG-ATT-TAGC--A-------AACTATGGTGAGTACTCTGGTGGA  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || || ||  |||||||||| || ||||| || |||||  | || |||||||| ||| | 
+Sbjct  106   CCAACAACAGGTGAGACTAAGTTCTATGCTGAGACTATCTTTGACCTTATGACAAGAGAG  165
+
+Query  1149  AAAGATCCTAAAGGT-GAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+             |||||| |  ||||| || || ||  ||||| | ||||||||||| ||||||||||||||
+Sbjct  166   AAAGATGCACAAGGTAGAGGAAAAGTTCTTATT-ATTGGTGGAGCGATTGCTAACTTTAC  224
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAAGAAAATGCAGAAAAAAT  1267
+              ||||| || |||||||||||||| ||||| ||  ||||||||||  |||| || || ||
+Sbjct  225   TGATGTTGCTAAAACATTTACAGGAATTATCCAAGCATTTGAAGAGTATGCTGATAAGAT  284
+
+Query  1268  AAAAG  1272
+              ||||
+Sbjct  285   GAAAG  289
+
+
+>gb|EU265783.1| Uncultured epsilon proteobacterium clone H11 ATP citrate lyase 
+beta subunit gene, partial cds
+Length=332
+
+ Score = 147 bits (79),  Expect = 2e-30
+ Identities = 218/283 (77%), Gaps = 17/283 (6%)
+ Strand=Plus/Plus
+
+Query  969   TGGACTATGGTTGCCGGTGGTGGTGCTTCAGTTGTTTATGCTGATACAATTGCTGACTTT  1028
+             ||||| ||||| || |||||||||||||||||||||||||||||||| ||||| ||  | 
+Sbjct  1     TGGACAATGGTAGCTGGTGGTGGTGCTTCAGTTGTTTATGCTGATACTATTGCAGATATG  60
+
+Query  1029  GCAGAAGCAAATGGCGGCAGTATAGCTGACCTTGCTAACTATGGTGAATATTCTGGTGGT  1088
+             ||||  | || ||  |  | | ||||  |       ||||| || || || || ||||| 
+Sbjct  61    GCAG--G-AATTGAAG--ATT-TAGC--A-------AACTACGGAGAGTACTCAGGTGGA  105
+
+Query  1089  CCGACTACTAGTGAGACTAAATTTTATGCAGATACTATTATAGATCTTATGACTAGACAT  1148
+             || |||||| ||||||||||||| |||||||| ||  || | || |||||||| ||| | 
+Sbjct  106   CCAACTACTGGTGAGACTAAATTCTATGCAGAGACACTTTTTGACCTTATGACAAGAGAA  165
+
+Query  1149  AAAGATCCTAAAGGT-GAAGATAAAATCTTAATCATTGGTGGAGCTATTGCTAACTTTAC  1207
+             |||||| || ||||| || || ||  ||||| | ||||||||||| ||||| ||||||||
+Sbjct  166   AAAGATGCTCAAGGTAGAGGAAAAGTTCTTATT-ATTGGTGGAGCGATTGCAAACTTTAC  224
+
+Query  1208  GGATGTCGCAAAAACATTTACAGGTATTATTCAGTCATTTGAA  1250
+              ||||| || || ||||||||||| ||||| ||  | ||||||
+Sbjct  225   AGATGTTGCTAAGACATTTACAGGGATTATCCAAGCGTTTGAA  267
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 4105
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 4069
+Effective length of database: 87691245382
+Effective search space: 356815677459358
+Effective search space used: 356815677459358
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+

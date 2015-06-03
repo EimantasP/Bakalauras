@@ -1,0 +1,13 @@
+#!/usr/local/bin/python
+
+import urllib
+# atidaromas fermentu failas
+seq = open("RastKeggEC1", "r")
+# nuskaitomas 
+seq1 = seq.readlines();
+# kiekvienam fermentui parsiuncia html faila su visa informacija apie ji 
+for line in seq1:
+    url = "http://www.kegg.jp/dbget-bin/www_bget?ec:" + line
+    name = "ec" + line
+    print line
+    urllib.urlretrieve(url, filename=name)

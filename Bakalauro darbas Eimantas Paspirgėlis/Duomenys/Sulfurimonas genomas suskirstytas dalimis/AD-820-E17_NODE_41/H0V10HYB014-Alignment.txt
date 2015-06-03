@@ -1,0 +1,446 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0V10HYB014
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_41_length_3088_cov_73.0191_ID_81
+
+Length=3088
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP002205.1|  Sulfurimonas autotrophica DSM 16294, complete ...  1122    0.0  
+ref|NR_075791.1|  Sulfurimonas autotrophica 5S ribosomal RNA g...  82.4    4e-11
+gb|CP002355.1|  Sulfuricurvum kujiense DSM 16994, complete genome  78.7    6e-10
+gb|CP003920.1|  Uncultured Sulfuricurvum sp. RIFRC-1, complete...  71.3    9e-08
+ref|NR_075822.1|  Sulfuricurvum kujiense DSM 16994 strain DSM ...  69.4    3e-07
+emb|BX571660.1|  Wolinella succinogenes, complete genome; segm...  60.2    2e-04
+emb|BX571657.1|  Wolinella succinogenes, complete genome; segm...  60.2    2e-04
+
+ALIGNMENTS
+>gb|CP002205.1| Sulfurimonas autotrophica DSM 16294, complete genome
+Length=2153198
+
+ Score = 1122 bits (607),  Expect = 0.0
+ Identities = 2152/2909 (74%), Gaps = 62/2909 (2%)
+ Strand=Plus/Minus
+
+Query  158      TCTATGGTATTATTTCAAATAAAATTTTAGGATGTTATATGAAAGAATATATAAAAGATC  217
+                |||||| |||||||| | ||| |||||||||||| ||||||||| |||||||||||||||
+Sbjct  1565775  TCTATGATATTATTTTATATATAATTTTAGGATGATATATGAAAAAATATATAAAAGATC  1565716
+
+Query  218      AGATTAAAAAATCTTACGAAACAAAACAAGCAATTTATGAAAATGAAGATTTATTGAATA  277
+                ||||||||||||| || |||||||||||||| |||||||| |||||||||||||| ||||
+Sbjct  1565715  AGATTAAAAAATCGTATGAAACAAAACAAGCTATTTATGAGAATGAAGATTTATTAAATA  1565656
+
+Query  278      AAATTGAGGATGTTGCAAAAAGATGTGTTGCTTTATATAAAACTGATaaaaaaaCTATTT  337
+                |||| || || || ||  ||| |||||||| ||||||    || ||||||||||| ||  
+Sbjct  1565655  AAATAGAAGAAGTAGCGCAAAAATGTGTTGATTTATACCGTACAGATAAAAAAACAATAC  1565596
+
+Query  338      TAGCCGGTAATGGCGGCAGCGCAGCCGATGCACAGCATATTGCAGCTGAACTGGTCGGTC  397
+                | || || ||||| || || || || ||||| || |||||||| |||||||| || ||  
+Sbjct  1565595  TCGCAGGAAATGGTGGAAGTGCTGCTGATGCGCAACATATTGCTGCTGAACTCGTTGGAA  1565536
+
+Query  398      GTTATGGGTTTGACAGACCATCCATCCCTTCATTAGCTTTAACTACAGATACTTCAAATC  457
+                | ||||| |||||||||||||| || |||||  |  |||||||||| |||||||| ||||
+Sbjct  1565535  GATATGGTTTTGACAGACCATCAATTCCTTCTCTGTCTTTAACTACTGATACTTCTAATC  1565476
+
+Query  458      TGACTGCTATTGGGAATGATTATGGTTATGATCATGTTTTCTCTCGTCAATTAGAAGGAA  517
+                | || |||||||| |||||||||||||||||||| || || ||||||||| | ||||| |
+Sbjct  1565475  TTACCGCTATTGGTAATGATTATGGTTATGATCAGGTCTTTTCTCGTCAACTTGAAGGGA  1565416
+
+Query  518      TGGGTCAAAAAGGTGATATATTTATTGGTATATCAACATCTGGTAATTCGGTTAATATTA  577
+                |||| ||| | || ||||| ||||| |||||||| || || || |||||  |||| ||||
+Sbjct  1565415  TGGGACAAGAGGGCGATATTTTTATCGGTATATCTACTTCGGGAAATTCAATTAACATTA  1565356
+
+Query  578      TCAAAGCTTTTGAAGCAGCAAAGATAAAAGGAATAACTACAGTTGCCCTAACGGGTCGTG  637
+                | |||||||||||| | ||||||| ||||   || |  |||||||| || || ||||| |
+Sbjct  1565355  TAAAAGCTTTTGAATCTGCAAAGAAAAAAAACATTATGACAGTTGCTCTTACCGGTCGCG  1565296
+
+Query  638      ATGGTGGAGAAATGGCTAAAATTGCTGATGTTGCTTTAGTTGTGCCATCTGATTCTACGC  697
+                |||| || |||||||| ||||| || ||| | ||  |  | || || ||  |||| || |
+Sbjct  1565295  ATGGCGGTGAAATGGCGAAAATAGCGGATATAGCGCTGATAGTTCCCTCAAATTCAACAC  1565236
+
+Query  698      CTAGAATTCAAGAATCTCATATACTGATTGGTCATATTCTTTGTGATATTATTGAAAAAG  757
+                ||||||||||||||||||||||| |||| || |||||| |||||||||||||||| ||||
+Sbjct  1565235  CTAGAATTCAAGAATCTCATATATTGATAGGGCATATTATTTGTGATATTATTGAGAAAG  1565176
+
+Query  758      AAATTTTTGGTGATGGTGTTAGCAAGTAGTTAATGAATAAGGCTCTTTTTCTGGATCGTG  817
+                | || |||||||| |||||| || | ||    ||||| ||||| |||||| | ||| | |
+Sbjct  1565175  AGATATTTGGTGAGGGTGTTGGCGAATAACGCATGAAAAAGGCACTTTTTTTAGATAGGG  1565116
+
+Query  818      ATGGTGTTGTAAATATTGATATAGATTATCTCTATAAAATTGAAAATTTTAAATTTATTG  877
+                |||||||||| ||| |||| | ||| || || |||||||||||  ||||| |||||||||
+Sbjct  1565115  ATGGTGTTGTCAATGTTGAAAAAGAGTACCTGTATAAAATTGAGGATTTTGAATTTATTG  1565056
+
+Query  878      ATGGAATAATTCCATTGTGTAGGTATTATCAAAATTTAGGCTATCTTATATTTGTTGTTA  937
+                |||||||| ||   ||||||    |||||||| ||||||| ||| | || |||||||| |
+Sbjct  1565055  ATGGAATATTTGATTTGTGTGAACATTATCAACATTTAGGATATATGATTTTTGTTGTGA  1564996
+
+Query  938      CCAATCAGTCTGGGATAGCTCGTG-GTCGCTATAGTGAATATGATTTTGATATTTTAACC  996
+                | ||||| || || || ||| |   ||   |||| |||| | |||||| || ||||||| 
+Sbjct  1564995  CAAATCAATCCGGTATTGCTAGAAAGTAT-TATACTGAACAGGATTTTCATCTTTTAACA  1564937
+
+Query  997      TCATGGATGGTTTCTCAGTTTGCAAAAAGCAATAT-AGAGATaaaaaaaGTTTATCATTG  1055
+                   |||||| ||    |||||  |||||| ||||| | | ||  | ||||| ||||||||
+Sbjct  1564936  GAGTGGATGATTCAAGAGTTTAAAAAAAGAAATATTACA-ATTGACAAAGTGTATCATTG  1564878
+
+Query  1056     TCCTCATCATCCAGATGTATCTGGAATATGTG-A-TTGTAGAAAGCCAAATCCCGGAATG  1113
+                ||||||||||||| |   |||   || | ||| | |||  | || ||  | |||||||||
+Sbjct  1564877  TCCTCATCATCCACAA--ATCAATAAAAAGTGCAGTTGCCGTAAACCTGAACCCGGAATG  1564820
+
+Query  1114     CTTTTAGAAGCTGCTACTGAATATGATTTAGATTTAAAAAATTCTAT-ATTAGTTGGCGA  1172
+                 ||||||| ||    |  || |   |  |||||||   | ||||  | || | |||| ||
+Sbjct  1564819  ATTTTAGATGCAAAAAAAGAGTTCAACATAGATTTGGCACATTCATTGATGA-TTGGTGA  1564761
+
+Query  1173     TAGGGAAAGAGATATTGAAGCTGGCTTAAATGCTGGTTTGAGAGAAACTTACCTATACGA  1232
+                ||  ||  | |||||||||||||  |||||||| ||| | | ||| || ||| |||  ||
+Sbjct  1564760  TAAAGAGCGGGATATTGAAGCTGCATTAAATGCAGGTATAAAAGAGACATACTTATTTGA  1564701
+
+Query  1233     TGAATCAAAT-AGTGTCAAAAATTCTAAAGCAACAAAAATAGTTTCAAAACTTGATGATA  1291
+                |||| ||||  ||  | ||||| |||||||| |||||||| ||    ||||||||||| |
+Sbjct  1564700  TGAAGCAAAACAGACTGAAAAA-TCTAAAGCGACAAAAATTGTCAATAAACTTGATGAAA  1564642
+
+Query  1292     TATGGAAA-AAATAGATGCTTATTTTAAATAGTGGCGGAACTTTTAATAAAAGATATAAC  1350
+                |||||||  ||||  ||| | || ||||| ||||||||||| ||||| ||| |||| || 
+Sbjct  1564641  TATGGAAGTAAATT-ATGTTGATATTAAACAGTGGCGGAACATTTAACAAACGATACAAT  1564583
+
+Query  1351     TTATTAAATGGTGAATTAGAAGTTCCATATGATAATTATGCGATTGATCAAATTTTGCA-  1409
+                  | | |  || ||  | |||||||| |||||||||   || || || | ||||||  | 
+Sbjct  1564582  GAAATCAGCGGAGAGCTTGAAGTTCCTTATGATAATGCAGCTATAGAGCGAATTTTATAT  1564523
+
+Query  1410     -G-A-ATATGGATGCTGATTTTGATATGGCTGGAGTAGTATATAAAGACAGTTTAGAGAT  1466
+                 | | | | |||   | || |  || | || ||||| || || ||||||||| | || ||
+Sbjct  1564522  AGCACACA-GGAAA-T-ATATA-ATCTTGCAGGAGTTGTCTACAAAGACAGTCTGGACAT  1564467
+
+Query  1467     GGATGCTAATGATAGAAAGATGTTAGCTAATATAATAAGAGAATCAATAGATGACACTTT  1526
+                |||  |||| || |||   ||| | ||  |||||||| |||||||    || || |||||
+Sbjct  1564466  GGACACTAACGACAGACGTATGCTTGCCGATATAATACGAGAATCTTCTGAAGATACTTT  1564407
+
+Query  1527     CATCATTGTTCATGGGACTGATACGATGCATTTAACTGCTGAGTTTTTTCATGAAGTTTT  1586
+                  | || || || || |||||||| ||| |||| | ||| || |||||  | ||||| ||
+Sbjct  1564406  TGTAATAGTACACGGAACTGATACAATGGATTTGAGTGCAGAATTTTTAGACGAAGTATT  1564347
+
+Query  1587     TGATGACAGAAAAATAATATTAACCGGTGCTATGAAGCCTTTCGAGGTTGATAAAATAGA  1646
+                ||||||||| ||||| ||||| || |||||||||||||| || ||  ||||| | |||||
+Sbjct  1564346  TGATGACAGGAAAATTATATTGACGGGTGCTATGAAGCCGTTTGAAATTGATTATATAGA  1564287
+
+Query  1647     ATCTAGTTTT-AATCTAGGAATGGCAATAGGTTTTGCAAAATCTTTA-AAAGAAAATGGC  1704
+                | | |   || ||||| || ||||| || || | ||| ||| |  || |||  ||  || 
+Sbjct  1564286  AGC-ATCATTAAATCTTGGCATGGCTATCGGATATGCTAAAGCAGTAGAAATGAAC-GGT  1564229
+
+Query  1705     ACATATATCTGTATGAATGGGCATGTGCAACCATGGAATAAAATCGTAAAAAACA-AAGT  1763
+                   ||||| || ||||  |||| |||  |||| ||||| || || | |||||||| || |
+Sbjct  1564228  GTTTATATATGCATGAGCGGGCTTGTAGAACCGTGGAAAAATATTGCAAAAAACAGAAAT  1564169
+
+Query  1764     TTTAGGAAAATTTGAAATTGTCAAATAATATAGCATGTTCACATTGTCATTTAGAATTTG  1823
+                ||  ||||  ||||||||||||| |||| || || |||   |||||||||||||||||| 
+Sbjct  1564168  TTGGGGAAG-TTTGAAATTGTCAGATAAAATTGCCTGTGATCATTGTCATTTAGAATTTT  1564110
+
+Query  1824     -ACAAGTCTGTTATGATTGTTGATGATGAGCATTATTTTTGCTGCAATGGCTGCAAGGGG  1882
+                 | |||  ||| |||||    || ||||||||||| ||||| || ||||||||  |||| 
+Sbjct  1564109  CAAAAGA-TGTCATGATAAAGGAAGATGAGCATTACTTTTGTTGTAATGGCTGTCAGGGA  1564051
+
+Query  1883     GTTTTTCATCTT-T-TAAGTGATGAAGGATTAACAAGTTTTTATGACAAAGCCGGAAGCA  1940
+                || |||||| |  | | |   |||||||  |     | |||||||| |||   ||||  |
+Sbjct  1564050  GTATTTCATTTACTCTCAA--ATGAAGGGCTGGATGGCTTTTATGATAAACTTGGAA--A  1563995
+
+Query  1941     CAACTTTAACAC-CGCCAAC--CGAA-CAATACGAAGACTCTTCTAATTTTAATTCACCA  1996
+                 || |  ||| | | ||| |  | || || || ||||||||||| |||||| ||||||| 
+Sbjct  1563994  TAA-TA-AACTCGCCCCACCATCTAAGCAGTATGAAGACTCTTCAAATTTTGATTCACCG  1563937
+
+Query  1997     GCTTTTTATGATAAG-TTTGTAAAAACGAACAGTGACGGATTTCAAGAAGTCTCTTTAAT  2055
+                || |||||||| | | ||||||| |   ||||  || |  |||   |||||||||||| |
+Sbjct  1563936  GCATTTTATGA-ACGATTTGTAATACTCAACAAAGATGCTTTTTCTGAAGTCTCTTTAGT  1563878
+
+Query  2056     AATTGAAGGTATCCATTGTTCTGCATGTGTATGGTTGAATGAAAAGGCACTCCATAAG-A  2114
+                 || || || || || ||| |||||||||| ||| |||| ||||| || ||  | ||  |
+Sbjct  1563877  TATAGAGGGGATTCACTGTGCTGCATGTGTTTGGCTGAACGAAAAAGC-CTTGACAAATA  1563819
+
+Query  2115     TGGATGGCATTATTGAGGCTAATATTAATTTTACAAACAATAAAGCTGTGGTAGTTTGGG  2174
+                |||| ||  ||||||   ||||||| || | |||||||||||||||   | | || ||||
+Sbjct  1563818  TGGAAGGTGTTATTGCTACTAATATCAACTATACAAACAATAAAGCAAAGATTGTGTGGG  1563759
+
+Query  2175     CGGATAGTGTTGTAAAATTATCTGCAATTATAGATATGATTAGAGCTATTGGATATAACG  2234
+                  |||  |   |||||| | |||  |||||||||||||||| | || || |||||| | |
+Sbjct  1563758  ATGATGATACGGTAAAACTCTCTAAAATTATAGATATGATTCGTGCCATCGGATATGATG  1563699
+
+Query  2235     CCTTTCCTTATGATGCTTCTATTCAAGAAGCACATGCTAATAAAGAGAGAAAAGACTATT  2294
+                | |  ||||||||||||||  | ||||||  | | ||  |||| ||| ||||||| || |
+Sbjct  1563698  CGTACCCTTATGATGCTTCACTGCAAGAACAAAAAGCAGATAAGGAGCGAAAAGAGTACT  1563639
+
+Query  2295     ATCTAAGAATGGCAGTTGCTATTTTTAGTTCTATGAATATTATGTGGATTGCTGTTGCTC  2354
+                ||    | |||||||||||| |||||    |||||||||| |||   |||   ||||| |
+Sbjct  1563638  ATACCCGGATGGCAGTTGCTGTTTTTGCAACTATGAATATGATGACTATTATGGTTGCGC  1563579
+
+Query  2355     AGTATGCCGGTTATTTCAGCGGAATAACTCAAGACATCAAAACCATGTTAAATATTGCTG  2414
+                |||||||||||||||| || || ||| || || | ||||||   || ||||||||||  |
+Sbjct  1563578  AGTATGCCGGTTATTTTAGTGGTATATCTGAAAATATCAAACATATATTAAATATTGGAG  1563519
+
+Query  2415     AGGGTGTTCTTGCTACTCCTGTACTTTTTTATAGTGGGTGGA-TATTCTTCAGAGGCGCG  2473
+                || | ||| | |||||||| ||||||||||| ||||| |||  | || ||| | ||   |
+Sbjct  1563518  AGTGGGTTTTAGCTACTCCAGTACTTTTTTACAGTGGATGGCCTTTTATTC-GTGGAATG  1563460
+
+Query  2474     TACTACGGCATAAAAACAAAAGTTGTTAACATGGATATCCTTGTTGCAACTGGAGCAACT  2533
+                || || || ||||| ||||||   || || ||||| | |||||| || || || |||| |
+Sbjct  1563459  TATTATGGTATAAAGACAAAAACGGTAAATATGGACACCCTTGTCGCCACAGGTGCAATT  1563400
+
+Query  2534     TTAACATACATATACTCTATATATATTACTGTAGCACGCTCTGGAGAAGCTTATTTTGAC  2593
+                ||||| |||||||| ||||| ||||||||  |  |||||   || || || |||||||| 
+Sbjct  1563399  TTAACTTACATATATTCTATTTATATTACCATTACACGCAGCGGTGAGGCCTATTTTGAT  1563340
+
+Query  2594     TCTGTGAGTATGATAATCACTTTTGTTCTTATCGGAAAGTTTTTAGAGGTTTTAAGTAAG  2653
+                || || |  ||||| || |||||||| ||| | ||||| |||||||||||||||||||| 
+Sbjct  1563339  TCGGTTACGATGATTATAACTTTTGTGCTTGTGGGAAAATTTTTAGAGGTTTTAAGTAA-  1563281
+
+Query  2654     AAAAATGCTATAGATG---CTTTGGATATTATTGGTAGTAATTTTCCAAATGAAGTCAAT  2710
+                ||||| | ||| | ||   |||||||||||||   |  | || | |||||||| || || 
+Sbjct  1563280  AAAAA-G-TATTGCTGATACTTTGGATATTATGAATCATCATCTGCCAAATGATGTGAAA  1563223
+
+Query  2711     ATTCTTAAAGATAATAAGATTATTTCTTGTAAAT-TAGCTGATGT-ACTGGTTGGAGATA  2768
+                 |  ||   ||||| ||||| ||| ||   |||| |   |||||| | ||  |||||| |
+Sbjct  1563222  GTGGTTGTGGATAAAAAGATCATTACTAA-AAATGTCAATGATGTTAATGC-TGGAGAAA  1563165
+
+Query  2769     TAGTTGTTGTGTCTTCTGGAGAAAAAGTTTTACTTGACGGTGAAATAGTCAAAGGTGAT-  2827
+                | ||| || |   ||| |||||    |||   ||||||||||| |||   | |||  |  
+Sbjct  1563164  TTGTTATTTTAAATTCAGGAGAGCGTGTTGCTCTTGACGGTGAGATAA-AAGAGGGCAGC  1563106
+
+Query  2828     GGTTCTTTTGATGAATCAAGTTTAACAGGTGAGAATGAGCCTATTTATAAGAGTAAAGGT  2887
+                |||  ||||||||| |||||| | || || ||||  |||||||||| ||| | |  ||| 
+Sbjct  1563105  GGTAGTTTTGATGAGTCAAGTCTGACCGGAGAGAGCGAGCCTATTTTTAAAAATGTAGGG  1563046
+
+Query  2888     GATAGTGTCATCGGTGGAACAACCAGTATAGATGCTGACTTTCATTTTAGGGCTACAAAA  2947
+                || | | | ||| |||||||    ||||| ||||| ||  |  | | ||| |  || |||
+Sbjct  1563045  GAAAATATTATCAGTGGAACGGTAAGTATTGATGCGGATGTAAAATATAGAGTAACCAAA  1562986
+
+Query  2948     GATTTTGAACACTCTAC-ATTATCAAATCTTGTTGCACTTTTAGATACTGCAATAAATAA  3006
+                ||||||| ||| ||||| || |  || | |||| ||| |  | || | ||| || |||||
+Sbjct  1562985  GATTTTGCACATTCTACCATGAGTAA-TATTGTCGCATTGCTTGAAAATGCGATGAATAA  1562927
+
+Query  3007     AAAACCGAAAATTCAGCAGATGGCTAACA  3035
+                 || || ||||| |||||| |||| ||||
+Sbjct  1562926  CAAGCCAAAAATCCAGCAGTTGGCAAACA  1562898
+
+
+ Score = 82.4 bits (44),  Expect = 4e-11
+ Identities = 46/47 (98%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  47
+               ||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  701819  ATAATACTGCACCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  701865
+
+
+ Score = 82.4 bits (44),  Expect = 4e-11
+ Identities = 46/47 (98%), Gaps = 0/47 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  47
+                ||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  1565893  ATAATACTGCACCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  1565847
+
+
+ Score = 82.4 bits (44),  Expect = 4e-11
+ Identities = 46/47 (98%), Gaps = 0/47 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  47
+                ||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  1735680  ATAATACTGCACCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  1735634
+
+
+ Score = 82.4 bits (44),  Expect = 4e-11
+ Identities = 46/47 (98%), Gaps = 0/47 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  47
+                ||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  2116636  ATAATACTGCACCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  2116590
+
+
+>ref|NR_075791.1| Sulfurimonas autotrophica 5S ribosomal RNA gene, complete sequence
+Length=115
+
+ Score = 82.4 bits (44),  Expect = 4e-11
+ Identities = 46/47 (98%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  47
+            ||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  69   ATAATACTGCACCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTT  115
+
+
+>gb|CP002355.1| Sulfuricurvum kujiense DSM 16994, complete genome
+Length=2574824
+
+ Score = 78.7 bits (42),  Expect = 6e-10
+ Identities = 56/63 (89%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTTCTCAAAATTAACC  60
+               |||||||||||||||||||||||||||| ||||||||| |||| | ||||| |||| || 
+Sbjct  662368  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCTGGCTCTCAGAATTTACT  662427
+
+Query  61      CTT  63
+               |||
+Sbjct  662428  CTT  662430
+
+
+ Score = 73.1 bits (39),  Expect = 3e-08
+ Identities = 47/51 (92%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTTCTCA  51
+                |||||||||||||||||||||||||||| ||||||||| |||| | |||||
+Sbjct  1944454  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCTGGCTCTCA  1944404
+
+
+ Score = 73.1 bits (39),  Expect = 3e-08
+ Identities = 47/51 (92%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTTCTCA  51
+                |||||||||||||||||||||||||||| ||||||||| |||| | |||||
+Sbjct  2519538  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCTGGCTCTCA  2519488
+
+
+>gb|CP003920.1| Uncultured Sulfuricurvum sp. RIFRC-1, complete genome
+Length=2358861
+
+ Score = 71.3 bits (38),  Expect = 9e-08
+ Identities = 72/88 (82%), Gaps = 4/88 (5%)
+ Strand=Plus/Plus
+
+Query  1       ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCTAGTTCTCAAAATTAACC  60
+               |||||||||||||||||||||||||||| ||||||||| |||| |  |||| | ||| ||
+Sbjct  647504  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCTGGC-CTCAGATTTATCC  647562
+
+Query  61      -CTTG-CCAA-TACCTCTTCATCAATCA  85
+                |||  |||| | | |||| | ||||||
+Sbjct  647563  TCTTTTCCAACTTCTTCTTAAACAATCA  647590
+
+
+ Score = 69.4 bits (37),  Expect = 3e-07
+ Identities = 41/43 (95%), Gaps = 0/43 (0%)
+ Strand=Plus/Plus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCT  43
+                |||||||||||||||||||||||||||| ||||||||| ||||
+Sbjct  1059059  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCT  1059101
+
+
+ Score = 69.4 bits (37),  Expect = 3e-07
+ Identities = 41/43 (95%), Gaps = 0/43 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCT  43
+                |||||||||||||||||||||||||||| ||||||||| ||||
+Sbjct  1849586  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCT  1849544
+
+
+ Score = 69.4 bits (37),  Expect = 3e-07
+ Identities = 41/43 (95%), Gaps = 0/43 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCT  43
+                |||||||||||||||||||||||||||| ||||||||| ||||
+Sbjct  2306402  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCT  2306360
+
+
+>ref|NR_075822.1| Sulfuricurvum kujiense DSM 16994 strain DSM 16994 5S ribosomal 
+RNA, complete sequence
+Length=116
+
+ Score = 69.4 bits (37),  Expect = 3e-07
+ Identities = 41/43 (95%), Gaps = 0/43 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGTCGCTGCCT  43
+            |||||||||||||||||||||||||||| ||||||||| ||||
+Sbjct  71   ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGTCGCCGCCT  113
+
+
+>emb|BX571660.1| Wolinella succinogenes, complete genome; segment 4/7
+Length=349926
+
+ Score = 60.2 bits (32),  Expect = 2e-04
+ Identities = 34/35 (97%), Gaps = 0/35 (0%)
+ Strand=Plus/Minus
+
+Query  1       ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGT  35
+               |||||||||||||||||||||||||||| ||||||
+Sbjct  333307  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGT  333273
+
+
+>emb|BX571657.1| Wolinella succinogenes, complete genome; segment 1/7
+Length=347961
+
+ Score = 60.2 bits (32),  Expect = 2e-04
+ Identities = 34/35 (97%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGT  35
+               |||||||||||||||||||||||||||| ||||||
+Sbjct  141320  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGT  141354
+
+
+ Score = 60.2 bits (32),  Expect = 2e-04
+ Identities = 34/35 (97%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATAATACTGCATCTTTCAGGTGTGGAAATGTAGGT  35
+               |||||||||||||||||||||||||||| ||||||
+Sbjct  320461  ATAATACTGCATCTTTCAGGTGTGGAAACGTAGGT  320495
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 2
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 3
+Number of HSP's successfully gapped: 3
+Length of query: 3088
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 3052
+Effective length of database: 87691245382
+Effective search space: 267633680905864
+Effective search space used: 267633680905864
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+

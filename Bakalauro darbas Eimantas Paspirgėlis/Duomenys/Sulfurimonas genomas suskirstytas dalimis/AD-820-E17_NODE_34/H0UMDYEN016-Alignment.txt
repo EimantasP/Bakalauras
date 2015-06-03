@@ -1,0 +1,245 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0UMDYEN016
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_34_length_4551_cov_14.7145_ID_67
+
+Length=4551
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP007777.1|  Campylobacter lari RM16701, complete genome        193     3e-44
+gb|CP007775.1|  Campylobacter lari NCTC 11845, complete genome     193     3e-44
+gb|CP007778.1|  Campylobacter lari RM16712, complete genome        183     2e-41
+gb|CP007776.1|  Campylobacter lari CCUG 22395, complete genome     183     2e-41
+gb|CP007769.1|  Campylobacter sp. RM16704, complete genome         145     8e-30
+
+ALIGNMENTS
+>gb|CP007777.1| Campylobacter lari RM16701, complete genome
+Length=1516455
+
+ Score = 193 bits (104),  Expect = 3e-44
+ Identities = 374/503 (74%), Gaps = 24/503 (5%)
+ Strand=Plus/Minus
+
+Query  2163    TCTTCAAGAACTTTTTCAAGAACGGTGTG-AAGTCGTCTTGCCCCGATATCTTCTGTTAC  2221
+               ||||| | || |||||| |  || || || ||| |||||||| || |||||||   || |
+Sbjct  743880  TCTTCTAAAAGTTTTTCCACTACTGTATGTAAG-CGTCTTGCACCAATATCTTGCATTTC  743822
+
+Query  2222    TTCATTAGC-ACGATGTGCAAGTCTTGCAATTGCATGAATTGCCTCATCTTCAAAAGTAA  2280
+               |||||||||   | | ||| | | |||| ||| |   ||| |||||||||||||||  ||
+Sbjct  743821  TTCATTAGCTTTGCT-TGCTATTTTTGCTATTTCTCTAATAGCCTCATCTTCAAAAACAA  743763
+
+Query  2281    GTTTTACATCTTCTACACCCAAAAGTGCTTCA--TACTGCTTTAGCAAAGAATTTTGAG-  2337
+               | | ||||| |||       ||||  |||  |  || ||  |||| || ||||||| || 
+Sbjct  743762  GCTCTACATTTTCAGTTTTTAAAA--GCTCAATGTATTGTGTTAGTAATGAATTTTTAGG  743705
+
+Query  2338    T-TTGTGTAAGAAT--TTTATAGAGCGTTTCTTCTGTTAAAGATTCTAGCTCAACTCTTA  2394
+               | |||| ||| |||    |||| ||||  || ||   ||| || || |||||||||||||
+Sbjct  743704  TCTTGT-TAA-AATAGCATATAAAGCG--TCCTCATCTAATGAATCAAGCTCAACTCTTA  743649
+
+Query  2395    ATGGAAATCTCCCTTGAAGTTCAGGGATTAAATCACTTGGTTTGGTTAAGTGAAATGCAC  2454
+               | ||||| | |||||||||||||||||||||||||||||||||| |||  ||||| ||||
+Sbjct  743648  AAGGAAAACGCCCTTGAAGTTCAGGGATTAAATCACTTGGTTTGCTTAGATGAAAAGCAC  743589
+
+Query  2455    CGGCTGCTATAAATAGAATATGGTCAGTCTCTATTACACCATATTTTGTA-GTAACACTG  2513
+               | ||||| ||||||| |||||| ||||| | ||    |||| |||| ||  |||  | ||
+Sbjct  743588  CTGCTGCAATAAATAAAATATGATCAGTTTTTAAAGGACCAAATTTAGTTTGTAT-AGTG  743530
+
+Query  2514    CTACCTTCAACTATTGGCAATAAGTCTCTTTGAACACCCTCTTTGCTAGGATCATTTCTT  2573
+               |||||||||||||| || | ||| |||||||| || || |||||||| ||||| |  |  
+Sbjct  743529  CTACCTTCAACTATAGGAAGTAAATCTCTTTGCACCCCTTCTTTGCTTGGATCTTGGCGG  743470
+
+Query  2574    CCTTGAGACTTTGCACT-GATA--GCTATTTTATCTATCTCATCCAAAAAGATAATCCCG  2630
+                 |||| | ||||  || || |  |||| ||||||||||||||| | ||| |||||||| 
+Sbjct  743469  T-TTGA-A-TTTGAGCTTGAAACTGCTACTTTATCTATCTCATCGATAAAAATAATCCCT  743413
+
+Query  2631    CCATTTTGCGCTCTTTTTAGAGC  2653
+                ||||||  |||||| ||| |||
+Sbjct  743412  TCATTTTCAGCTCTTCTTAAAGC  743390
+
+
+>gb|CP007775.1| Campylobacter lari NCTC 11845, complete genome
+Length=1791508
+
+ Score = 193 bits (104),  Expect = 3e-44
+ Identities = 422/576 (73%), Gaps = 20/576 (3%)
+ Strand=Plus/Minus
+
+Query  2163    TCTTCAAGAACTTTTTCAAGAACGGTGTG-AAGTCGTCTTGCCCCGATATCTTCTGTTAC  2221
+               ||||| | || |||||| |  || || || ||| |||||||| || |||||||   || |
+Sbjct  845363  TCTTCCAAAAGTTTTTCCACTACTGTATGTAAG-CGTCTTGCACCAATATCTTGCATTTC  845305
+
+Query  2222    TTCATTAGCACGATGTGCAAGTCTTGCAATTGCATGAATTGCCTCATCTTCAAAAGTAAG  2281
+               |||||||||   |  ||| | | |||| ||| | | ||| |||||||||||||||  |||
+Sbjct  845304  TTCATTAGCCTTACTTGCTATTTTTGCTATTTCTTTAATGGCCTCATCTTCAAAAACAAG  845245
+
+Query  2282    TTTTACATCTTCTACACCCAAAAGTGCTTCATACTGCTTTAGCAAAGAATTTTGAG-T-T  2339
+                | ||||| |||       |||||  |   ||||||| ||||||| ||||||| || | |
+Sbjct  845244  CTCTACATTTTCAGTTTTTAAAAGCTCAATATACTGCGTTAGCAATGAATTTTTAGGTCT  845185
+
+Query  2340    TGTGTAAGAAT--TTTATAGAGCGTTTCTTCTGTTAAAGATTCTAGCTCAACTCTTAATG  2397
+               ||| ||| |||    |||| |||   || ||   ||| || || ||||||||||| || |
+Sbjct  845184  TGT-TAA-AATAGCATATAAAGC--ATCCTCATCTAATGAATCAAGCTCAACTCTCAAAG  845129
+
+Query  2398    GAAATCTCCCTTGAAGTTCAGGGATTAAATCACTTGGTTTGGTTAAGTGAAATGCACCGG  2457
+               |||| | |||||||||||||||||||||||||||||| ||  |||  ||||| ||||| |
+Sbjct  845128  GAAAACGCCCTTGAAGTTCAGGGATTAAATCACTTGGCTTACTTAGATGAAAAGCACCTG  845069
+
+Query  2458    CTGCTATAAATAGAATATGGTCAGTCTCTATTACACCATATTTTGTA-GTAACACTGCTA  2516
+               |||| ||||||| |||||| ||||| | ||    |||| |||| ||  |||  | |||||
+Sbjct  845068  CTGCAATAAATAAAATATGATCAGTTTTTAAAGGACCAAATTTAGTTTGTAT-AGTGCTA  845010
+
+Query  2517    CCTTCAACTATTGGCAATAAGTCTCTTTGAACACCCTCTTTGCTAGGATCATTTCTTCCT  2576
+               ||||||||||| || |  || |||||||| || || |||||||| ||||| |  |    |
+Sbjct  845009  CCTTCAACTATAGGAAGCAAATCTCTTTGCACTCCTTCTTTGCTTGGATCTTGGCGGT-T  844951
+
+Query  2577    TGAGACTTTGCACT-GATA--GCTATTTTATCTATCTCATCCAAAAAGATAATCCCGCCA  2633
+               ||| | ||||  || || |  ||||  |||||||||||||| | ||| ||||||||  ||
+Sbjct  844950  TGA-A-TTTGAGCTTGAAACTGCTACCTTATCTATCTCATCGATAAAAATAATCCCTTCA  844893
+
+Query  2634    TTTTGCGCTCTTTTTAGAGCTTCATTGTTAATGTTGATCATATCTAAAAGTTTTGAGGTT  2693
+               ||||  |||||| ||| ||| |||   |||||| |   |||||| | || ||||    ||
+Sbjct  844892  TTTTCAGCTCTTCTTAAAGCCTCACCTTTAATGCTTTCCATATCAAGAATTTTTTCACTT  844833
+
+Query  2694    GCTTCGTGCTTTAACAGCTCTT-TAGCATCTTTTAC  2728
+               ||||| ||   |||  ||| || | |||||||||||
+Sbjct  844832  GCTTCTTGAGCTAAG-GCTATTCTTGCATCTTTTAC  844798
+
+
+>gb|CP007778.1| Campylobacter lari RM16712, complete genome
+Length=1565009
+
+ Score = 183 bits (99),  Expect = 2e-41
+ Identities = 225/286 (79%), Gaps = 8/286 (3%)
+ Strand=Plus/Minus
+
+Query  2372    TAAAGATTCTAGCTCAACTCTTAATGGAAATCTCCCTTGAAGTTCAGGGATTAAATCACT  2431
+               ||| || || |||||||||||||| ||||| | |||||||||||||||||||||||||||
+Sbjct  753668  TAATGAATCAAGCTCAACTCTTAAAGGAAAACGCCCTTGAAGTTCAGGGATTAAATCACT  753609
+
+Query  2432    TGGTTTGGTTAAGTGAAATGCACCGGCTGCTATAAATAGAATATGGTCAGTCTCTATTAC  2491
+               ||||||| |||  ||||| ||||| ||||| ||||||| |||||| ||||| | ||    
+Sbjct  753608  TGGTTTGCTTAGATGAAAAGCACCTGCTGCAATAAATAAAATATGATCAGTTTTTAAAGG  753549
+
+Query  2492    ACCATATTTTGTA-GTAACACTGCTACCTTCAACTATTGGCAATAAGTCTCTTTGAACAC  2550
+               |||| |||| ||  |||  | |||||||||||||||| || |  || |||||||| || |
+Sbjct  753548  ACCAAATTTAGTTTGTAT-AGTGCTACCTTCAACTATAGGAAGCAAATCTCTTTGCACCC  753490
+
+Query  2551    CCTCTTTGCTAGGATCATTTCTTCCTTGAGACTTTGCACT-GATA--GCTATTTTATCTA  2607
+               | |||||||| ||||| |  |    |||| | ||||  || || |  |||| ||||||||
+Sbjct  753489  CTTCTTTGCTTGGATCTTGGCGGT-TTGA-A-TTTGAGCTTGAAACTGCTACTTTATCTA  753433
+
+Query  2608    TCTCATCCAAAAAGATAATCCCGCCATTTTGCGCTCTTTTTAGAGC  2653
+               ||||||| | ||| ||||||||  ||||||  |||||| ||| |||
+Sbjct  753432  TCTCATCGATAAAAATAATCCCTTCATTTTCAGCTCTTCTTAAAGC  753387
+
+
+>gb|CP007776.1| Campylobacter lari CCUG 22395, complete genome
+Length=1523028
+
+ Score = 183 bits (99),  Expect = 2e-41
+ Identities = 225/286 (79%), Gaps = 8/286 (3%)
+ Strand=Plus/Minus
+
+Query  2372    TAAAGATTCTAGCTCAACTCTTAATGGAAATCTCCCTTGAAGTTCAGGGATTAAATCACT  2431
+               ||| || || |||||||||||||| ||||| | |||||||||||||||||||||||||||
+Sbjct  738532  TAATGAATCAAGCTCAACTCTTAAAGGAAAACGCCCTTGAAGTTCAGGGATTAAATCACT  738473
+
+Query  2432    TGGTTTGGTTAAGTGAAATGCACCGGCTGCTATAAATAGAATATGGTCAGTCTCTATTAC  2491
+               ||||||| |||  ||||| ||||| ||||| ||||||| |||||| ||||| | ||    
+Sbjct  738472  TGGTTTGCTTAGATGAAAAGCACCTGCTGCAATAAATAAAATATGATCAGTTTTTAAAGG  738413
+
+Query  2492    ACCATATTTTGTA-GTAACACTGCTACCTTCAACTATTGGCAATAAGTCTCTTTGAACAC  2550
+               |||| |||| ||  |||  | |||||||||||||||| || | ||| |||||||| || |
+Sbjct  738412  ACCAAATTTAGTTTGTAT-AGTGCTACCTTCAACTATAGGAAGTAAATCTCTTTGCACCC  738354
+
+Query  2551    CCTCTTTGCTAGGATCATTTCTTCCTTGAGACTTTGCACT-GATA--GCTATTTTATCTA  2607
+               | |||||||| ||||| |  |    |||| | ||||  || || |  |||| ||||||||
+Sbjct  738353  CTTCTTTGCTTGGATCTTGGCGGT-TTGA-A-TTTGAGCTTGAAACTGCTACTTTATCTA  738297
+
+Query  2608    TCTCATCCAAAAAGATAATCCCGCCATTTTGCGCTCTTTTTAGAGC  2653
+               ||||||| | ||| ||||| ||  ||||||  |||||| ||| |||
+Sbjct  738296  TCTCATCGATAAAAATAATACCTTCATTTTCAGCTCTTCTTAAAGC  738251
+
+
+>gb|CP007769.1| Campylobacter sp. RM16704, complete genome
+Length=1557536
+
+ Score = 145 bits (78),  Expect = 8e-30
+ Identities = 217/283 (77%), Gaps = 14/283 (5%)
+ Strand=Plus/Plus
+
+Query  2382    AGCTCAACTCTTAATGGAAATCTCCCTTGAAGTTCAGGGATTAAATCACTTGGTTTGGTT  2441
+               |||||||||||||| ||||| | |||||||||||||||||||||||||||||| ||  ||
+Sbjct  758011  AGCTCAACTCTTAAAGGAAAACGCCCTTGAAGTTCAGGGATTAAATCACTTGGCTTACTT  758070
+
+Query  2442    AAGTGAAATGCACCGGCTGCTATAAATAGAATATGGTCAGTCTCTATTACA---CCATAT  2498
+               |  ||||| ||||| || || ||||||| |||||| || || | | ||| |   ||| ||
+Sbjct  758071  AGATGAAAAGCACCTGCAGCGATAAATAAAATATGATCGGT-T-T-TTAAAGGTCCAAAT  758127
+
+Query  2499    TTTGTA-GTAACACTGCTACCTTCAACTATTGGCAATAAGTCTCTTTGAACACCCTCTTT  2557
+               || ||  |||  | | |||||||||||||| || |  || |||||||| || || |||||
+Sbjct  758128  TTAGTTTGTAT-AGTACTACCTTCAACTATAGGAAGCAAATCTCTTTGCACCCCTTCTTT  758186
+
+Query  2558    GCTAGGATCATTTCTTCCTTGAGACTTTGCAC-TGATA--GCTATTTTATCTATCTCATC  2614
+                || ||||| |  |    |||| | |||| || ||| |  || | |||||||||||||||
+Sbjct  758187  ACTTGGATCTTGGCGGT-TTGA-A-TTTGAACCTGAAACTGCCACTTTATCTATCTCATC  758243
+
+Query  2615    CAAAAAGATAATCCCGCCATTTTGCGCTCTTTTTAGAGCTTCA  2657
+                | ||| ||||||||  |||||| ||| ||| ||| ||| |||
+Sbjct  758244  AATAAAAATAATCCCTTCATTTTCCGCCCTTCTTAAAGCCTCA  758286
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 4551
+Length of database: 88734905902
+Length adjustment: 36
+Effective length of query: 4515
+Effective length of database: 87691245382
+Effective search space: 395925972899730
+Effective search space used: 395925972899730
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+

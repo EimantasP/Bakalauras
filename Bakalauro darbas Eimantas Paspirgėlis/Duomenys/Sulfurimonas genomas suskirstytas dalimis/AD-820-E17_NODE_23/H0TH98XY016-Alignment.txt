@@ -1,0 +1,116 @@
+BLASTN 2.2.31+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: H0TH98XY016
+
+
+Database: Nucleotide collection (nt)
+           28,990,570 sequences; 88,734,905,902 total letters
+Query= AD-820-E17_NODE_23_length_9925_cov_121.802_ID_45
+
+Length=9925
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|CP000153.1|  Sulfurimonas denitrificans DSM 1251, complete ...  159     6e-34
+dbj|AP014630.1|  Acinetobacter guillouiae DNA, complete geonom...  52.8    0.11 
+ref|XM_005969598.1|  PREDICTED: Pantholops hodgsonii succinyl-...  52.8    0.11 
+
+ALIGNMENTS
+>gb|CP000153.1| Sulfurimonas denitrificans DSM 1251, complete genome
+Length=2201561
+
+ Score = 159 bits (86),  Expect = 6e-34
+ Identities = 116/130 (89%), Gaps = 3/130 (2%)
+ Strand=Plus/Minus
+
+Query  1662     AAAATCTATCTAAGATTTTCGAATGGTGCAGTTACAACTTGT-TTACGAGTTACAGTATA  1720
+                ||||| ||||| | |||||| ||||| |||||||||||| || |||||||||||||||||
+Sbjct  1745337  AAAAT-TATCTTAAATTTTCAAATGGAGCAGTTACAACT-GTGTTACGAGTTACAGTATA  1745280
+
+Query  1721     AGGAACTAATGCCGCAGCACGAGCTCTTTTTATAACTATCGTAATCATGTCTTGGTGACG  1780
+                 ||||||||||||||||||||||||||||| |||||| | |  |||||||||||||||||
+Sbjct  1745279  TGGAACTAATGCCGCAGCACGAGCTCTTTTGATAACTGTAGCTATCATGTCTTGGTGACG  1745220
+
+Query  1781     CTTACAGTTA  1790
+                 |||||||||
+Sbjct  1745219  TTTACAGTTA  1745210
+
+
+>dbj|AP014630.1| Acinetobacter guillouiae DNA, complete geonome, strain: NBRC 
+110550
+Length=4648418
+
+ Features in this part of subject sequence:
+   succinyl-CoA synthetase subunit beta
+
+ Score = 52.8 bits (28),  Expect = 0.11
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  1948     TAAAAGTTGTTAAGTCAAAAGAAGAAGC  1975
+                ||||||||||||||||||||||||||||
+Sbjct  3387613  TAAAAGTTGTTAAGTCAAAAGAAGAAGC  3387586
+
+
+>ref|XM_005969598.1| PREDICTED: Pantholops hodgsonii succinyl-CoA ligase [ADP-forming] 
+subunit beta, mitochondrial-like (LOC102320170), mRNA
+Length=1167
+
+ Score = 52.8 bits (28),  Expect = 0.11
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1948  TAAAAGTTGTTAAGTCAAAAGAAGAAGC  1975
+             ||||||||||||||||||||||||||||
+Sbjct  179   TAAAAGTTGTTAAGTCAAAAGAAGAAGC  206
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Mar 21, 2015  12:43 AM
+  Number of letters in database: 88,734,905,902
+  Number of sequences in database:  28,990,570
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 28990570
+Number of Hits to DB: 760242
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 9925
+Length of database: 88734905902
+Length adjustment: 37
+Effective length of query: 9888
+Effective length of database: 87662254812
+Effective search space: 866804375581056
+Effective search space used: 866804375581056
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 25 (47.3 bits)
+
+
+
+
